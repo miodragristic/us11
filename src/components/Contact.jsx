@@ -4,17 +4,17 @@ import ProfileImage from '../assets/Mio.png'; // Replace with the path to your i
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full min-h-screen bg-[#84cc16]'>
+    <div name='contact' className='w-full min-h-screen bg-rgb(255 255 255);'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 py-8 pt-40 flex flex-col justify-center h-full font-sans'>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>
-          Contact Miodrag Ristic
+          Contact MIKASO
         </h1>
         <h2 className='text-2xl sm:text-4xl font-sans text-[#020617] mb-8'>
           Sports Writer & Blogger
         </h2>
         <p className='text-[#020617] max-w-[700px] mb-8'>
-          I am Miodrag Ristic, a passionate sports writer and blogger dedicated to bringing you the latest insights and updates in the world of sports. Feel free to reach out to me for any inquiries or collaboration opportunities.
+          I am Mio Ristic Mikaso, a passionate sports writer and blogger dedicated to bringing you the latest insights and updates in the world of sports. Feel free to reach out to me for any inquiries or collaboration opportunities.
         </p>
         <div className='flex flex-col md:flex-row items-center'>
           {/* Profile Image */}
