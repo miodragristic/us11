@@ -20,6 +20,7 @@ const MarcoReus = () => {
           <img 
             src='https://assets.spox.com/images/v3/SPOX_6842816/contentpush.tmp?quality=60&auto=webp&format=pjpg&width=1148' 
             alt='Marco Reus' 
+            style={{ objectPosition: 'center 0%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

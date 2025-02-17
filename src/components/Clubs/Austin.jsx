@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';  // Uvozimo Link za navigaciju unutar a
 const TrendingPlayers = () => {
   const players = [
     // { name: 'Sebastián Driussi', image: 'https://cdn1.primerafutbol.com/uploads/18/2025/01/GettyImages-1258342953-1140x760.jpg', link: '/driussi' },
-    { name: 'Alex Ring', image: 'https://www.sportti.com/kuvapankki2014/alexander_ring_austin.jpg', link: '/ring' },
+    { name: 'Alex Ring', image: 'https://wallpapers.com/images/hd/austin-fc-midfielder-alexander-ring-ujchcirnu7ajtdke.jpg', link: '/ring' },
     { name: 'Ethan Finlay', image: 'https://s.hdnux.com/photos/01/37/10/55/24939376/3/rawImage.jpg', link: '/finlay' },
     { name: 'Gyasi Zardes', image: 'https://austinmonthly.wppcdn.com/wp-content/uploads/2023/02/ATXFC_20221120_ZardesPortraits_JG108141-1246x700.jpg', link: '/zardes' },
   ];
@@ -80,7 +80,7 @@ const Austin = () => {
             <li><strong>Stadium:</strong> Q2 Stadium, Austin, Texas</li>
             <li><strong>Capacity:</strong> 20,500</li>
             <li><strong>Owners:</strong> Anthony Precourt</li>
-            <li><strong>Head Coach:</strong> Josh Wolff</li>
+            <li><strong>Head Coach:</strong> Nico Estévez</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

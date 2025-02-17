@@ -80,7 +80,7 @@ const PhiladelphiaUnion = () => {
             <li><strong>Stadium:</strong> Subaru Park, Chester, Pennsylvania</li>
             <li><strong>Capacity:</strong> 18,500</li>
             <li><strong>Owner:</strong> Keystone Sports & Entertainment</li>
-            <li><strong>Head Coach:</strong> Jim Curtin</li>
+            <li><strong>Head Coach:</strong> Bradley Carnell</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>
@@ -92,7 +92,7 @@ const PhiladelphiaUnion = () => {
             Philadelphia Union has established itself as a formidable force in Major League Soccer since its founding in 2008. With a dedicated fan base and a strong emphasis on player development, the Union has become one of the top teams in the Eastern Conference.
           </p>
           <p>
-            Playing at Subaru Park, the team has a loyal following and an exciting attacking style of play, led by stars like **Alejandro Bedoya**, **Gazdag Dániel**, and **Jack Elliott**.
+            Playing at Subaru Park, the team has a loyal following and an exciting attacking style of play, led by stars like Alejandro Bedoya, Gazdag Dániel, and Jack Elliott.
           </p>
           <p>
             The Union's focus on building a competitive squad and developing homegrown talent continues to shape their future success. As they continue to grow, they are sure to make their mark on MLS and challenge for league titles in the years to come.

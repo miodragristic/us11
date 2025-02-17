@@ -5,9 +5,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 const TrendingPlayers = () => {
   const players = [
     // { name: 'Rudy Camacho', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-clb/l2djl0j1qg9jgrt9z8kx.jpg', link: './LucasZelarayan' },
-    { name: 'Cucho Hernández', image: 'https://as01.epimg.net/img/especiales/futbol/2023/top10mls/cucho/frame3h.jpg', link: './CuchoHernandez' },
+    // { name: 'Cucho Hernández', image: 'https://as01.epimg.net/img/especiales/futbol/2023/top10mls/cucho/frame3h.jpg', link: './CuchoHernandez' },
+    { name: 'Diego Rossi', image: 'https://images.supersport.com/media/5wfgo22m/diego-rossi-celebrating-2024-g-1200.jpg?width=1920&quality=90&format=webp', link: './Rossi' },
     { name: 'Darlington Nagbe', image: 'https://wallpapers.com/images/hd/darlington-nagbe-mls-medically-cleared-cy1tf00pgqbg7a3o.jpg', link: './Nagbe' },
-    { name: 'Diego Rossi', image: 'https://images.supersport.com/media/5wfgo22m/diego-rossi-celebrating-2024-g-1200.jpg?width=1920&quality=90&format=webp', link: './DiegoRossi' },
+   
   ];
 
   return (

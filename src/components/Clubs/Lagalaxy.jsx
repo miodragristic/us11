@@ -7,7 +7,6 @@ const TrendingPlayers = () => {
     { name: 'Marco Reus', image: 'https://assets.spox.com/images/v3/SPOX_6842816/contentpush.tmp?quality=60&auto=webp&format=pjpg&width=1148', link: './Reus' },
     { name: 'Riqui Puig', image: 'https://cdn1.lagalaxy.news/uploads/54/2023/08/GettyImages-1499684145-1920x1280.jpg', link: './Puig' },
     { name: 'Gabriel Pec', image: 'https://cdn1.vamofutebol.com/uploads/5/2024/12/GettyImages-2185864981-1140x760.jpg', link: './Pec' },
-    { name: 'Dejan Joveljić', image: 'https://sportklub.n1info.rs/wp-content/uploads/2023/05/15/1684130316-Dejan-Joveljic-scaled-e1684130362116-550x360.jpg', link: './Joveljic' },
   ];
 
   return (

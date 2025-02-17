@@ -7,7 +7,7 @@ const TrendingPlayers = () => {
     // { name: 'Axel Kei', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-real/yztd1gjeqfcgknmkmxfq.jpg', link: './AlbertRusnak' },
     // { name: 'Diogo Gonçalves', image: 'https://www.shutterstock.com/editorial/image-editorial/MfT5Q441N2z0Ue42MzI5NTA=/match-between-real-salt-lake-portland-timbers-220nw-14733382i.jpg', link: './DamirKreilach' },
     { name: 'Pablo Ruiz', image: 'https://bookingagentinfo.com/wp-content/uploads/2023/12/Pablo-Ruiz-1.jpg', link: './PabloRuiz' },
-    { name: 'Diego Luna', image: 'https://www.abc4.com/wp-content/uploads/sites/4/2024/07/GettyImages-2157934329.jpg', link: './DiegoLuna' },
+    { name: 'Diego Luna', image: 'https://www.abc4.com/wp-content/uploads/sites/4/2024/07/GettyImages-2157934329.jpg', link: './luna' },
   ];
 
   return (
@@ -92,7 +92,7 @@ const RealSaltLake = () => {
             Real Salt Lake has been a significant part of Major League Soccer since 2005. Known for their solid defense and passionate fanbase, RSL has enjoyed significant success, including an MLS Cup victory in 2009 and a strong presence in the playoffs over the years.
           </p>
           <p>
-            The club plays at the stunning Rio Tinto Stadium in Sandy, Utah, where their dedicated supporters fill the stands and create an incredible atmosphere. With standout players like **Albert Rusnák** and **Damir Kreilach**, RSL has maintained a competitive edge in the MLS.
+            The club plays at the stunning Rio Tinto Stadium in Sandy, Utah, where their dedicated supporters fill the stands and create an incredible atmosphere. With standout players like Albert Rusnák and Damir Kreilach, RSL has maintained a competitive edge in the MLS.
           </p>
           <p>
             The club prides itself on developing homegrown talent and maintaining a competitive roster to challenge for top honors in Major League Soccer.

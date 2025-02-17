@@ -18,8 +18,9 @@ const CristianOlivera = () => {
         {/* Player Image and Bio Section */}
         <div className='mb-6'>
           <img 
-            src='https://cdn1.thespurs.news/uploads/36/2024/02/GettyImages-2003725135-1140x760.jpg' 
+            src='https://cdn1.vamofutebol.com/uploads/5/2025/01/GettyImages-2153266577-1140x760.jpg' 
             alt='Cristian Olivera' 
+            style={{ objectPosition: 'center 10%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

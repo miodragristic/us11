@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Hirving Lozano', image: 'https://images.supersport.com/media/e2dcgfwj/hirving-lozano-220924-celebrates-g-1050.jpg?width=1920&quality=90&format=webp', link: '' },
-    { name: 'Raul Jimenez', image: 'https://images.supersport.com/media/ydyjkhh4/raul-jimenez-220922-training-g-1050.jpg?width=828&quality=90&format=webp', link: './RaulJimenez' },
-    { name: 'Edson Álvarez', image: 'https://westhamblog.co.uk/wp-content/uploads/2024/06/mexico-v-brazil-international-friendly-scaled.jpg', link: './EdsonAlvarez' },
-    { name: 'Orbelín Pineda', image: 'https://www.365scores.com/es/news/wp-content/uploads/2024/06/GettyImages-1477262240-1024x683.jpg', link: './OrbelínPineda' },
+    { name: 'Hirving Lozano', image: 'https://images.supersport.com/media/e2dcgfwj/hirving-lozano-220924-celebrates-g-1050.jpg?width=1920&quality=90&format=webp', link: './lozano' },
+    { name: 'Raul Jimenez', image: 'https://images.supersport.com/media/ydyjkhh4/raul-jimenez-220922-training-g-1050.jpg?width=828&quality=90&format=webp', link: './jimenez' },
+    { name: 'Edson Álvarez', image: 'https://westhamblog.co.uk/wp-content/uploads/2024/06/mexico-v-brazil-international-friendly-scaled.jpg', link: './edsonalvarez' },
+    { name: 'Orbelín Pineda', image: 'https://www.365scores.com/es/news/wp-content/uploads/2024/06/GettyImages-1477262240-1024x683.jpg', link: './pineda' },
   ];
 
   return (
@@ -78,7 +78,7 @@ const MexicoNationalTeam = () => {
             <li><strong>Nickname(s):</strong> El Tri</li>
             <li><strong>Founded:</strong> 1927</li>
             <li><strong>Stadium:</strong> Estadio Azteca, Mexico City, Mexico</li>
-            <li><strong>Manager:</strong> Gerardo Martino</li>
+            <li><strong>Manager:</strong> Javier Aguirre</li>
             <li><strong>FIFA Ranking:</strong> #12 (as of 2023)</li>
             <li><strong>Confederation:</strong> CONCACAF</li>
             <li><strong>World Cup Appearances:</strong> 16 (as of 2022)</li>
@@ -89,10 +89,10 @@ const MexicoNationalTeam = () => {
         <div className='text-[#020617] mb-8'>
           <h2 className='text-2xl font-semibold mb-2'>A Legacy of Excellence</h2>
           <p>
-            The Mexico National Football Team, known as **El Tri**, is one of the most successful and respected teams in the world. With a rich history dating back to 1927, Mexico has been a dominant force in CONCACAF and a regular contender in World Cups.
+            The Mexico National Football Team, known as El Tri, is one of the most successful and respected teams in the world. With a rich history dating back to 1927, Mexico has been a dominant force in CONCACAF and a regular contender in World Cups.
           </p>
           <p>
-            The team's legendary players such as **Hirving Lozano**, **Raul Jimenez**, and **Carlos Vela** have earned Mexico a reputation for attacking football and passionate performances. Their qualification for every World Cup since 1994 highlights their consistency and talent.
+            The team's legendary players such as Hirving Lozano, Raul Jimenez, and Edson Alvarez have earned Mexico a reputation for attacking football and passionate performances. Their qualification for every World Cup since 1994 highlights their consistency and talent.
           </p>
           <p>
             Mexico has always been a favorite to go far in international tournaments, and their performances on the global stage continue to captivate millions of fans.

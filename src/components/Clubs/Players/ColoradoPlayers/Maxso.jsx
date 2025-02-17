@@ -20,7 +20,7 @@ const AndreasMaxso = () => {
           <img 
             src='https://www.tipsbladet.dk/wp-content/uploads/1970/01/2XDKEGR-scaled.jpg' 
             alt='Andreas Maxso' 
-            style={{ objectPosition: 'center 20%' }} 
+            style={{ objectPosition: 'center 10%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

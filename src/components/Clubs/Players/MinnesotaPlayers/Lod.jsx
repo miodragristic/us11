@@ -20,6 +20,7 @@ const RobinLod = () => {
           <img 
             src='https://www.sportti.com/wp-content/uploads/2024/02/robin_lod_2023_minnesota.jpg' 
             alt='Robin Lod' 
+            style={{ objectPosition: 'center 10%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Emil Forsberg', image: 'https://nypost.com/wp-content/uploads/sites/2/2023/11/GettyImages-1781603559.jpg', link: './EmilForsberg' },
-    { name: 'Lewis Morgan', image: 'https://worldfootballindex.com/wp-content/uploads/2022/06/Lewis-Morgan-New-York-Red-Bulls.jpg', link: './LewisMorgan' },
+    { name: 'Emil Forsberg', image: 'https://nypost.com/wp-content/uploads/sites/2/2023/11/GettyImages-1781603559.jpg', link: './forsberg' },
+    { name: 'Lewis Morgan', image: 'https://worldfootballindex.com/wp-content/uploads/2022/06/Lewis-Morgan-New-York-Red-Bulls.jpg', link: './morgan' },
     // { name: 'Dante Vanzeir', image: 'https://www.ligaportal.at/international/images/sid/202315/0ca391f3ea127efd9aae3f089d8eb83f2d68a47e.jpg', link: './CristianCasseres' },
-    { name: 'Eric Maxim Choupo-Moting', image: 'https://afrosportnow.com/wp-content/uploads/2023/12/GettyImages-1446328647-scaled.jpg', link: './ChoupoMoting' },
+    { name: 'Eric Maxim Choupo-Moting', image: 'https://afrosportnow.com/wp-content/uploads/2023/12/GettyImages-1446328647-scaled.jpg', link: './moting' },
   ];
 
   return (
@@ -80,7 +80,7 @@ const NYRedBulls = () => {
             <li><strong>Stadium:</strong> Red Bull Arena, Harrison, New Jersey</li>
             <li><strong>Capacity:</strong> 25,000</li>
             <li><strong>Owner:</strong> Red Bull GmbH</li>
-            <li><strong>Head Coach:</strong> Troy Lesesne</li>
+            <li><strong>Head Coach:</strong> Sandro Schwarz</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>
@@ -95,7 +95,7 @@ const NYRedBulls = () => {
             Red Bull Arena in Harrison, New Jersey, has been their home since 2010, providing an electric atmosphere for fans and players alike. The team boasts passionate supporters and a competitive spirit that has led to several playoff appearances and an MLS Supporters' Shield.
           </p>
           <p>
-            With standout players like **Lewis Morgan**, **Patryk Klimala**, and **Cristian Cásseres Jr.**, the Red Bulls continue to be a powerhouse in MLS and a club with a rich history of success.
+            With standout players like Lewis Morgan, Patryk Klimala, and Cristian Cásseres Jr., the Red Bulls continue to be a powerhouse in MLS and a club with a rich history of success.
           </p>
         </div>
 

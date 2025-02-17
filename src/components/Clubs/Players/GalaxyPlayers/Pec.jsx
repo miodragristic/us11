@@ -20,6 +20,7 @@ const GabrielPec = () => {
           <img 
             src='https://cdn1.vamofutebol.com/uploads/5/2024/12/GettyImages-2185864981-1140x760.jpg' 
             alt='Gabriel Pec' 
+            style={{ objectPosition: 'center 10%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

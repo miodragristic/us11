@@ -19,6 +19,7 @@ const LucaLangoni = () => {
           <img 
             src='https://cdn1.intermiami.news/uploads/52/2024/09/GettyImages-2172110695-1024x685.jpg' 
             alt='Luca Langoni' 
+            style={{ objectPosition: 'center 20%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

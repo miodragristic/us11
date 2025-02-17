@@ -20,6 +20,7 @@ const SamuelPiette = () => {
           <img 
             src='https://lastwordonsports.com/soccer/wp-content/uploads/sites/14/2022/11/Canada-Mens-Soccer-Team-Player-Samuel-Piette-in-2019.jpg' 
             alt='Samuel Piette' 
+            style={{ objectPosition: 'center 20%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

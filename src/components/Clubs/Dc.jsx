@@ -4,7 +4,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Christian Benteke', image: 'https://cdn.mos.cms.futurecdn.net/e8Zxx3N6t3F7Wieg7mQfuM.jpg', link: './ChristianBenteke' },
+    { name: 'Christian Benteke', image: 'https://cdn.mos.cms.futurecdn.net/e8Zxx3N6t3F7Wieg7mQfuM.jpg', link: './Benteke' },
     // { name: 'Dominique Badji', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-dc/det2dl7m2vkyqsege7yt.jpg', link: './TaxiFountas' },
     // { name: 'Jackson Hopkins', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-dc/fn1nle8cbcz4yb6lqnkq.jpg', link: './FelipeMartins' },
     { name: 'Gabriel Pirani', image: 'https://wtop.com/wp-content/uploads/2024/06/GettyImages-2150745016-scaled.jpg', link: './Pirani' },
@@ -80,7 +80,7 @@ const DCUnited = () => {
             <li><strong>Stadium:</strong> Audi Field, Washington, D.C.</li>
             <li><strong>Capacity:</strong> 20,000</li>
             <li><strong>Owner:</strong> Jason Levien and Steve Kaplan</li>
-            <li><strong>Head Coach:</strong> Wayne Rooney</li>
+            <li><strong>Head Coach:</strong> Troy Lesesne</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

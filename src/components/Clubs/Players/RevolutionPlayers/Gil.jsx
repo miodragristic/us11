@@ -19,6 +19,7 @@ const CarlesGil = () => {
           <img 
             src='https://lastwordonsports.com/soccer/wp-content/uploads/sites/14/2022/09/carles.jpg' 
             alt='Carles Gil' 
+            style={{ objectPosition: 'center 20%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

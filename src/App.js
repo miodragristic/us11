@@ -82,7 +82,7 @@ import Maxso from './components/Clubs/Players/ColoradoPlayers/Maxso.jsx';
 import Cabral from './components/Clubs/Players/ColoradoPlayers/Cabral.jsx';
 import CuchoHernandez from './components/Clubs/Players/ColumbusPlayers/Hernandez.jsx';
 import Nagbe from './components/Clubs/Players/ColumbusPlayers/Nagbe.jsx';
-import DiegoRossi from './components/Clubs/Players/ColumbusPlayers/Rossi.jsx';
+import Rossi from './components/Clubs/Players/ColumbusPlayers/Rossi.jsx';
 import ChristianBenteke from './components/Clubs/Players/DcPlayers/Benteke.jsx';
 import Pirani from './components/Clubs/Players/DcPlayers/Pirani.jsx';
 import Lletget from './components/Clubs/Players/DallasPlayers/Lletget.jsx';
@@ -266,7 +266,7 @@ const App = () => {
         <Route path="/energydrinks" element={<EnergyDrinks />} />
         <Route path="/hernandez" element={<CuchoHernandez />} />
   <Route path="/nagbe" element={<Nagbe />} />
-  <Route path="/rossi" element={<DiegoRossi />} />
+  <Route path="/rossi" element={<Rossi />} />
   <Route path="/benteke" element={<ChristianBenteke />} />
   <Route path="/pirani" element={<Pirani />} />
   <Route path="/lletget" element={<Lletget />} />

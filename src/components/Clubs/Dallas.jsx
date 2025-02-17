@@ -79,7 +79,7 @@ const FCDallas = () => {
             <li><strong>Stadium:</strong> Toyota Stadium, Frisco, Texas</li>
             <li><strong>Capacity:</strong> 20,500</li>
             <li><strong>Owner:</strong> Hunt Sports Group</li>
-            <li><strong>Head Coach:</strong> Nico Estévez</li>
+            <li><strong>Head Coach:</strong> Eric Quill</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

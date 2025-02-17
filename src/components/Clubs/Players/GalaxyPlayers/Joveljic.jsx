@@ -20,6 +20,7 @@ const DejanJoveljic = () => {
           <img 
             src='https://sportklub.n1info.rs/wp-content/uploads/2023/05/15/1684130316-Dejan-Joveljic-scaled-e1684130362116-550x360.jpg' 
             alt='Dejan Joveljić' 
+            style={{ objectPosition: 'center 10%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

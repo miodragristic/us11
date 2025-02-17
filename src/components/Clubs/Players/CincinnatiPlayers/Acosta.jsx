@@ -20,7 +20,7 @@ const LucianoAcosta = () => {
           <img 
             src='https://cdn1.vamofutebol.com/uploads/5/2025/01/GettyImages-2158493614-750x600.jpg' 
             alt='Luciano Acosta' 
-            style={{ objectPosition: 'center 40%' }} 
+            style={{ objectPosition: 'center 20%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

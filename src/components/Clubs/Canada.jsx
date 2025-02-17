@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Alphonso Davies', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYIXN4JFnQwUL4DziZK-Ad-SC6wC7re21IA&s', link: './AlphonsoDavies' },
-    { name: 'Jonathan David', image: 'https://icdn.strettynews.com/wp-content/uploads/2022/12/fbl-wc-2022-match27-cro-can.jpg', link: './JonathanDavid' },
-    { name: 'Cyle Larin', image: 'https://lastwordonsports.com/football/wp-content/uploads/sites/4/2022/11/CanMNT-Striker-Cyle-Larin-scores-the-first-goal-against-the-USMNT-at-Tim-Hortons-Field.jpg', link: './CyleLarin' },
-    { name: 'Stephen Eustáquio', image: 'https://worldfootballindex.com/wp-content/uploads/2022/01/Stephen-Eusta%CC%81quio-Canada.jpg', link: './StephenEustáquio' },
+    { name: 'Alphonso Davies', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYIXN4JFnQwUL4DziZK-Ad-SC6wC7re21IA&s', link: './davis' },
+    { name: 'Jonathan David', image: 'https://icdn.strettynews.com/wp-content/uploads/2022/12/fbl-wc-2022-match27-cro-can.jpg', link: './david' },
+    { name: 'Cyle Larin', image: 'https://lastwordonsports.com/football/wp-content/uploads/sites/4/2022/11/CanMNT-Striker-Cyle-Larin-scores-the-first-goal-against-the-USMNT-at-Tim-Hortons-Field.jpg', link: './larin' },
+    { name: 'Stephen Eustáquio', image: 'https://worldfootballindex.com/wp-content/uploads/2022/01/Stephen-Eusta%CC%81quio-Canada.jpg', link: './eustaquio' },
   ];
 
   return (
@@ -78,7 +78,7 @@ const CanadaNationalTeam = () => {
             <li><strong>Nickname(s):</strong> The Canucks</li>
             <li><strong>Founded:</strong> 1912</li>
             <li><strong>Stadium:</strong> BMO Field, Toronto, Ontario (Home stadium)</li>
-            <li><strong>Manager:</strong> John Herdman</li>
+            <li><strong>Manager:</strong> Jesse Marsch</li>
             <li><strong>FIFA Ranking:</strong> #43 (as of 2023)</li>
             <li><strong>Confederation:</strong> CONCACAF</li>
             <li><strong>World Cup Appearances:</strong> 2 (1986, 2022)</li>
@@ -92,7 +92,7 @@ const CanadaNationalTeam = () => {
             The Canada Men's National Team has emerged as one of the most exciting teams in CONCACAF, with a new generation of talented players leading the charge. Under the guidance of manager **John Herdman**, the team has qualified for the 2022 FIFA World Cup, marking their first appearance since 1986.
           </p>
           <p>
-            With rising stars like **Alphonso Davies**, **Jonathan David**, and **Cyle Larin**, the team has a strong foundation for the future. Their attacking style of play, combined with a solid defensive structure, makes them one of the most dangerous teams in North America.
+            The team has a strong foundation for the future. Their attacking style of play, combined with a solid defensive structure, makes them one of the most dangerous teams in North America.
           </p>
           <p>
             The team's qualification for the World Cup has sparked a new sense of optimism and pride across the country, as Canadian soccer continues to grow in popularity and stature.

@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Christian Pulisic', image: 'https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg', link: './ChristianPulisic' },
-    { name: 'Giovanni Reyna', image: 'https://static01.nyt.com/athletic/uploads/wp/2020/05/08030603/Reyna-USA-scaled.jpg', link: './GiovanniReyna' },
-    { name: 'Weston McKennie', image: 'https://cdn1.intermiami.news/uploads/52/2024/07/GettyImages-2160612538-1140x752.jpg', link: './WestonMcKennie' },
-    { name: 'Tyler Adams', image: 'https://cdn1.leedsunited.news/uploads/5/2022/11/GettyImages-1244973081-1024x682.jpg', link: './TylerAdams' },
+    { name: 'Christian Pulisic', image: 'https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg', link: './pulisic' },
+    { name: 'Giovanni Reyna', image: 'https://static01.nyt.com/athletic/uploads/wp/2020/05/08030603/Reyna-USA-scaled.jpg', link: './reyna' },
+    { name: 'Weston McKennie', image: 'https://cdn1.intermiami.news/uploads/52/2024/07/GettyImages-2160612538-1140x752.jpg', link: './mckennie' },
+    { name: 'Tyler Adams', image: 'https://cdn1.leedsunited.news/uploads/5/2022/11/GettyImages-1244973081-1024x682.jpg', link: './adams' },
   ];
 
   return (
@@ -78,7 +78,7 @@ const USNationalTeam = () => {
             <li><strong>Nickname(s):</strong> The Yanks, The Stars and Stripes</li>
             <li><strong>Founded:</strong> 1913</li>
             <li><strong>Stadium:</strong> Various (Home games across the United States)</li>
-            <li><strong>Manager:</strong> Gregg Berhalter</li>
+            <li><strong>Manager:</strong> Mauricio Pochettino</li>
             <li><strong>FIFA Ranking:</strong> #15 (as of 2023)</li>
             <li><strong>Confederation:</strong> CONCACAF</li>
             <li><strong>World Cup Appearances:</strong> 11</li>
@@ -92,7 +92,7 @@ const USNationalTeam = () => {
             The United States Men's National Team (USMNT) is one of the most well-known soccer teams in the world, with a rich history of participation in major tournaments like the FIFA World Cup and CONCACAF Gold Cup. Despite being traditionally seen as an underdog in the world of soccer, the USMNT continues to grow in stature and has produced some of the most exciting young talent in the game.
           </p>
           <p>
-            With players like **Christian Pulisic**, **Giovanni Reyna**, and **Weston McKennie**, the team has some of the brightest stars in world soccer. The USMNT is committed to playing an exciting, fast-paced style of soccer, with an emphasis on developing young, homegrown talent.
+            With players like Christian Pulisic, Giovanni Reyna, and Weston McKennie, the team has some of the brightest stars in world soccer. The USMNT is committed to playing an exciting, fast-paced style of soccer, with an emphasis on developing young, homegrown talent.
           </p>
           <p>
             Whether it's in World Cup qualification or international friendlies, the USMNT continues to engage its passionate fan base across the country and strives to make its mark on the world stage.

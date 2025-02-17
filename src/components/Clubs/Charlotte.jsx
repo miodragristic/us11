@@ -80,7 +80,7 @@ const CharlotteFC = () => {
             <li><strong>Stadium:</strong> Bank of America Stadium, Charlotte, North Carolina</li>
             <li><strong>Capacity:</strong> 74,867</li>
             <li><strong>Owners:</strong> David Tepper</li>
-            <li><strong>Head Coach:</strong> Christian Lattanzio</li>
+            <li><strong>Head Coach:</strong> Dean Smith</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

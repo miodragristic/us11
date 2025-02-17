@@ -80,7 +80,7 @@ const ColoradoRapids = () => {
             <li><strong>Stadium:</strong> Dick's Sporting Goods Park, Commerce City, Colorado</li>
             <li><strong>Capacity:</strong> 18,000</li>
             <li><strong>Owner:</strong> Kroenke Sports Enterprises</li>
-            <li><strong>Head Coach:</strong> Robin Fraser</li>
+            <li><strong>Head Coach:</strong> Chris Armas</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

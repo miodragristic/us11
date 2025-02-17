@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Stuart Armstrong', image: 'https://cdn.apollo.audio/one/media/66cd/e06b/1378/6a05/a100/31d9/2X9CRE7.jpg', link: './steveclakrke' },
-    { name: 'Andrés Cubas', image: 'https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1656311673001-MA3KT4Y0MCW73OO1XEM1/2022-06-26+Andres+Cubas.jpg', link: './LucasCavallini' },
-    { name: 'Ryan Gauld', image: 'https://cdn1.rangersnews.uk/uploads/24/2024/03/GettyImages-1717990663-1140x760.jpg', link: './MaximeCrepeau' },
-    { name: 'Ranko Veselinović', image: 'https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1632715707355-3BU3N34LO87LMCPZSM95/2021-09-10+Ranko+Veselinovi%C4%87.jpg?format=750w', link: './CristianDajome' },
+    { name: 'Stuart Armstrong', image: 'https://cdn.apollo.audio/one/media/66cd/e06b/1378/6a05/a100/31d9/2X9CRE7.jpg', link: './armstrong' },
+    { name: 'Andrés Cubas', image: 'https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1656311673001-MA3KT4Y0MCW73OO1XEM1/2022-06-26+Andres+Cubas.jpg', link: './cubas' },
+    { name: 'Ryan Gauld', image: 'https://cdn1.rangersnews.uk/uploads/24/2024/03/GettyImages-1717990663-1140x760.jpg', link: './gauld' },
+    { name: 'Ranko Veselinović', image: 'https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1632715707355-3BU3N34LO87LMCPZSM95/2021-09-10+Ranko+Veselinovi%C4%87.jpg?format=750w', link: './veselinovic' },
   ];
 
   return (
@@ -80,7 +80,7 @@ const VancouverWhitecaps = () => {
             <li><strong>Stadium:</strong> BC Place, Vancouver, British Columbia</li>
             <li><strong>Capacity:</strong> 22,120</li>
             <li><strong>Owner:</strong> Vancouver Whitecaps FC</li>
-            <li><strong>Head Coach:</strong> Vanni Sartini</li>
+            <li><strong>Head Coach:</strong> Jesper Sørensen</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>
@@ -92,7 +92,7 @@ const VancouverWhitecaps = () => {
             Vancouver Whitecaps FC is a Major League Soccer club based in Vancouver, British Columbia, founded in 2009. The team plays their home games at BC Place, a venue that offers one of the best atmospheres in the league.
           </p>
           <p>
-            The Whitecaps are known for their fast-paced style of play and their commitment to developing homegrown talent. With key players like **Ryan Gauld**, **Lucas Cavallini**, and **Cristian Dájome**, the team is steadily making a name for itself as a rising force in MLS.
+            The Whitecaps are known for their fast-paced style of play and their commitment to developing homegrown talent. With key players like Ryan Gauld, Lucas Cavallini, and Cristian Dájome, the team is steadily making a name for itself as a rising force in MLS.
           </p>
         </div>
 

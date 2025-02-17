@@ -20,7 +20,7 @@ const GabrielPirani = () => {
           <img 
             src='https://wtop.com/wp-content/uploads/2024/06/GettyImages-2150745016-scaled.jpg' 
             alt='Gabriel Pirani' 
-            style={{ objectPosition: 'center 20%' }} 
+            style={{ objectPosition: 'center 10%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

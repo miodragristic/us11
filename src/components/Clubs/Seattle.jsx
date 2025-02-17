@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Jordan Morris', image: 'https://assets.goal.com/images/v3/getty-2090010997/crop/MM5DENBQGA5DCNRQGE5G433XMU5DKNRWHIYTAMA=/GettyImages-2090010997.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: './JordanMorris' },
-    { name: 'Pedro de la Vega', image: 'https://cdn.seattlesports.com/sea710/wp-content/uploads/2024/01/GettyImages-1291846531.jpg', link: './PedroDeLaVega' },
-    { name: 'Albert Rusnák', image: 'https://sports.mynorthwest.com/wp-content/uploads/2024/06/Seattle-Sounders-Albert-Rusnak-controls-ball-Getty-900.jpg', link: './AlbertRusnak' },
-    { name: 'Cristian Roldan', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVBB6pHSdOyooVNbUjLO6ekf3Vpk7q5fBfg&s', link: './CristianRoldan' },
+    { name: 'Jordan Morris', image: 'https://assets.goal.com/images/v3/getty-2090010997/crop/MM5DENBQGA5DCNRQGE5G433XMU5DKNRWHIYTAMA=/GettyImages-2090010997.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: './morris' },
+    { name: 'Pedro de la Vega', image: 'https://cdn.seattlesports.com/sea710/wp-content/uploads/2024/01/GettyImages-1291846531.jpg', link: './delavega' },
+    { name: 'Albert Rusnák', image: 'https://sports.mynorthwest.com/wp-content/uploads/2024/06/Seattle-Sounders-Albert-Rusnak-controls-ball-Getty-900.jpg', link: './rusnak' },
+    { name: 'Cristian Roldan', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVBB6pHSdOyooVNbUjLO6ekf3Vpk7q5fBfg&s', link: './roldan' },
   ];
 
   return (

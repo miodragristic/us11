@@ -7,7 +7,7 @@ const TrendingPlayers = () => {
     // { name: 'Antony', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-por/lz1h9xkmvhmqdhkd9lnx.jpg', link: './DiegoValeri' },
     { name: 'Kamal Miller', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-OBTzPwXJxDw2RoBTT0Dar4Hkhlwac4hafA&s', link: './KamalMiller' },
     // { name: 'Felipe Mora', image: 'https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1632710776237-Z8UPMDW3BSKVDP5UYYSD/2021-09-10+Marcos+de+Oliveira+and+Felipe+Mora+Goal+Reaction+%28Ranko+Veselinovi%C4%87+Own+Goal%29.jpg', link: './FelipeMora' },
-    { name: 'Diego Chará', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvPs48qADU-UwzRq223yrcFLu4lA2db6cfQ&s', link: './YimmiChara' },
+    { name: 'Diego Chará', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvPs48qADU-UwzRq223yrcFLu4lA2db6cfQ&s', link: './chara' },
   ];
 
   return (
@@ -80,7 +80,7 @@ const PortlandTimbers = () => {
             <li><strong>Stadium:</strong> Providence Park, Portland, Oregon</li>
             <li><strong>Capacity:</strong> 25,218</li>
             <li><strong>Owner:</strong> Merritt Paulson</li>
-            <li><strong>Head Coach:</strong> Giovanni Savarese</li>
+            <li><strong>Head Coach:</strong> Phil Neville</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>
@@ -92,7 +92,7 @@ const PortlandTimbers = () => {
             The Portland Timbers are one of the most passionate teams in Major League Soccer, with a loyal fanbase known as the "Timber Army." Since joining the league in 2009, the Timbers have made a name for themselves as one of the most successful and exciting teams in MLS.
           </p>
           <p>
-            Playing at Providence Park, the team thrives in an electric atmosphere where fans support their team with unmatched energy. With standout players like **Diego Valeri**, **Sebastián Blanco**, and **Felipe Mora**, the Timbers are perennial contenders in the Western Conference and have claimed an MLS Cup in 2015.
+            Playing at Providence Park, the team thrives in an electric atmosphere where fans support their team with unmatched energy. With standout players like Diego Valeri, Sebastián Blanco, and Felipe Mora, the Timbers are perennial contenders in the Western Conference and have claimed an MLS Cup in 2015.
           </p>
           <p>
             Known for their attacking style of play, the Timbers have become a symbol of pride for the city of Portland and a force to be reckoned with in Major League Soccer.

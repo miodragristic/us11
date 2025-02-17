@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Federico Bernadeski', image: 'https://milanreports.com/wp-content/uploads/2023/08/Downloader.la-64ce27c1e1eb7.jpg', link: './Bernadeski' },
-    { name: 'Lorenzo Insigne', image: 'https://dynamo.kiev.ua/media/posts/2023/01/11/charlotte-fc-v-toronto-fc.jpg', link: './JoseAltidore' },
-    { name: 'Kevin Long', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fQLbiFBhOvoE0UYSOPxxi_VERQ0zX3o9MA&s', link: './AlejandroPozuelo' },
-    { name: 'Jonathan Osorio', image: 'https://cdn1.deepdaledigest.com/uploads/10/2022/11/GettyImages-1411935788-750x500.jpg', link: './JonathanOsorio' },
+    { name: 'Federico Bernadeski', image: 'https://milanreports.com/wp-content/uploads/2023/08/Downloader.la-64ce27c1e1eb7.jpg', link: './bernadeski' },
+    { name: 'Lorenzo Insigne', image: 'https://dynamo.kiev.ua/media/posts/2023/01/11/charlotte-fc-v-toronto-fc.jpg', link: './insigne' },
+    { name: 'Kevin Long', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fQLbiFBhOvoE0UYSOPxxi_VERQ0zX3o9MA&s', link: './kevinlong' },
+    { name: 'Jonathan Osorio', image: 'https://cdn1.deepdaledigest.com/uploads/10/2022/11/GettyImages-1411935788-750x500.jpg', link: './osorio' },
   ];
 
   return (
@@ -79,7 +79,7 @@ const TorontoFC = () => {
             <li><strong>Stadium:</strong> BMO Field, Toronto, Ontario</li>
             <li><strong>Capacity:</strong> 30,000</li>
             <li><strong>Owner:</strong> Maple Leaf Sports & Entertainment</li>
-            <li><strong>Head Coach:</strong> Bob Bradley</li>
+            <li><strong>Head Coach:</strong> Robin Fraser</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>
@@ -91,7 +91,7 @@ const TorontoFC = () => {
             Toronto FC is one of the most successful clubs in Major League Soccer history, having won the MLS Cup in 2017 and establishing itself as a powerhouse in the league. Founded in 2005, the team has quickly become a fan favorite, known for its exciting style of play and success on the field.
           </p>
           <p>
-            Playing at the state-of-the-art BMO Field, Toronto FC boasts a loyal and passionate fan base. With stars like **Michael Bradley**, **José Altidore**, and **Alejandro Pozuelo**, the team continues to compete at the highest level and challenge for the MLS Cup every season.
+            Playing at the state-of-the-art BMO Field, Toronto FC boasts a loyal and passionate fan base.
           </p>
         </div>
 

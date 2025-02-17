@@ -20,6 +20,7 @@ const MattPolster = () => {
             src='https://lastwordonsports.com/soccer/wp-content/uploads/sites/14/2022/04/New-England-Revolution-midfielder-Matt-Polster-gets-past.jpg' 
             alt='Matt Polster' 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
+            style={{ objectPosition: 'center 10%' }} 
           />
         </div>
         <div className="mb-10 text-center text-sm text-gray-500">

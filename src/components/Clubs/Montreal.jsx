@@ -80,7 +80,7 @@ const CFMontreal = () => {
             <li><strong>Stadium:</strong> Saputo Stadium, Montreal, Quebec</li>
             <li><strong>Capacity:</strong> 20,801</li>
             <li><strong>Owner:</strong> Joey Saputo</li>
-            <li><strong>Head Coach:</strong> Hernán Losada</li>
+            <li><strong>Head Coach:</strong> Laurent Courtois</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

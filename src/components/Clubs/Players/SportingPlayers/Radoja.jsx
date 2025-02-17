@@ -20,6 +20,7 @@ const NemanjaRadoja = () => {
           <img 
             src='https://www.shutterstock.com/image-photo/sporting-kansas-citys-nemanja-radoja-600nw-2435697827.jpg' 
             alt='Nemanja Radoja' 
+            style={{ objectPosition: 'center 20%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

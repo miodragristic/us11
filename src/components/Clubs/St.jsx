@@ -4,10 +4,10 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'João Klauss', image: 'https://assets.goal.com/images/v3/getty-145494572/crop/MM5DCMZWGY5DONRYHJXG653FHIYDUMJVGA======/GettyImages-145494572.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: './JoaoKlauss' },
-    { name: 'Tomáš Ostrák', image: 'https://geissblog.koeln/wp-content/uploads/2025/01/carstensen_leihe.webp', link: './TomasOstrak' },
-    { name: 'Chris Durkin', image: 'https://s3.amazonaws.com/assets.thisisasn.com/production/attacheds/13170/original/Chris_Durkin_-_ASN_TOP_-_ISI_-_2019_U-20_WC_vs_Ecuador_-_Adam_Nurkiewicz.jpg?1569464355', link: './ChrisDurkin' },
-    { name: 'Marcel Hartel', image: 'https://cdn.prod.www.11freunde.de/images/b5d24b92-98da-4fc7-b44f-58c371297bb0_w1200_r1_fpx52_fpy50.jpg', link: './MarcelHartel' },
+    { name: 'João Klauss', image: 'https://assets.goal.com/images/v3/getty-145494572/crop/MM5DCMZWGY5DONRYHJXG653FHIYDUMJVGA======/GettyImages-145494572.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: './klauss' },
+    { name: 'Tomáš Ostrák', image: 'https://geissblog.koeln/wp-content/uploads/2025/01/carstensen_leihe.webp', link: './ostrak' },
+    { name: 'Chris Durkin', image: 'https://s3.amazonaws.com/assets.thisisasn.com/production/attacheds/13170/original/Chris_Durkin_-_ASN_TOP_-_ISI_-_2019_U-20_WC_vs_Ecuador_-_Adam_Nurkiewicz.jpg?1569464355', link: './durkin' },
+    { name: 'Marcel Hartel', image: 'https://cdn.prod.www.11freunde.de/images/b5d24b92-98da-4fc7-b44f-58c371297bb0_w1200_r1_fpx52_fpy50.jpg', link: './hartel' },
   ];
 
   return (
@@ -80,7 +80,7 @@ const StLouisCitySC = () => {
             <li><strong>Stadium:</strong> CITYPARK, St. Louis, Missouri</li>
             <li><strong>Capacity:</strong> 22,500</li>
             <li><strong>Owner:</strong> St. Louis CITY SC</li>
-            <li><strong>Head Coach:</strong> Bradley Carnell</li>
+            <li><strong>Head Coach:</strong> Olof Mellberg</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>
@@ -89,10 +89,10 @@ const StLouisCitySC = () => {
         <div className='text-[#020617] mb-8'>
           <h2 className='text-2xl font-semibold mb-2'>A New Era in St. Louis Soccer</h2>
           <p>
-            St. Louis City SC is the newest addition to Major League Soccer, having joined the league in 2023. With a state-of-the-art stadium in **CITYPARK** and a passionate fan base, the team is setting the stage for an exciting new chapter in MLS.
+            St. Louis City SC is the newest addition to Major League Soccer, having joined the league in 2023. With a state-of-the-art stadium in CITYPARK and a passionate fan base, the team is setting the stage for an exciting new chapter in MLS.
           </p>
           <p>
-            Known for its attacking style of play and a strong commitment to local talent, St. Louis City SC is ready to make a mark on the league. With players like **Jared Stroud**, **Indiana Vassilev**, and **Klaus**, the team is poised for success as they embark on their inaugural season.
+            Known for its attacking style of play and a strong commitment to local talent, St. Louis City SC is ready to make a mark on the league. With players like Jared Stroud, Indiana Vassilev, and Klaus, the team is poised for success as they embark on their inaugural season.
           </p>
         </div>
 

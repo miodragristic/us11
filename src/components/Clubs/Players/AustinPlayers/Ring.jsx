@@ -18,16 +18,16 @@ const AlexRing = () => {
         {/* Alex Ring Image and Bio Section */}
         <div className='mb-6'>
           <img 
-            src='https://www.sportti.com/kuvapankki2014/alexander_ring_austin.jpg' 
+            src='https://wallpapers.com/images/hd/austin-fc-midfielder-alexander-ring-ujchcirnu7ajtdke.jpg' 
             alt='Alex Ring' 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>
         <div className="mt-2 text-center text-sm text-gray-500">
-          <p>Creator: C. Morgan Engel 
+          {/* <p>Creator: C. Morgan Engel 
 | 
 Credit: Getty Images
-Copyright: 2021 C. Morgan Engel</p>
+Copyright: 2021 C. Morgan Engel</p> */}
         </div>
 
         <div className='text-[#020617] mb-8'>

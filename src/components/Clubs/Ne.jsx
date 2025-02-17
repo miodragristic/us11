@@ -6,8 +6,8 @@ const TrendingPlayers = () => {
   const players = [
     { name: 'Leonardo Campana', image: 'https://cdn1.intermiami.news/uploads/52/2024/06/GettyImages-2155044985-1140x776.jpg', link: './Campana' },
     { name: 'Carles Gil', image: 'https://lastwordonsports.com/soccer/wp-content/uploads/sites/14/2022/09/carles.jpg', link: './gil' },
-    { name: 'Luca Langoni ', image: 'https://cdn1.intermiami.news/uploads/52/2024/09/GettyImages-2172110695-1024x685.jpg', link: './AdamBuksa' },
-    { name: 'Matt Polster', image: 'https://lastwordonsports.com/soccer/wp-content/uploads/sites/14/2022/04/New-England-Revolution-midfielder-Matt-Polster-gets-past.jpg', link: './MattTurner' },
+    { name: 'Luca Langoni ', image: 'https://cdn1.intermiami.news/uploads/52/2024/09/GettyImages-2172110695-1024x685.jpg', link: './langoni' },
+    { name: 'Matt Polster', image: 'https://lastwordonsports.com/soccer/wp-content/uploads/sites/14/2022/04/New-England-Revolution-midfielder-Matt-Polster-gets-past.jpg', link: './polster' },
   ];
 
   return (
@@ -92,10 +92,7 @@ const NewEnglandRevolution = () => {
             New England Revolution is one of the founding teams of Major League Soccer, established in 1996. The team has a rich history and is well-known for its passionate fanbase and competitive spirit.
           </p>
           <p>
-            Playing at the iconic **Gillette Stadium**, the Revolution have a tradition of fighting hard for every point. Under the guidance of **Bruce Arena**, the team has consistently been one of the top contenders in the league.
-          </p>
-          <p>
-            With key players like **Carles Gil**, **Gustavo Bou**, and **Matt Turner**, the Revolution continue to be a force in the MLS, aiming for more silverware and a future MLS Cup victory.
+            Playing at the iconic Gillette Stadium, the Revolution have a tradition of fighting hard for every point. Under the guidance of Bruce Arena, the team has consistently been one of the top contenders in the league.
           </p>
         </div>
 

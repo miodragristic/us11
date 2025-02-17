@@ -80,7 +80,7 @@ const ChicagoFire = () => {
             <li><strong>Stadium:</strong> Soldier Field, Chicago, Illinois</li>
             <li><strong>Capacity:</strong> 61,500</li>
             <li><strong>Owner:</strong> Joe Mansueto</li>
-            <li><strong>Head Coach:</strong> Frank Klopas</li>
+            <li><strong>Head Coach:</strong> Gregg Berhalter</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

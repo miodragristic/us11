@@ -77,7 +77,7 @@ const Atlanta = () => {
             <li><strong>Stadium:</strong> Mercedes-Benz Stadium, Atlanta, Georgia</li>
             <li><strong>Capacity:</strong> 73,000</li>
             <li><strong>Owners:</strong> Arthur Blank</li>
-            <li><strong>Head Coach:</strong> Gonzalo Pineda</li>
+            <li><strong>Head Coach:</strong> Ronny Deila</li>
           </ul>
         </div>
 

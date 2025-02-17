@@ -20,6 +20,7 @@ const DenisBouanga = () => {
           <img 
             src='https://cdn1.rangersnews.uk/uploads/24/2023/03/GettyImages-1246857078-1140x760.jpg' 
             alt='Denis Bouanga' 
+            style={{ objectPosition: 'center 20%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>

@@ -4,9 +4,9 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Hirving Lozano', image: 'https://images.supersport.com/media/e2dcgfwj/hirving-lozano-220924-celebrates-g-1050.jpg?width=1920&quality=90&format=webp', link: './HirvingLozano' },
-    { name: 'Marcus Ingvartsen', image: 'https://arnason.synology.me/billedearkiv/billeder/140px/2023/08/20230827_6318/917310_sgf8ym.jpg', link: './MarcusIngvartsen' },
-    { name: 'Paddy McNair', image: 'https://cdn1.rangersnews.uk/uploads/24/2024/05/GettyImages-2137821648-1140x793.jpg', link: './PaddyMcNair' },
+    { name: 'Hirving Lozano', image: 'https://images.supersport.com/media/e2dcgfwj/hirving-lozano-220924-celebrates-g-1050.jpg?width=1920&quality=90&format=webp', link: './lozano' },
+    { name: 'Marcus Ingvartsen', image: 'https://arnason.synology.me/billedearkiv/billeder/140px/2023/08/20230827_6318/917310_sgf8ym.jpg', link: './ingvartsen' },
+    { name: 'Paddy McNair', image: 'https://cdn1.rangersnews.uk/uploads/24/2024/05/GettyImages-2137821648-1140x793.jpg', link: './mcnair' },
   ];
 
 
@@ -77,7 +77,7 @@ const SanDiegoFC = () => {
             <li><strong>Stadium:</strong> Snapdragon Stadium, San Diego, California</li>
             <li><strong>Capacity:</strong> 35,000</li>
             <li><strong>Owner:</strong> Mohamed Mansour</li>
-            <li><strong>Head Coach:</strong> [To Be Announced]</li>
+            <li><strong>Head Coach:</strong> Mikey Varas</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

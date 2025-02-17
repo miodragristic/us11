@@ -4,9 +4,9 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    { name: 'Cristian Espinoza', image: 'https://www.bssnews.net/assets/news_photos/2023/05/07/image-124146-1683436293.jpg', link: './CristianEspinoza' },
-    { name: 'Cristian Arango', image: 'https://images.supersport.com/media/30sd15ex/cristian-arango-1200g.jpg?width=1920&quality=90&format=webp', link: './JeremyEbobisse' },
-    { name: 'Carlos Gruezo', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfrAixITzt_8NqTyu6Ya42MbQGtaqqyO40sg&s', link: './JacksonYueill' },
+    { name: 'Cristian Espinoza', image: 'https://www.bssnews.net/assets/news_photos/2023/05/07/image-124146-1683436293.jpg', link: './espinoza' },
+    { name: 'Cristian Arango', image: 'https://images.supersport.com/media/30sd15ex/cristian-arango-1200g.jpg?width=1920&quality=90&format=webp', link: './arango' },
+    { name: 'Carlos Gruezo', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfrAixITzt_8NqTyu6Ya42MbQGtaqqyO40sg&s', link: './gruezo' },
     // { name: 'Amahl Pellegrino', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-sje/wwkldep6icahfxxj2bzs.jpg', link: './TannerBeason' },
   ];
 
@@ -80,7 +80,7 @@ const SanJoseEarthquakes = () => {
             <li><strong>Stadium:</strong> PayPal Park, San Jose, California</li>
             <li><strong>Capacity:</strong> 18,000</li>
             <li><strong>Owner:</strong> Earthquakes Soccer, LLC</li>
-            <li><strong>Head Coach:</strong> Luchi González</li>
+            <li><strong>Head Coach:</strong> Bruce Arena</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>
@@ -92,7 +92,7 @@ const SanJoseEarthquakes = () => {
             Founded in 1994, San Jose Earthquakes is one of Major League Soccer's most iconic teams, boasting a passionate fanbase in the heart of Silicon Valley. Known for their fast-paced, attacking style of play, the Quakes are always a team to watch.
           </p>
           <p>
-            With a home at PayPal Park, the club has grown both on and off the field, building a strong squad with players like **Cristian Espinoza**, **Jeremy Ebobisse**, and **Jackson Yueill**. The Quakes are committed to competing for MLS championships and continuing their proud tradition in the league.
+            With a home at PayPal Park, the club has grown both on and off the field, building a strong squad with players like Cristian Espinoza, Jeremy Ebobisse, and Jackson Yueill. The Quakes are committed to competing for MLS championships and continuing their proud tradition in the league.
           </p>
         </div>
 

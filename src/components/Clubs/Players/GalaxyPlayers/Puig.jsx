@@ -20,6 +20,7 @@ const RiquiPuig = () => {
           <img 
             src='https://cdn1.lagalaxy.news/uploads/54/2023/08/GettyImages-1499684145-1920x1280.jpg' 
             alt='Riqui Puig' 
+            style={{ objectPosition: 'center 30%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>
