@@ -66,7 +66,7 @@ const Imga = () => {
                     </div>
                     {/* "Buy on Amazon" Button */}
                     <div className='mt-4 text-center'>
-                        <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://amzn.to/3QtvVIP" target="_blank" rel="noopener noreferrer">
                             <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg'>
                                 Buy on Amazon
                             </button>
@@ -105,15 +105,15 @@ const Imga = () => {
                 </p>
                 <ul className='space-y-2'>
                     <li><a href="/messi"><strong>Lionel Messi</strong></a> – 88 OVR, RW, <a href="/inter">Inter Miami CF</a></li>
-                    <li><a href="/suarez"><strong>Olivier Giroud</strong></a> – 83 OVR, ST, <a href="/lafc">LAFC</a></li>
+                    <li><a href="/giroud"><strong>Olivier Giroud</strong></a> – 83 OVR, ST, <a href="/lafc">LAFC</a></li>
                     <li><a href="/suarez"><strong>Luis Suárez</strong></a> – 82 OVR, ST, <a href="/inter">Inter Miami CF</a></li>
-                    <li><a href="/messi"><strong>Luciano Acosta</strong></a> – 81 OVR, CAM, <a href="/cincinnati">FC Cincinnati</a></li>
+                    <li><a href="/acosta"><strong>Luciano Acosta</strong></a> – 81 OVR, CAM, <a href="/cincinnati">FC Cincinnati</a></li>
                     <li><a href="/busquets"><strong>Sergio Busquets</strong></a> – 81 OVR, CDM, <a href="/inter">Inter Miami CF</a></li>
-                    <li><a href="/messi"><strong>Marco Reus</strong></a> – 81 OVR, ST, <a href="/lagalaxy">LA Galaxy</a></li>
-                    <li><a href="/messi"><strong>Jordi Alba</strong></a> – 80 OVR, LB, <a href="/inter">Inter Miami CF</a></li>
-                    <li><a href="/suarez"><strong>Denis Bouanga</strong></a> – 80 OVR, LW, <a href="/lafc">LAFC</a></li>
-                    <li><a href="/suarez"><strong>Emil Forsberg</strong></a> – 79 OVR, CAM, <a href="/nyrb">Red Bulls</a></li>
-                    <li><a href="/messi"><strong>Carles Gil</strong></a> – 79 OVR, CAM, <a href="/ne">New England Revolution</a></li>
+                    <li><a href="/reus"><strong>Marco Reus</strong></a> – 81 OVR, ST, <a href="/lagalaxy">LA Galaxy</a></li>
+                    <li><a href="/alba"><strong>Jordi Alba</strong></a> – 80 OVR, LB, <a href="/inter">Inter Miami CF</a></li>
+                    <li><a href="/bounga"><strong>Denis Bouanga</strong></a> – 80 OVR, LW, <a href="/lafc">LAFC</a></li>
+                    <li><a href="/forsberg"><strong>Emil Forsberg</strong></a> – 79 OVR, CAM, <a href="/nyrb">Red Bulls</a></li>
+                    <li><a href="/gil"><strong>Carles Gil</strong></a> – 79 OVR, CAM, <a href="/ne">New England Revolution</a></li>
                 </ul>
 
                 {/* U.S. National Team */}
@@ -134,47 +134,18 @@ These USMNT players are sure to feature in plenty of Ultimate Team starter squad
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
                     {/* Sample product 1 */}
                     <div className='bg-white p-6 border rounded-lg shadow-md'>
-                        <img src='https://m.media-amazon.com/images/I/81mm+VudgaL._AC_UY327_FMwebp_QL65_.jpg' alt='EA SPORTS FC 25 - PlayStation 5' className='w-full h-[200px] object-cover mb-4' />
-                        <h3 className='text-xl font-semibold text-[#020617] mb-2'>EA SPORTS FC 25 - PlayStation 5</h3>
-                        <p className='text-gray-500'>by Electronic Arts.</p>
-                        <p className='text-xl font-bold text-[#1e40af] mt-4'>$29.99</p>
-                        <button className='bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg mt-4 w-full'>
-                            Buy on Amazon
-                        </button>
-                    </div>
+    <img src='https://m.media-amazon.com/images/I/81mm+VudgaL._AC_UY327_FMwebp_QL65_.jpg' alt='EA SPORTS FC 25 - PlayStation 5' className='w-full h-[200px] object-cover mb-4' />
+    <h3 className='text-xl font-semibold text-[#020617] mb-2'>EA SPORTS FC 25 - PlayStation 5</h3>
+    <p className='text-gray-500'>by Electronic Arts.</p>
+    <p className='text-xl font-bold text-[#1e40af] mt-4'>$29.94</p>
+    <a href='https://amzn.to/3XbuBhI' target='_blank' rel='noopener noreferrer'>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg mt-4 w-full'>
+            Buy on Amazon
+        </button>
+    </a>
+</div>
 
-                    {/* Sample product 2 */}
-                    <div className='bg-white p-6 border rounded-lg shadow-md'>
-                        <img src='https://via.placeholder.com/200x250' alt='Messi Poster' className='w-full h-[200px] object-cover mb-4' />
-                        <h3 className='text-xl font-semibold text-[#020617] mb-2'>Messi Poster</h3>
-                        <p className='text-gray-500'>Limited edition poster of Lionel Messi in action.</p>
-                        <p className='text-xl font-bold text-[#1e40af] mt-4'>$24.99</p>
-                        <button className='bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg mt-4 w-full'>
-                            Add to Cart
-                        </button>
-                    </div>
 
-                    {/* Sample product 3 */}
-                    <div className='bg-white p-6 border rounded-lg shadow-md'>
-                        <img src='https://via.placeholder.com/200x250' alt='Messi Cap' className='w-full h-[200px] object-cover mb-4' />
-                        <h3 className='text-xl font-semibold text-[#020617] mb-2'>Messi Cap</h3>
-                        <p className='text-gray-500'>Stylish cap with Messi's signature embroidered.</p>
-                        <p className='text-xl font-bold text-[#1e40af] mt-4'>$19.99</p>
-                        <button className='bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg mt-4 w-full'>
-                            Add to Cart
-                        </button>
-                    </div>
-
-                    {/* Sample product 4 */}
-                    <div className='bg-white p-6 border rounded-lg shadow-md'>
-                        <img src='https://via.placeholder.com/200x250' alt='Messi Shoes' className='w-full h-[200px] object-cover mb-4' />
-                        <h3 className='text-xl font-semibold text-[#020617] mb-2'>Messi Shoes</h3>
-                        <p className='text-gray-500'>Exclusive Messi footwear, perfect for any fan.</p>
-                        <p className='text-xl font-bold text-[#1e40af] mt-4'>$149.99</p>
-                        <button className='bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg mt-4 w-full'>
-                            Add to Cart
-                        </button>
-                    </div>
                 </div>
             </div>
 
