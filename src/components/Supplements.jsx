@@ -7,13 +7,13 @@ const generateSupplementItems = () => {
       id: 1, 
       title: "Supplements", 
       imageUrl: "https://images.pexels.com/photos/3886066/pexels-photo-3886066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
-      link: "./Preworkout" 
+      link: "https://amzn.to/3XBDhy7"
     },
     { 
       id: 2, 
       title: "Energy Drinks", 
       imageUrl: "https://images.pexels.com/photos/5532676/pexels-photo-5532676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
-      link: "./EnergyDrinks" 
+      link: "https://amzn.to/4i7Zb3G" 
     },
   ];
 };
