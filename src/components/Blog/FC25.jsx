@@ -89,7 +89,7 @@ const Imga = () => {
                     <p>LAFC is another team dominating the MLS in FC25. With Olivier Giroud (83) leading the charge up front and a strong supporting cast including Denis Bouanga (80) and Hugo Lloris (79) in goal, this team is built to compete. LAFC’s balance across attack, midfield, and defense makes them one of the most well-rounded clubs in the game. If you’re looking for a team with depth and versatility, LAFC is a great choice.</p>
 
                     <h3 className='text-2xl font-semibold text-[#020617] mb-4'>3. LA Galaxy</h3>
-                    <p>FC Cincinnati is making waves with an exciting roster led by Luciano Acosta (81). Known for his playmaking ability, Acosta is the heart of this team. Supporting him are Pavel Bucha (74) and Matt Miazga (73), who bring stability to the midfield and defense. Cincinnati’s rise in the MLS is reflected in their strong ratings in FC25, making them a great pick for players looking to dominate with a rising star team.</p>
+                    <p>LA Galaxy remains one of the most well-known clubs in MLS, and their strength in FC25 comes from a mix of experience and youth. Riqui Puig (80) is the key midfield playmaker, while new forward Gabriel Pec (76) adds extra creativity in attack. In defense, Martín Cáceres (74) brings veteran leadership. The biggest addition, however, is Marco Reus, whose technical ability and vision make Galaxy an even more dangerous team. LA Galaxy is a great choice for players who enjoy technical football and controlling the game.</p>
 
                     <h3 className='text-2xl font-semibold text-[#020617] mb-4'>4. FC Cincinnati</h3>
                     <p>FC Cincinnati is making waves with an exciting roster led by Luciano Acosta (81). Known for his playmaking ability, Acosta is the heart of this team. Supporting him are Pavel Bucha (74) and Matt Miazga (73), who bring stability to the midfield and defense. Cincinnati’s rise in the MLS is reflected in their strong ratings in FC25, making them a great pick for players looking to dominate with a rising star team.</p>
@@ -179,3 +179,4 @@ These USMNT players are sure to feature in plenty of Ultimate Team starter squad
 };
 
 export default Imga;
+
