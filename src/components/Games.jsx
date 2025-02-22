@@ -7,13 +7,13 @@ const generateConsoleItems = () => {
       id: 1, 
       title: "Video Games", 
       imageUrl: "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
-      link: "https://www.amazon.com/example-link-ps5" 
+      link: "https://amzn.to/4k7pRTZ" 
     },
     { 
       id: 2, 
       title: "Consoles", 
       imageUrl: "https://images.pexels.com/photos/4523001/pexels-photo-4523001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
-      link: "https://www.amazon.com/example-link-xbox" 
+      link: "https://amzn.to/4ibTMIK" 
     },
   ];
 };
@@ -102,5 +102,7 @@ const Games = () => {
 };
 
 export default Games;
+
+
 
 
