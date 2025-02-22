@@ -48,6 +48,7 @@ const Supplements = () => {
                 </h3>
                 <a 
                   href={item.link} 
+                  target="_blank" 
                   rel='noopener noreferrer' 
                   className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300'>
                   Visit Shop <FaShoppingCart className='inline-block ml-2' />
@@ -110,3 +111,4 @@ const Supplements = () => {
 };
 
 export default Supplements;
+
