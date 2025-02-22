@@ -88,21 +88,21 @@ const HomePage = () => {
         }}
       >
         {/* Left Content */}
-        <div className="flex flex-col justify-center h-400 max-w-[800px] mx-auto p-8 bg-white/60 rounded-lg shadow-md">
-          <h2 className="text-7xl font-bold text-[#020617] sm:text-6xl text-black mb-2">
-            Welcome to US11
-          </h2>
-          <p className="text-black font-bold py-6 max-w-[700px] text-lg leading-relaxed">
-            At US11, we are passionate about bringing you the latest news, insights, and updates from the world of US soccer and Major League Soccer (MLS). Don't forget to visit our shop, where you can find high-quality jerseys at great prices. Show your support for your favorite teams with our official merchandise.
-          </p>
-          <div>
-            <Link to="/shop">
-              <button className="text-white bg-[#020617] group border-2 border-transparent px-6 py-3 my-2 flex items-center hover:bg-transparent hover:border-[#020617] hover:text-[#020617] rounded-lg transition duration-500 ease-in-out transform hover:scale-105">
-                TEAMS
-              </button>
-            </Link>
-          </div>
-        </div>
+<div className="flex flex-col justify-center h-auto max-w-[800px] mx-auto p-4 sm:p-8 bg-white/60 rounded-lg shadow-md">
+  <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#020617] mb-2">
+    Welcome to US11
+  </h2>
+  <p className="text-black font-bold py-4 max-w-[700px] text-base sm:text-lg leading-relaxed">
+    At US11, we are passionate about bringing you the latest news, insights, and updates from the world of US soccer and Major League Soccer (MLS). Don't forget to visit our shop, where you can find high-quality jerseys at great prices. Show your support for your favorite teams with our official merchandise.
+  </p>
+  <div>
+    <Link to="/shop">
+      <button className="text-white bg-[#020617] group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 flex items-center hover:bg-transparent hover:border-[#020617] hover:text-[#020617] rounded-lg transition duration-500 ease-in-out transform hover:scale-105">
+        TEAMS
+      </button>
+    </Link>
+  </div>
+</div>
 
         {/* Right Image */}
         <div className="hidden md:flex md:items-center md:ml-8">
