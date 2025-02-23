@@ -87,7 +87,7 @@ const HomePage = () => {
           opacity: 0.9
         }}
       >
-        {/* Left Content */}
+ {/* Left Content */}
 <div className="flex flex-col justify-center h-auto max-w-[800px] mx-auto p-4 sm:p-8 bg-white/60 rounded-lg shadow-md">
   <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#020617] mb-2">
     Welcome to US11
@@ -98,28 +98,46 @@ const HomePage = () => {
   <div>
     <Link to="/shop">
       <button className="text-white bg-[#020617] group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 flex items-center hover:bg-transparent hover:border-[#020617] hover:text-[#020617] rounded-lg transition duration-500 ease-in-out transform hover:scale-105">
-        TEAMS
+      BROWSE TEAMS
       </button>
     </Link>
   </div>
 </div>
 
         {/* Right Image */}
-        <div className="hidden md:flex md:items-center md:ml-8">
-          <a href="/download-page" target="_blank" rel="noopener noreferrer">
-            <img src={Book} alt="MLS Finals" className="w-[340px] h-auto mr-20 mt-20" />
-          </a>
-        </div>
+        <div className="hidden md:flex md:flex-col md:items-center md:ml-8">
+  <a href="/download-page" target="_blank" rel="noopener noreferrer">
+    <img src={Book} alt="MLS Finals" className="w-[340px] h-auto mr-20 mt-20" />
+  </a>
+  <a href="/download-page" target="_blank" rel="noopener noreferrer">
+  <button className="text-black bg-white group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 flex items-center hover:bg-black hover:border-white hover:text-white rounded-lg transition duration-500 ease-in-out transform hover:scale-105 mr-10">
+    DOWNLOAD BOOK
+</button>
+</a>
+</div>
       </div>
 
-      {/* Slider Section */}
+      <div className="flex flex-col items-center ml-8 sm:hidden">
+    <a href="/download-page" target="_blank" rel="noopener noreferrer">
+      <img src={Book} alt="MLS Finals" className="w-[340px] h-auto mr-20 mt-20" />
+    </a>
+    <a href="/download-page" target="_blank" rel="noopener noreferrer">
+      <button className="text-white bg-black group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 flex items-center hover:bg-black hover:border-white hover:text-white rounded-lg transition duration-500 ease-in-out transform hover:scale-105 ml-2">
+        DOWNLOAD BOOK
+      </button>
+    </a>
+  </div>
+
+
+
+      {/* Slider Section mobile */}
       <div className="max-w-[1200px] h-[450px] w-full m-auto py-16 relative group">
         <a href={slides[currentIndex].link} target="_blank" rel="noopener noreferrer">
           <div
             style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-            className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+            className="w-full h-full  bg-center bg-cover duration-500"
           >
-            <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-1/1 bg-black/80 flex flex-col justify-center items-center rounded-lg">
+            <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-1/1 bg-black/80 flex flex-col justify-center items-center ">
               <h2 className="text-white text-2xl font-bold">{slides[currentIndex].title}</h2>
             </div>
           </div>
@@ -224,3 +242,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
