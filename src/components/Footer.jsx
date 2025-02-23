@@ -8,22 +8,22 @@ const Footer = () => {
         <div className='flex justify-between items-center mb-4'>
           <p className='text-sm'>&copy; {new Date().getFullYear()} US11. All rights reserved.</p>
           <div className='flex'>
-            <a href='/' className='text-sm hover:underline mx-2' aria-label='YouTube'>
+            <a href='https://www.youtube.com/@us11fc' className='text-sm hover:underline mx-2' aria-label='YouTube'>
               <FaYoutube size={20} />
             </a>
-            <a href='/' className='text-sm hover:underline mx-2' aria-label='Instagram'>
+            <a href='https://www.instagram.com/us11fc/' className='text-sm hover:underline mx-2' aria-label='Instagram'>
               <FaInstagram size={20} />
             </a>
-            <a href='/' className='text-sm hover:underline mx-2' aria-label='Facebook'>
+            <a href='https://www.facebook.com/profile.php?id=61565465891580' className='text-sm hover:underline mx-2' aria-label='Facebook'>
               <FaFacebook size={20} />
             </a>
-            <a href='/' className='text-sm hover:underline mx-2' aria-label='TikTok'>
+            <a href='https://www.tiktok.com/@us11fc' className='text-sm hover:underline mx-2' aria-label='TikTok'>
               <FaTiktok size={20} />
             </a>
-            <a href='/' className='text-sm hover:underline mx-2' aria-label='Twitter'>
+            <a href='https://x.com/US11FC' className='text-sm hover:underline mx-2' aria-label='Twitter'>
               <FaTwitter size={20} />
             </a>
-            <a href='/' className='text-sm hover:underline mx-2' aria-label='LinkedIn'>
+            <a href='https://www.linkedin.com/company/us11' className='text-sm hover:underline mx-2' aria-label='LinkedIn'>
               <FaLinkedin size={20} />
             </a>
           </div>
@@ -42,3 +42,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
