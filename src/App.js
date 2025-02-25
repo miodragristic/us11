@@ -19,6 +19,7 @@ import Social from './components/Social';
 import Navbar from './components/Navbar';
 import Imga from './components/Blog/Imga';
 import SanDiegoNews from './components/Blog/SanDiegoNews.jsx';
+import SanDiegoFirstWin from './components/Blog/SanDiegoFirstWin.jsx';
 import Mlspast from './components/Blog/Mlspast.jsx';
 import SupplementsSoccer from './components/Blog/SupplementsSoccer.jsx';
 import BeckhamEffect from './components/Blog/BeckhamEffect.jsx';
@@ -201,6 +202,7 @@ const App = () => {
         <Route path="/blog/FC25" element={<FC25 />} />
         <Route path="/blog/inter-miami-global-attraction" element={<Imga />} />
         <Route path="/blog/san-diego-news" element={<SanDiegoNews />} />
+        <Route path="/blog/san-diego-first-win" element={<SanDiegoFirstWin />} />
         <Route path="/blog/supplements-in-soccer" element={<SupplementsSoccer />} />
         <Route path="/blog/mls-past" element={<Mlspast />} />
         <Route path="/blog/beckham-effect" element={<BeckhamEffect />} />
@@ -347,5 +349,6 @@ const App = () => {
 };
 
 export default App;
+
 
 
