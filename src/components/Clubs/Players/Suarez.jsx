@@ -3,27 +3,17 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Suarez = () => {
   const items = [
-    { id: 1, title: "Men's Uruguay National Team Luis Suárez Nike Blue 2022/23 Away Jersey", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Youth Uruguay National Team Luis Suárez Nike Blue 2022/23 Away Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/2', price: '$99.99' },
-    { id: 3, title: "Luis Suárez Uruguay National Team Nike Blue 2022/23 Away Jersey - Autographed", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/3', price: '$499.99' },
-    { id: 4, title: "Luis Suárez Barcelona 2020-21 Home Jersey", imageUrl: 'https://example.com/jersey4.jpg', link: 'https://www.example.com/product/4', price: '$129.99' },
-    { id: 5, title: "Men's Uruguay National Team Luis Suárez 2022/23 Blue Away Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/5', price: '$34.99' },
-    { id: 6, title: "Youth Uruguay National Team Luis Suárez 2022/23 Blue Away Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt2.jpg', link: 'https://www.example.com/product/6', price: '$24.99' },
-    { id: 7, title: "Luis Suárez Uruguay Autographed 2022-23 Away Jersey", imageUrl: 'https://example.com/jersey5.jpg', link: 'https://www.example.com/product/7', price: '$849.99' },
-    { id: 8, title: "Luis Suárez Barcelona Adidas Blue 2020 Home Jersey - Signed", imageUrl: 'https://example.com/jersey6.jpg', link: 'https://www.example.com/product/8', price: '$399.99' },
-    { id: 9, title: "Luis Suárez Barcelona 2020-21 Away Jersey", imageUrl: 'https://example.com/jersey7.jpg', link: 'https://www.example.com/product/9', price: '$109.99' },
-    { id: 10, title: "Luis Suárez Barcelona 2019-2020 Retro Jersey", imageUrl: 'https://example.com/jersey8.jpg', link: 'https://www.example.com/product/10', price: '$119.99' },
-    { id: 11, title: "Luis Suárez Autographed Barcelona 2020-2021 Signed Jersey", imageUrl: 'https://example.com/jersey9.jpg', link: 'https://www.example.com/product/11', price: '$799.99' },
-    { id: 12, title: "Luis Suárez Barcelona Signed 2020-2021 Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/12', price: '$299.99' },
-    { id: 13, title: "Men's Uruguay National Team Luis Suárez 2022/23 Away Jersey - White", imageUrl: 'https://example.com/jersey10.jpg', link: 'https://www.example.com/product/13', price: '$139.99' },
-    { id: 14, title: "Luis Suárez Barcelona Jersey - Limited Edition", imageUrl: 'https://example.com/jersey11.jpg', link: 'https://www.example.com/product/14', price: '$149.99' },
-    { id: 15, title: "Luis Suárez Uruguay Autographed Poster", imageUrl: 'https://example.com/poster1.jpg', link: 'https://www.example.com/product/15', price: '$99.99' },
-    { id: 16, title: "Luis Suárez Uruguay Autographed Soccer Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/16', price: '$549.99' },
-    { id: 17, title: "Luis Suárez Barcelona Soccer Cleats - Signed", imageUrl: 'https://example.com/cleat2.jpg', link: 'https://www.example.com/product/17', price: '$349.99' },
-    { id: 18, title: "Luis Suárez Barcelona Signed Jersey Framed", imageUrl: 'https://example.com/jersey12.jpg', link: 'https://www.example.com/product/18', price: '$1,199.99' },
-    { id: 19, title: "Luis Suárez Signed Barcelona Match Ball", imageUrl: 'https://example.com/ball2.jpg', link: 'https://www.example.com/product/19', price: '$799.99' },
-    { id: 20, title: "Luis Suárez Uruguay National Team Vintage Jersey", imageUrl: 'https://example.com/jersey13.jpg', link: 'https://www.example.com/product/20', price: '$129.99' }
-  ];
+    { id: 1, title: "Lionel Messi, Luis Suarez & Sergio Busquets Inter Miami CF Autographed Fanatics Authentic 2024 adidas MLS Match Soccer Ball", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/lionel-messi-luis-suarez-and-sergio-busquets-inter-miami-cf-autographed-2024-adidas-mls-match-soccer-ball_ss5_p-201638269+u-pgg9ywbjxveinpoyfhyt+v-gslvivlyk9n5ebwioblq.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/4GE2DZ', price: '$5,999.99' },
+    { id: 2, title: "Lionel Messi, Luis Suarez & Sergio Busquets Inter Miami CF Autographed Fanatics Authentic 2023 Black adidas Authentic Jersey - Front Signed", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/lionel-messi-luis-suarez-and-sergio-busquets-inter-miami-cf-autographed-2023-black-adidas-authentic-jersey-front-signed_ss5_p-201638245+u-rgyywqbmr9jpngecyf86+v-pjmdejsdpofollnn72cr.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/N9bXWK', price: '$5,999.99' },
+    { id: 3, title: "Inter Miami CF Luis Suárez Black Team Authentic Player Name & Number Pullover Hoodie", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-luis-su%C3%A1rez-black-inter-miami-cf-team-authentic-player-name-and-number-t-shirt_ss5_p-201191282+u-liwuaxq3cp6bc5xhocqc+v-my1kg55mqc86ona0qjxv.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/yqkWA2', price: '$74.99' },
+    { id: 4, title: "Youth Inter Miami CF Luis Suárez adidas Black 2025 The Fortitude Kit Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/youth-adidas-luis-su%C3%A1rez-black-inter-miami-cf-2025-the-fortitude-kit-replica-player-jersey_ss5_p-202595542+u-z1unqlweypwxasyyjpjl+v-m0yundankywzst5alehh.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/MAbgzK', price: '$114.99' },
+    { id: 5, title: "Men's Inter Miami CF Luis Suarez adidas Black 2025 The Fortitude Kit Replica Player Jersey Men's", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-luis-suarez-black-inter-miami-cf-2025-the-fortitude-kit-replica-player-jersey_ss5_p-202595534+u-uzrf6bpveoidjzydgbjb+v-mjxuin81oxhizcrecdld.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/K0zgmx', price: '$134.99' },
+    { id: 6, title: "Men's Inter Miami CF Luis Suárez Black Team Authentic Player Name & Number T-Shirt", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-luis-su%C3%A1rez-black-inter-miami-cf-team-authentic-player-name-and-number-pullover-hoodie_ss5_p-201194647+u-ren6haanrhtezfpu5ite+v-hkrp1rzgywjgas8tvtsf.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/yqkWA2', price: '$39.99' },
+    // { id: 7, title: "Men's Inter Miami CF Luis Suárez White Team Authentic Player Name & Number T-Shirt", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-luis-su%C3%A1rez-white-inter-miami-cf-team-authentic-player-name-and-number-t-shirt_ss5_p-201229722+u-qzutwuy1p90hyequpmuj+v-2vx5st5whfw9zzpcxjwy.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/mOGNqX', price: '$39.99' },
+    { id: 8, title: "Unisex Inter Miami CF Luis Suárez Black Player Adjustable Hat", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/womens-luis-su%C3%A1rez-white-inter-miami-cf-team-authentic-player-name-and-number-v-neck-t-shirt_ss5_p-201229724+pv-1+u-chipig8gedy7ritespfi+v-ih2aw0tysfgwutjqoqod.jpg?_hv=2&w=900', link: 'http://mlsstore.i8h2.net/qzyV9y', price: '$39.99' },
+    { id: 9, title: "Women's Inter Miami CF Luis Suárez White Team Authentic Player Name & Number V-Neck T-Shirt", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/unisex-luis-su%C3%A1rez-black-inter-miami-cf-player-adjustable-hat_ss5_p-201204704+u-wzf3cmc19u0obl5087iy+v-7x1aafhl3ghn1lqlatfb.jpg?_hv=2&w=340', link: 'http://mlsstore.i8h2.net/qzyV9y', price: '$39.99' }
+];
+
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -73,25 +63,25 @@ Starting his professional career in Uruguay, Suárez later moved to Europe, wher
         </div>
 
         {/* Shop Section */}
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Suárez's Merchandise</h1>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-          {items.map(item => (
-            <div key={item.id} className='group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300'>
-              <div className='relative overflow-hidden bg-gray-200 h-48'>
-                <img src={item.imageUrl} alt={item.title} className='object-contain w-full h-full group-hover:scale-105 transition duration-300' />
-              </div>
-              <div className='p-4'>
-                <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
-                <p className='text-lg font-semibold'>{item.price}</p>
-                <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
-                </a>
+               <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Messi's Merchandise</h1>
+                <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                  {items.map(item => (
+                    <div key={item.id} className='group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300'>
+                      <div className='relative overflow-hidden bg-gray-200 h-64'>
+                        <img src={item.imageUrl} alt={item.title} className='object-contain w-full h-full group-hover:scale-105 transition duration-300' />
+                      </div>
+                      <div className='p-4'>
+                        <h3 className='text-lg font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
+                        <p className='text-sm font-semibold'>{item.price}</p>
+                        <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 cursor-pointer hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
+                          Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
+                        </a>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
   );
 };
 
