@@ -41,22 +41,22 @@ const HomePage = () => {
     { 
       url: 'https://www.mlsstore.com/content/ws/all/0ed240d5-a432-451e-98f9-e7c0dee0e81a__1600X600.jpg',
       title: '2024 MLS Cup Champions',
-      link: 'http://localhost:3000/LAGalaxy'
+      link: 'https://mlsstore.i8h2.net/09PxkL'
     },
     { 
-      url: 'https://www.mlsstore.com/content/ws/all/fc18b2e6-ea2b-40ee-a7c4-5d28339fcd61__1600X491.png',
-      title: 'Inter Miami: 2025 Away Jersey',
-      link: 'http://localhost:3000/Inter'
+      url: 'https://www.mlsstore.com/content/ws/all/ebab9ab3-8f51-451b-a8c4-457f93f1ecf5__1600X492.png',
+      title: 'All Jerseyes',
+      link: 'http://mlsstore.i8h2.net/raX24B'
     },
     { 
       url: 'https://images.topps.com/v3/assets/bltc7206971cb4b2bfc/blt55f6c57a80f8365d/660704c7e838c81f0a60c9e4/24-TOPPS.COM-ARCHIVE-GRAPHICS-NEW_-03.png',
       title: 'Topps Now',
-      link: 'https://www.mlsstore.com/br-500'
+      link: 'https://mlsstore.i8h2.net/197WeB'
     },
     { 
-      url: 'https://www.mlsstore.com/content/ws/all/e1b8bfa0-4b20-43a5-b967-f6d643bac144__800X550.jpg',
-      title: 'Training Gear',
-      link: 'https://www.mlsstore.com/c-14428'
+      url: 'https://www.mlsstore.com/content/ws/all/2273fed5-bd79-4e51-aa30-645f9706e5b9__800X593.png',
+      title: 'Looks For Her',
+      link: 'https://mlsstore.i8h2.net/XmNXyM'
     },
     { 
       url: 'https://i.pinimg.com/736x/96/04/9d/96049d79294a3eb76078b3a21a5d3ea6.jpg',
@@ -242,4 +242,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
 
