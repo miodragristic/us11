@@ -3,11 +3,11 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Mosquera = () => {
   const items = [
-    { id: 1, title: "Atlanta United Edwin Mosquera 2023 Home Jersey", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$89.99' },
-    { id: 2, title: "Edwin Mosquera Signed Atlanta United Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Men's Edwin Mosquera Training Jersey 2023", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/3', price: '$59.99' },
-    { id: 4, title: "Edwin Mosquera Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Edwin Mosquera Signed Atlanta United 2022 Jersey", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/5', price: '$499.99' },
+    // { id: 1, title: "Atlanta United Edwin Mosquera 2023 Home Jersey", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$89.99' },
+    // { id: 2, title: "Edwin Mosquera Signed Atlanta United Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
+    // { id: 3, title: "Men's Edwin Mosquera Training Jersey 2023", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/3', price: '$59.99' },
+    // { id: 4, title: "Edwin Mosquera Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
+    // { id: 5, title: "Edwin Mosquera Signed Atlanta United 2022 Jersey", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/5', price: '$499.99' },
     // Add more items as needed
   ];
 
@@ -56,7 +56,7 @@ Copyright: © 2024 Atlanta United</p>
         </div>
 
         {/* Shop Section */}
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Mosquera's Merchandise</h1>
+        {/* <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Mosquera's Merchandise</h1> */}
         <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           {items.map(item => (
             <div key={item.id} className='group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300'>
@@ -67,7 +67,7 @@ Copyright: © 2024 Atlanta United</p>
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>
