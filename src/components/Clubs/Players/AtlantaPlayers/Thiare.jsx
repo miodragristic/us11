@@ -3,11 +3,11 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Thiare = () => {
   const items = [
-    { id: 1, title: "Atlanta United Jamal Thiaré 2023/24 Home Jersey", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$89.99' },
-    { id: 2, title: "Jamal Thiaré Signed Atlanta United Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Men's Jamal Thiaré 2023/24 Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/3', price: '$59.99' },
-    { id: 4, title: "Jamal Thiaré Signed Atlanta United Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Jamal Thiaré Signed Atlanta United 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/5', price: '$499.99' },
+    { id: 1, title: "Jamal Thiaré", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/jamal-thiar%C3%A9-atlanta-united-fc-autographed-match-used-number-29-red-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202678628+pv-1+u-ttqaiftqv3rlblkjsor9+v-if7ke7vmuhtihcctjrgu.jpg?_hv=2&w=900', link: 'https://mlsstore.i8h2.net/bOVg9m', price: '$299.99' },
+    // { id: 2, title: "Jamal Thiaré Signed Atlanta United Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
+    // { id: 3, title: "Men's Jamal Thiaré 2023/24 Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/3', price: '$59.99' },
+    // { id: 4, title: "Jamal Thiaré Signed Atlanta United Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
+    // { id: 5, title: "Jamal Thiaré Signed Atlanta United 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/5', price: '$499.99' },
     // Add more items as needed
   ];
 
@@ -66,7 +66,7 @@ Credit: Alex Slitz/Atlanta United</p>
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>
@@ -78,3 +78,4 @@ Credit: Alex Slitz/Atlanta United</p>
 };
 
 export default Thiare;
+
