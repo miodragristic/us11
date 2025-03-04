@@ -3,26 +3,16 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Busquets = () => {
   const items = [
-    { id: 1, title: "Men's Spain National Team Sergio Busquets Nike Red 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$119.99' },
-    { id: 2, title: "Men's Barcelona Sergio Busquets Nike Blue 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/2', price: '$129.99' },
-    { id: 3, title: "Sergio Busquets Barcelona Autographed 2022-23 Home Jersey", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/3', price: '$499.99' },
-    { id: 4, title: "Men's Spain National Team Sergio Busquets Nike Red 2022/23 Away Jersey", imageUrl: 'https://example.com/jersey4.jpg', link: 'https://www.example.com/product/4', price: '$129.99' },
-    { id: 5, title: "Sergio Busquets Barcelona Autographed Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/5', price: '$299.99' },
-    { id: 6, title: "Men's Barcelona Sergio Busquets Black 2021/22 Away Jersey", imageUrl: 'https://example.com/jersey5.jpg', link: 'https://www.example.com/product/6', price: '$119.99' },
-    { id: 7, title: "Sergio Busquets Barcelona Signed 2021/22 Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/7', price: '$349.99' },
-    { id: 8, title: "Sergio Busquets Spain 2020 Signed National Team Jersey", imageUrl: 'https://example.com/jersey6.jpg', link: 'https://www.example.com/product/8', price: '$439.99' },
-    { id: 9, title: "Men's Barcelona Sergio Busquets 2022/23 Blue Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/9', price: '$34.99' },
-    { id: 10, title: "Sergio Busquets Barcelona 2020-21 Retro Jersey", imageUrl: 'https://example.com/jersey7.jpg', link: 'https://www.example.com/product/10', price: '$119.99' },
-    { id: 11, title: "Sergio Busquets Signed 2022-23 Barcelona Jersey Framed", imageUrl: 'https://example.com/jersey8.jpg', link: 'https://www.example.com/product/11', price: '$799.99' },
-    { id: 12, title: "Men's Barcelona Sergio Busquets Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt2.jpg', link: 'https://www.example.com/product/12', price: '$29.99' },
-    { id: 13, title: "Sergio Busquets Barcelona Limited Edition Autographed Poster", imageUrl: 'https://example.com/poster1.jpg', link: 'https://www.example.com/product/13', price: '$149.99' },
-    { id: 14, title: "Sergio Busquets Signed Barcelona 2021/22 Jersey", imageUrl: 'https://example.com/jersey9.jpg', link: 'https://www.example.com/product/14', price: '$499.99' },
-    { id: 15, title: "Men's Barcelona Sergio Busquets Blue 2020-21 Away Jersey", imageUrl: 'https://example.com/jersey10.jpg', link: 'https://www.example.com/product/15', price: '$119.99' },
-    { id: 16, title: "Sergio Busquets Signed 2022-23 Barcelona Soccer Ball", imageUrl: 'https://example.com/ball2.jpg', link: 'https://www.example.com/product/16', price: '$349.99' },
-    { id: 17, title: "Men's Spain National Team Sergio Busquets Red 2022/23 Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt3.jpg', link: 'https://www.example.com/product/17', price: '$29.99' },
-    { id: 18, title: "Sergio Busquets Barcelona Signed Match Jersey", imageUrl: 'https://example.com/jersey11.jpg', link: 'https://www.example.com/product/18', price: '$599.99' },
-    { id: 19, title: "Sergio Busquets Spain National Team 2020 Jersey", imageUrl: 'https://example.com/jersey12.jpg', link: 'https://www.example.com/product/19', price: '$109.99' },
-    { id: 20, title: "Sergio Busquets Barcelona Signed Soccer Cleats", imageUrl: 'https://example.com/cleat2.jpg', link: 'https://www.example.com/product/20', price: '$429.99' }
+    { id: 1, title: "Lionel Messi, Luis Suárez & Sergio Busquets Inter Miami CF Autographed Fanatics Authentic 2024 adidas MLS Match Soccer Ball", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/lionel-messi-luis-suarez-and-sergio-busquets-inter-miami-cf-autographed-2024-adidas-mls-match-soccer-ball_ss5_p-201638269+u-pgg9ywbjxveinpoyfhyt+v-gslvivlyk9n5ebwioblq.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/4GE2DZ', price: '$5,999.99', status: 'Almost Gone!' },
+    { id: 2, title: "Lionel Messi, Luis Suárez & Sergio Busquets Inter Miami CF Autographed Fanatics Authentic 2023 Black adidas Authentic Jersey - Front Signed", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/lionel-messi-luis-suarez-and-sergio-busquets-inter-miami-cf-autographed-2023-black-adidas-authentic-jersey-front-signed_ss5_p-201638245+u-rgyywqbmr9jpngecyf86+v-pjmdejsdpofollnn72cr.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/N9bXWK', price: '$5,999.99', status: 'Almost Gone!' },
+    { id: 3, title: "Lionel Messi, Luis Suárez & Sergio Busquets Inter Miami CF Autographed Fanatics Authentic Logo Soccer Ball", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/lionel-messi-luis-suarez-and-sergio-busquets-inter-miami-cf-autographed-logo-soccer-ball_ss5_p-201638270+u-ysemxdertppf5c1ytq1t+v-1qjplhut6j1iowtwss9c.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/YRNKnj', price: '$5,999.99', status: 'Almost Gone!' },
+    { id: 4, title: "Unisex Inter Miami CF Sergio Busquets Pink Player Adjustable Hat", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/unisex-sergio-busquets-pink-inter-miami-cf-player-adjustable-hat_ss5_p-201204727+u-mqd78j7lndgoxgqstppo+v-pynqlkamlhxzj3b2hwf8.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/RGbEmN', price: '$39.99', status: 'Ready To Ship' },
+    { id: 5, title: "Sergio Busquets Inter Miami CF Fanatics Authentic 10.5\" x 13\" #5 Heart Beat Jersey Sublimated Plaque", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/sergio-busquets-inter-miami-cf-105-x-13-number-5-heart-beat-jersey-sublimated-plaque_ss5_p-200409942+u-8ihkv4rrxeyebxpq0bm7+v-1pmldr1r3foliaxnuyqd.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/K0zE4N', price: '$29.99' },
+    { id: 6, title: "Sergio Busquets Inter Miami CF Facsimile Signature Fanatics Authentic Framed 11\" x 14\" Collage", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/sergio-busquets-inter-miami-cf-facsimile-signature-framed-11-x-14-collage_ss5_p-200424888+u-6u1p7qfchj5b4pjgvatc+v-kfg9wvrlv1uldykskbv9.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/2ad7y7', price: '$79.99' },
+    { id: 7, title: "Men's Inter Miami CF Sergio Busquets adidas Black 2025 The Fortitude Kit Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/womens-adidas-sergio-busquets-light-pink-inter-miami-cf-2025-euforia-replica-player-jersey_ss5_p-202840982+u-c3v1fdpm9bonb1w7uwaz+v-5mue0wkpzclshc4njkol.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/jemaQP', price: '$134.99' },
+    { id: 8, title: "Men's Inter Miami CF Sergio Busquets adidas Black 2025 The Fortitude Kit Authentic Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-sergio-busquets-black-inter-miami-cf-2024-la-noche-authentic-player-jersey_ss5_p-201145346+u-tykheedzar5lj5esf9sm+v-uxdir48g5obi39h6jyjx.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/XmNE25', price: '$194.99' },
+    { id: 9, title: "Women's Inter Miami CF Sergio Busquets adidas Light Pink 2025 Euforia Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/womens-adidas-sergio-busquets-pink-inter-miami-cf-2024-2getherness-replica-player-jersey_ss5_p-201145340+u-kxiqzhn4yzwojkxthwll+v-qosii8yjqvo2waxw3261.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/N9bE2O', price: '$134.99' },
+    { id: 10, title: "Youth Inter Miami CF Sergio Busquets adidas Light Pink 2025 Euforia Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/youth-adidas-sergio-busquets-light-pink-inter-miami-cf-2025-euforia-replica-player-jersey_ss5_p-202840983+u-1b2os1shessuvvwdi8hn+v-s7czlxxg4hnwmxum53el.jpg?_hv=2&w=340', link: 'https://www.mlsstore.com/en/inter-miami-cf/youth-inter-miami-cf-sergio-busquets-adidas-light-pink-2025-euforia-replica-player-jersey/t-21259907+p-793380085944102+z-9-2938314684?_ref=p-SRP:m-GRID:i-r5c2:po-17', price: '$114.99' }
   ];
 
   return (
@@ -90,7 +80,7 @@ Busquets’ impact on football history is undeniable, as he remains celebrated a
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>
@@ -102,3 +92,4 @@ Busquets’ impact on football history is undeniable, as he remains celebrated a
 };
 
 export default Busquets;
+
