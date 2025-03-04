@@ -3,27 +3,20 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Alba = () => {
   const items = [
-    { id: 1, title: "Men's Barcelona Jordi Alba Nike Blue 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Men's Spain National Team Jordi Alba Nike Red 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/2', price: '$119.99' },
-    { id: 3, title: "Jordi Alba Barcelona Signed 2022-23 Home Jersey", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/3', price: '$499.99' },
-    { id: 4, title: "Men's Barcelona Jordi Alba Black 2021/22 Away Jersey", imageUrl: 'https://example.com/jersey4.jpg', link: 'https://www.example.com/product/4', price: '$119.99' },
-    { id: 5, title: "Jordi Alba Signed Barcelona Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/5', price: '$299.99' },
-    { id: 6, title: "Men's Spain National Team Jordi Alba Red 2022/23 Away Jersey", imageUrl: 'https://example.com/jersey5.jpg', link: 'https://www.example.com/product/6', price: '$119.99' },
-    { id: 7, title: "Jordi Alba Barcelona Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/7', price: '$349.99' },
-    { id: 8, title: "Jordi Alba Signed Spain 2020 National Team Jersey", imageUrl: 'https://example.com/jersey6.jpg', link: 'https://www.example.com/product/8', price: '$439.99' },
-    { id: 9, title: "Men's Barcelona Jordi Alba 2022/23 Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/9', price: '$34.99' },
-    { id: 10, title: "Jordi Alba Barcelona Retro Jersey 2020-21", imageUrl: 'https://example.com/jersey7.jpg', link: 'https://www.example.com/product/10', price: '$119.99' },
-    { id: 11, title: "Jordi Alba Signed 2022-23 Barcelona Jersey Framed", imageUrl: 'https://example.com/jersey8.jpg', link: 'https://www.example.com/product/11', price: '$799.99' },
-    { id: 12, title: "Men's Barcelona Jordi Alba Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt2.jpg', link: 'https://www.example.com/product/12', price: '$29.99' },
-    { id: 13, title: "Jordi Alba Signed Barcelona 2021/22 Jersey", imageUrl: 'https://example.com/jersey9.jpg', link: 'https://www.example.com/product/13', price: '$499.99' },
-    { id: 14, title: "Jordi Alba Signed Barcelona Soccer Cleats 2021-22", imageUrl: 'https://example.com/cleat2.jpg', link: 'https://www.example.com/product/14', price: '$429.99' },
-    { id: 15, title: "Men's Barcelona Jordi Alba 2020-21 Away Jersey", imageUrl: 'https://example.com/jersey10.jpg', link: 'https://www.example.com/product/15', price: '$119.99' },
-    { id: 16, title: "Jordi Alba Signed Soccer Ball 2022-23", imageUrl: 'https://example.com/ball2.jpg', link: 'https://www.example.com/product/16', price: '$349.99' },
-    { id: 17, title: "Men's Spain National Team Jordi Alba Red 2020/21 Jersey", imageUrl: 'https://example.com/jersey11.jpg', link: 'https://www.example.com/product/17', price: '$109.99' },
-    { id: 18, title: "Jordi Alba Signed 2022-23 Barcelona Match Jersey", imageUrl: 'https://example.com/jersey12.jpg', link: 'https://www.example.com/product/18', price: '$599.99' },
-    { id: 19, title: "Men's Spain National Team Jordi Alba 2020/21 Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt3.jpg', link: 'https://www.example.com/product/19', price: '$29.99' },
-    { id: 20, title: "Jordi Alba Barcelona Signed 2020-21 Jersey", imageUrl: 'https://example.com/jersey13.jpg', link: 'https://www.example.com/product/20', price: '$499.99' }
-  ];
+    { id: 1, title: "Men's Inter Miami CF Jordi Alba adidas Light Pink 2025 Euforia Authentic Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-light-pink-inter-miami-cf-2025-euforia-authentic-player-jersey_ss5_p-202840976+u-9qcrkn9z7kiyypf2qimu+v-zyi6pyougmzvbg81yde8.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/09PzXL', price: '$194.99' },
+    { id: 2, title: "Men's Inter Miami CF Jordi Alba Ramos adidas Black 2025 The Fortitude Kit Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-ramos-black-inter-miami-cf-2025-the-fortitude-kit-replica-player-jersey_ss5_p-202595535+u-qiqkrfwm8il3rmpvrjsq+v-lluk1njoqzyhpqtv19lg.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/jema2b', price: '$134.99' },
+    { id: 3, title: "Men's Inter Miami CF Jordi Alba Ramos adidas Black 2024 La Noche Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-ramos-black-inter-miami-cf-2024-la-noche-replica-player-jersey_ss5_p-201164854+u-mhe7kfuypznav9ziee21+v-z2hqkihwumhne0ploaob.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/55nzxo', price: '$134.99' },
+    { id: 4, title: "Jordi Alba Ramos Inter Miami CF Fanatics Authentic 10.5\" x 13\" Sublimated Player Plaque", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/jordi-alba-ramos-inter-miami-cf-105-x-13-sublimated-player-plaque_ss5_p-200454053+u-ml0eb3na9cdeftvtsove+v-sybpxnj3t8q7zxfwrexh.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/4GEMML', price: '$29.99' },
+    { id: 5, title: "Men's Inter Miami CF Jordi Alba adidas Light Pink 2025 Euforia Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-light-pink-inter-miami-cf-2025-euforia-replica-player-jersey_ss5_p-202840977+u-mxq0doaj2w3qlop19ny3+v-53xzevjfrsougqqouvev.jpg?_hv=2&w=340', link: 'https://www.mlsstore.com/en/inter-miami-cf/mens-inter-miami-cf-jordi-alba-adidas-light-pink-2025-euforia-replica-player-jersey/t-10924463+p-685502089344061+z-9-3847563829?_ref=p-SRP:m-GRID:i-r1c1:po-4', price: '$134.99' },
+    { id: 6, title: "Men's Inter Miami CF Jordi Alba Ramos adidas Black 2023 La Noche Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-ramos-black-inter-miami-cf-2023-la-noche-replica-player-jersey_ss5_p-200496239+u-umteeuqktomncbzaxlq5+v-chxtl31kgtubjbwrm3lg.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/vPVggA', price: '$124.99' },
+    { id: 7, title: "Inter Miami CF Jordi Alba Ramos Signables 2024 Signature Sports Collectible", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/signables-jordi-alba-ramos-inter-miami-cf-2024-signature-sports-collectible_ss5_p-201831675+u-pqg8crep5naolendtrzt+v-9yillmlxypsibqkzcunc.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/BnPYV4', price: '$24.99', status: 'Ready To Ship' },
+    { id: 8, title: "Men's Inter Miami CF Jordi Alba Ramos adidas Pink 2024 2getherness Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-ramos-pink-inter-miami-cf-2024-2getherness-replica-player-jersey_ss5_p-201164850+u-bqyng3vcfdsdbqydjnpb+v-9zm8pdsxgq9i469nvg5d.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/WyNPvn', price: '$134.99' },
+    { id: 9, title: "Men's Inter Miami CF Jordi Alba Ramos adidas Black 2024 La Noche Authentic Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-ramos-black-inter-miami-cf-2024-la-noche-authentic-player-jersey_ss5_p-201164853+u-ncmhlp7hno0gecjuxmlv+v-v9c4ejht65d0jqexcc4y.jpg?_hv=2&w=340', link: 'mlsstore.i8h2.net/09PBML', price: '$194.99' },
+    { id: 10, title: "Men's Inter Miami CF Jordi Alba Ramos adidas Black 2025 The Fortitude Kit Authentic Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-ramos-black-inter-miami-cf-2025-the-fortitude-kit-authentic-player-jersey_ss5_p-202595531+u-oxzo4l3l1r5zq3z9bxi2+v-fmgsx0wxuzmlcfl9ob2z.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/09PBML', price: '$194.99' },
+    { id: 11, title: "Jordi Alba Ramos Inter Miami CF Fanatics Authentic 10.5\" x 13\" Heart Beat Jersey Style #18 Sublimated Plaque", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/jordi-alba-ramos-inter-miami-cf-105-x-13-heart-beat-jersey-style-number-18-sublimated-plaque_ss5_p-200429877+u-gvxomj5e0pllc5xngu80+v-fh0ni73w0uwjjtmiki0u.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/dOGqvy', price: '$29.99' },
+    { id: 12, title: "Women's Inter Miami CF Jordi Alba adidas Light Pink 2025 Euforia Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/womens-adidas-jordi-alba-light-pink-inter-miami-cf-2025-euforia-replica-player-jersey_ss5_p-202840978+u-qqpdejjbzl0jchnychjg+v-wogp3zrw2loyemsuak44.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/N9bYJN', price: '$134.99', status: 'Almost Gone!' },
+    { id: 13, title: "Men's Inter Miami CF Jordi Alba Ramos adidas Pink 2024 2getherness Authentic Player Jersey", imageUrl: 'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-jordi-alba-ramos-pink-inter-miami-cf-2024-2getherness-authentic-player-jersey_ss5_p-201164849+u-4w85pjawdsrltoruga8p+v-o8lzg38iuusrqpcztc9a.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/MAbYVN', price: '$194.99' }
+];
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -81,7 +74,7 @@ In 2023, Alba joined Inter Miami in Major League Soccer, continuing his career a
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>
