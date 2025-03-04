@@ -3,13 +3,16 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Miranchuk = () => {
   const items = [
-    { id: 1, title: "Men's Atlanta Aleksey Miranchuk Nike Blue 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Russia National Team Aleksey Miranchuk Red 2022/23 Home Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/2', price: '$119.99' },
-    { id: 3, title: "Aleksey Miranchuk Atlanta Signed Home Jersey", imageUrl: 'https://example.com/jersey3.jpg', link: 'https://www.example.com/product/3', price: '$499.99' },
-    { id: 4, title: "Men's Atlanta Aleksey Miranchuk Black Away Jersey", imageUrl: 'https://example.com/jersey4.jpg', link: 'https://www.example.com/product/4', price: '$119.99' },
-    { id: 5, title: "Aleksey Miranchuk Signed Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/5', price: '$299.99' },
-    // Add more items as needed
-  ];
+    { id: 1, title: "Men's Atlanta United FC Aleksei Miranchuk adidas Light Blue 2024 The Resurgens Kit Authentic Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-aleksei-miranchuk-light-blue-atlanta-united-fc-2024-the-resurgens-kit-authentic-player-jersey_ss5_p-202850417+u-nhgzmyf0aff3ivdtexwf+v-d53hzgd8ke0ivscu7xc8.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/gOGQ70', price: '$194.99' },
+    { id: 2, title: "Youth Atlanta United FC Aleksei Miranchuk adidas Black 2025 The Connector Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/youth-adidas-aleksei-miranchuk-black-atlanta-united-fc-2025-the-connector-replica-player-jersey_ss5_p-202840161+u-txujvqhztws3kv2so62e+v-6xvuudiwlexiwf8tyhqr.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/BnPY94', price: '$114.99' },
+    { id: 3, title: "Men's Atlanta United FC Aleksei Miranchuk adidas Black 2025 The Connector Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-aleksei-miranchuk-black-atlanta-united-fc-2025-the-connector-replica-player-jersey_ss5_p-202840159+u-1xqlnek5hqkyfqmadmei+v-gbdiidhpnhqgmiwildcu.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/WyNPzn', price: '$134.99' },
+    { id: 4, title: "Men's Atlanta United FC Aleksei Miranchuk adidas Light Blue 2024 The Resurgens Kit Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-aleksei-miranchuk-light-blue-atlanta-united-fc-2024-the-resurgens-kit-replica-player-jersey_ss5_p-202858966+u-af8got9yvvhfv1kbgst9+v-h3iuw2hv6xc75cayingm.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/nXyeva', price: '$134.99' },
+    { id: 5, title: "Men's Atlanta United FC Aleksei Miranchuk adidas Black 2025 The Connector Authentic Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-aleksei-miranchuk-black-atlanta-united-fc-2025-the-connector-authentic-player-jersey_ss5_p-202840158+u-u1qhrpehkecmx0xy9pcj+v-dmosn3zul37rzfkctvjg.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/RGbDdy', price: '$194.99' },
+    { id: 6, title: "Men's Atlanta United FC Aleksei Miranchuk Red Authentic Stack Name & Number T-Shirt", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/mens-aleksei-miranchuk-red-atlanta-united-fc-authentic-stack-name-and-number-t-shirt_ss5_p-202772313+u-mgodjvdbtsdekj2hpohu+v-bsn2zz1ejrnki5jxklul.png?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/yqkx6y', price: '$39.99' },
+    { id: 7, title: "Youth Atlanta United FC Aleksei Miranchuk adidas Light Blue 2024 The Resurgens Kit Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/youth-adidas-aleksei-miranchuk-light-blue-atlanta-united-fc-2024-the-resurgens-kit-replica-player-jersey_ss5_p-202858970+u-ohxvkvlb2qhnjo6ginfo+v-bilajmgpwkmzn22xc7b1.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/7aMB0O', price: '$114.99' },
+    { id: 8, title: "Women's Atlanta United FC Aleksei Miranchuk adidas Black 2025 The Connector Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/womens-adidas-aleksei-miranchuk-black-atlanta-united-fc-2025-the-connector-replica-player-jersey_ss5_p-202840160+u-lkuo8ey9bpz8yvlxiazs+v-4l3ndoipsp3usughy4mq.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/xLZq6O', price: '$134.99' },
+    { id: 9, title: "Women's Atlanta United FC Aleksei Miranchuk adidas Light Blue 2024 The Resurgens Kit Replica Player Jersey", imageUrl: 'https://images.footballfanatics.com/atlanta-united-fc/womens-adidas-aleksei-miranchuk-light-blue-atlanta-united-fc-2024-the-resurgens-kit-replica-player-jersey_ss5_p-202858968+u-hhrrjnyrpvyht29snmav+v-t0q23vfspy1fapupjsci.jpg?_hv=2&w=340', link: 'https://mlsstore.i8h2.net/raX1NB', price: '$134.99' }
+];
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -68,7 +71,7 @@ Copyright: © 2024 Atlanta United</p>
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>
