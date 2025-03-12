@@ -1,0 +1,157 @@
+import React from 'react';
+import AustinPoster from '../../assets/posters/Austinposter.png'; // Preimenuj varijablu za poster
+import { FaShoppingCart } from 'react-icons/fa';
+import { Link } from 'react-router-dom';  // Uvozimo Link za navigaciju unutar aplikacije
+
+const TrendingPlayers = () => {
+  const players = [
+    // { name: 'Sebastián Driussi', image: 'https://cdn1.primerafutbol.com/uploads/18/2025/01/GettyImages-1258342953-1140x760.jpg', link: '/driussi' },
+    { name: 'Alex Ring', image: 'https://wallpapers.com/images/hd/austin-fc-midfielder-alexander-ring-ujchcirnu7ajtdke.jpg', link: '/ring' },
+    { name: 'Ethan Finlay', image: 'https://s.hdnux.com/photos/01/37/10/55/24939376/3/rawImage.jpg', link: '/finlay' },
+    { name: 'Gyasi Zardes', image: 'https://austinmonthly.wppcdn.com/wp-content/uploads/2023/02/ATXFC_20221120_ZardesPortraits_JG108141-1246x700.jpg', link: '/zardes' },
+  ];
+
+  return (
+    <div className='max-w-8xl mx-auto py-8'>
+      <h2 className='text-6xl font-bold text-[#020617] mb-8 text-center'>Trending Players</h2>
+      <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+        {players.map((player) => (
+          <Link 
+            key={player.name} 
+            to={player.link}  // Koristimo Link za navigaciju unutar aplikacije
+            className='group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl'
+          >
+            <img 
+              src={player.image} 
+              alt={player.name} 
+              className='h-64 w-full object-cover mb-4 rounded-lg' 
+              style={{ objectPosition: 'center 2%' }} 
+            />
+            <h3 className='text-lg font-semibold text-center text-[#020617]'>{player.name}</h3>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const Austin = () => {
+  const items =  [
+      { "id": 1, "title": "Men's Austin FC adidas Green 2025 The Heartbeat Kit Authentic Jersey", "price": "$149.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-green-austin-fc-2025-the-heartbeat-kit-authentic-jersey_ss5_p-202644572+u-yquw8dh5zovbn1qhd7ba+v-ao7ebbr8brogqcboxrbf.jpg?_hv=2&w=340" },
+      { "id": 2, "title": "Men's Austin FC adidas Green 2023 Las Voces Kit Replica Jersey", "price": "$19.99 (discounted from $99.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-green-austin-fc-2023-las-voces-kit-replica-jersey_pi5273000_ff_5273007-4a10aeddc255f819c524_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 3, "title": "Men's Austin FC adidas Green 2023 Las Voces Kit Authentic Jersey", "price": "$39.99 (discounted from $159.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-green-austin-fc-2023-las-voces-kit-authentic-jersey_pi5272000_ff_5272915-578f88acd1f46f877c55_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 4, "title": "Men's Austin FC adidas Tan 2024 The Armadillo Kit Replica Jersey", "price": "$69.99 (discounted from $99.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-tan-austin-fc-2024-the-armadillo-kit-replica-jersey_ss5_p-201102328+u-v9qvpl5khtljon9ihrth+v-zd4exxjwhtmmz5l7hvj2.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 5, "title": "Youth Austin FC adidas Green 2025 The Heartbeat Kit Replica Jersey", "price": "$79.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/youth-adidas-green-austin-fc-2025-the-heartbeat-kit-replica-jersey_ss5_p-202649399+u-qi5r35yurserqrc7bz8l+v-rfmm0bleimx7sgeo5ve1.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 6, "title": "Men's Austin FC adidas Green 2025 The Heartbeat Kit Replica Jersey", "price": "$99.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-green-austin-fc-2025-the-heartbeat-kit-replica-jersey_ss5_p-202644702+u-lbguthxsocydpypitrz5+v-m0yuy3407inzwlylnjts.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 7, "title": "Men's Austin FC adidas Green 2025 The Heartbeat Kit Authentic Custom Jersey", "price": "$194.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-green-austin-fc-2025-the-heartbeat-kit-authentic-custom-jersey_ss5_p-202698407+u-mpsperbkfuanjkavt30w+v-lrcjjinusox8tyh3rd5k.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 8, "title": "Men's Austin FC adidas Tan 2024 The Armadillo Kit Authentic Jersey", "price": "$149.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-tan-austin-fc-2024-the-armadillo-kit-authentic-jersey_ss5_p-202652656+u-np5hqdn4jmaspcrl0ifh+v-hkgb2kgzwitkajdtpgxc.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 9, "title": "Women's Austin FC adidas Green 2025 The Heartbeat Kit Replica Jersey", "price": "$99.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/womens-adidas-green-austin-fc-2025-the-heartbeat-kit-replica-jersey_ss5_p-202649342+u-rjfy5frxlk4tdruinzl3+v-dljsnaclybogl3fopzca.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 10, "title": "Men's Austin FC adidas Black 2024 Hispanic Heritage Pre-Match Top", "price": "$19.99 (discounted from $69.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-black-austin-fc-2024-pride-pre-match-top_ss5_p-200838483+u-cbnzvgv4yx37ppgjhfwq+v-lwieuwp3jsbjjsl9tcnb.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 11, "title": "Youth Austin FC adidas Green 2025 The Heartbeat Kit Replica Custom Jersey", "price": "$114.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/youth-adidas-green-austin-fc-2025-the-heartbeat-kit-replica-custom-jersey_ss5_p-202708443+u-sn2ko5qoplfrndj0hvjy+v-1wmnbugyhkwbcqrnbyxw.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 12, "title": "Toddler Austin FC adidas Cream 2024 AEROREADY Team Jersey", "price": "$49.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 13, "title": "Unisex Austin FC Fanatics Black Super Soft Pullover Crew Sweatshirt", "price": "$49.99 (discounted from $99.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/unisex-fanatics-black-austin-fc-super-soft-pullover-crew-sweatshirt_ss5_p-5128893+u-k5ui09wx3knq0eqcvj8r+v-dcx9s9eou9hhjh5iurxx.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 14, "title": "Unisex Austin FC Fanatics Black Elements Super Soft Fleece Pullover Hoodie", "price": "$59.99 (discounted from $109.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/unisex-fanatics-black-austin-fc-elements-super-soft-fleece-pullover-hoodie_ss5_p-5128881+u-krmomeip8lfyos1scavx+v-am8jlxoqaa1qxodfippq.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 15, "title": "Men's Austin FC Fanatics Black Golden Goal T-Shirt", "price": "$39.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-fanatics-black-austin-fc-golden-goal-t-shirt_ss5_p-201747196+u-jevlyvfgfc5jibu7bxe5+v-rwdzjo430esrwbvlwiol.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 16, "title": "Men's Austin FC Fanatics White Long Sleeve T-Shirt", "price": "$29.99 (discounted from $34.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-fanatics-white-austin-fc-long-sleeve-t-shirt_ss5_p-201198293+u-dbuhh2zrpsefmbeppbcw+v-veaagwmv2rz6jz52kuq1.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 17, "title": "Men's Austin FC New Era Green Color Pack 9FORTY A-Frame Adjustable Trucker Hat", "price": "$32.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-new-era-green-austin-fc-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948623+u-u4uhqy6fkfmjpdrddyk0+v-5gbaijc0soztgdd3uygb.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 18, "title": "Austin FC Green 2024 Jersey Hook Scarf", "price": "$34.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 19, "title": "Women's Austin FC adidas Green 2023 Las Voces Kit Replica Jersey", "price": "$34.99 (discounted from $99.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/womens-adidas-green-austin-fc-2023-las-voces-kit-replica-jersey_ss5_p-5273083+u-f9ummuoycyjdidcbm50j+v-xqt2xvcamhppwabx71pl.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 20, "title": "Men's Austin FC Brandon Vazquez adidas Green 2025 The Heartbeat Kit Authentic Player Jersey", "price": "$194.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-brandon-vazquez-green-austin-fc-2025-the-heartbeat-kit-authentic-player-jersey_ss5_p-202840177+u-9ylxn8ntxr0ujs2bk0th+v-yxwdiizvduerx1cw1uto.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 21, "title": "Men's Austin FC New Era Black 9SEVENTY COOLERA Stretch-Snap Adjustable Hat", "price": "$39.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-new-era-black-austin-fc-2025-jersey-hook-9seventy-stretch-snap-hat_ss5_p-202216440+u-a3u54ziwthsiireyofvu+v-dzclip1mbkq8vkgavzbi.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 22, "title": "Men's Austin FC adidas Black Home 2025 The Heartbeat Kit Authentic Shorts", "price": "$59.99", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-black-austin-fc-home-2025-the-heartbeat-kit-authentic-shorts_ss5_p-201672883+u-kunomuy41pgpc8h3y62y+v-d2moujbvgpurqznmynkn.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      { "id": 23, "title": "Men's Austin FC adidas Black 2024 Pride Pre-Match Top", "price": "$19.99 (discounted from $69.99)", "imageUrl": "https://images.footballfanatics.com/austin-fc/mens-adidas-black-austin-fc-2024-pride-pre-match-top_ss5_p-200838483+u-cbnzvgv4yx37ppgjhfwq+v-lwieuwp3jsbjjsl9tcnb.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 24, "title": "Toddler Austin FC Green Charming Dude Top & Short Set", "price": "$44.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 25, "title": "Men's Austin FC Fanatics Black Mid Goal Long Sleeve T-Shirt", "price": "$49.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 26, "title": "Unisex Austin FC Fanatics Gray Elements Super Soft Short Sleeve T-Shirt", "price": "$29.99 (sniženo sa $54.99)", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 27, "title": "Men's Austin FC Fanatics Black Libero Trucker Adjustable Hat", "price": "$29.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 28, "title": "Men's Austin FC Cream '90s Heavyweight Relaxed T-Shirt", "price": "$39.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 29, "title": "Men's Austin FC New Era Black Corduroy Golfer Adjustable Hat", "price": "$38.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" },
+      // { "id": 30, "title": "Men's Austin FC New Era Black 2025 Jersey Hook 9FORTY M-Crown Adjustable Hat", "price": "$34.99", "imageUrl": "https://images.footballfanatics.com/atlanta-united-fc/mens-adidas-black-atlanta-united-fc-2023-the-17s-kit-authentic-jersey_pi5272000_ff_5272914-450677b70abb328ba8e0_full.jpg?_hv=2&w=340", "link": "https://mlsstore.i8h2.net/qzyvXy" }
+  
+  
+  ];
+
+  return (
+    <div className='w-full min-h-screen bg-white pt-[150px]'>
+      <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Austin FC</h1>
+        <div className='mb-6'>
+          <img
+            src={AustinPoster} 
+            alt='Austin FC' 
+            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
+          />
+        </div>
+
+        {/* Add the buttons for "Kupi kartu" and "Pronađi hotel u blizini" */}
+        <div className='flex gap-4 mb-8 justify-center'>
+          <a 
+            href="https://example.com/buy-ticket" 
+            className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
+          >
+            BUY TICKETS
+          </a>
+          <a 
+            href="https://example.com/find-hotel" 
+            className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
+          >
+            HOTELS NEAR THE STADIUM
+          </a>
+        </div>
+
+        {/* Club Information */}
+        <div className='text-[#020617] mb-8'>
+          <h2 className='text-2xl font-semibold mb-2'>Club Information</h2>
+          <ul className='list-disc list-inside'>
+            <li><strong>Full Name:</strong> Austin FC</li>
+            <li><strong>Nickname(s):</strong> The Verde</li>
+            <li><strong>Founded:</strong> 2018</li>
+            <li><strong>Stadium:</strong> Q2 Stadium, Austin, Texas</li>
+            <li><strong>Capacity:</strong> 20,500</li>
+            <li><strong>Owners:</strong> Anthony Precourt</li>
+            <li><strong>Head Coach:</strong> Nico Estévez</li>
+            <li><strong>League:</strong> Major League Soccer</li>
+          </ul>
+        </div>
+
+        {/* Additional Text */}
+        <div className='text-[#020617] mb-8'>
+          <h2 className='text-2xl font-semibold mb-2'>Rising in the Soccer Scene</h2>
+          <p>
+            Austin FC is a professional soccer club based in Austin, Texas, founded in 2018. The club has quickly established itself as a competitive force in Major League Soccer, backed by a passionate local fan base.
+          </p>
+          <p>
+            The team is known for its commitment to community engagement and creating a vibrant matchday experience. With a strong focus on player development, Austin FC aims to build a sustainable soccer culture in the region.
+          </p>
+          <p>
+            As Austin FC continues to grow, the club is poised to make a significant impact in the league and inspire the next generation of soccer players.
+          </p>
+        </div>
+
+        {/* Trending Players Section */}
+        <TrendingPlayers />
+
+        {/* Shop Section */}
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop</h1>
+        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+          {items.map(item => (
+            <div key={item.id} className='group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300'>
+              <div className='relative overflow-hidden bg-gray-200 h-48'>
+                <img src={item.imageUrl} alt={item.title} className='object-contain w-full h-full group-hover:scale-105 transition duration-300' />
+              </div>
+              <div className='p-4'>
+                <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
+                <p className='text-lg font-semibold'>{item.price}</p>
+                <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
+                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Austin;
