@@ -3,11 +3,8 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const ChrisMueller = () => {
   const items = [
-    { id: 1, title: "Chicago Fire Chris Mueller Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Chris Mueller Chicago Fire Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Chicago Fire Chris Mueller Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Chris Mueller Signed Chicago Fire Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Chris Mueller Chicago Fire Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    { id: 1, title: 'Women\'s Chicago Fire Chris Mueller adidas Red 2024 Return To Red Replica Player Jersey', imageUrl: 'https://images.footballfanatics.com/chicago-fire/womens-adidas-chris-mueller-red-chicago-fire-2024-return-to-red-replica-player-jersey_ss5_p-201204813+u-bwd6q10qjbsm5oxns2eq+v-lpqivypecx26i5bf1b7p.jpg?_hv=2&w=400', link: 'https://www.amazon.com/womens-chicago-fire-chris-mueller-2024-replica-jersey', price: '$134.99' },
+    { id: 2, title: 'Men\'s Chicago Fire Chris Mueller adidas Red 2024 Return To Red Replica Player Jersey', imageUrl: 'https://images.footballfanatics.com/chicago-fire/mens-adidas-chris-mueller-red-chicago-fire-2024-return-to-red-replica-player-jersey_ss5_p-201204809+u-yecrwtntz0jmygfcwryl+v-qaacy7cwxaz5mngqhru9.jpg?_hv=2&w=400', link: 'https://www.amazon.com/mens-chicago-fire-chris-mueller-2024-replica-jersey', price: '$134.99' },
   ];
 
   return (

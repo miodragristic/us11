@@ -3,11 +3,11 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const CarlosTeran = () => {
   const items = [
-    { id: 1, title: "Chicago Fire Carlos Teran Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Carlos Teran Chicago Fire Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Chicago Fire Carlos Teran Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Carlos Teran Signed Chicago Fire Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Carlos Teran Chicago Fire Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    { id: 1, title: "Carlos Teran Chicago Fire Autographed Fanatics Authentic Match-Used #4 White Jersey from the 2023 MLS Season", imageUrl: 'https://images.footballfanatics.com/chicago-fire/carlos-teran-chicago-fire-autographed-fanatics-authentic-match-used-number-4-white-jersey-from-the-2023-mls-season_ss5_p-201055427+u-sfaihmeoednm5xuubvak+v-geblg8adzxzzonqtbc3k.jpg?_hv=2&w=400', link: 'https://www.example.com/product/1', price: '$299.99' },
+    // { id: 2, title: "Signed Carlos Teran Chicago Fire Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
+    // { id: 3, title: "Chicago Fire Carlos Teran Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
+    // { id: 4, title: "Carlos Teran Signed Chicago Fire Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
+    // { id: 5, title: "Carlos Teran Chicago Fire Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
   ];
 
   return (
@@ -65,7 +65,7 @@ Credit: Getty Images</p>
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>

@@ -3,12 +3,50 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Finlay = () => {
   const items = [
-    { id: 1, title: "Austin FC Ethan Finlay Green Home Jersey 2023", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Ethan Finlay Austin FC Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Austin FC Ethan Finlay Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Ethan Finlay Signed Austin FC Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Ethan Finlay Austin FC Green Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    {
+      id: 1,
+      title: "Austin FC Ethan Finlay Fanatics Authentic 10.5'' x 13'' Sublimated Player Plaque",
+      price: "$29.99",
+      imageURL: "https://images.footballfanatics.com/austin-fc/ethan-finlay-austin-fc-105-x-13-sublimated-player-plaque_pi4854000_ff_4854060-ab9f7c17c5c6fcadcbb5_full.jpg?_hv=2&w=400https://images.footballfanatics.com/austin-fc/ethan-finlay-austin-fc-105-x-13-sublimated-player-plaque_pi4854000_ff_4854060-ab9f7c17c5c6fcadcbb5_full.jpg?_hv=2&w=900",
+      link: "https://www.mlsstore.com/austin-fc/ethan-finlay-plaque/t-32065343+p-349372865792+z-9-2845824458"
+    },
+    {
+      id: 2,
+      title: "Ethan Finlay Austin FC Autographed Fanatics Authentic Match-Used #13 Mint Jersey from the 2023 MLS Season",
+      price: "$299.99",
+      imageURL: "https://images.footballfanatics.com/austin-fc/ethan-finlay-austin-fc-autographed-match-used-number-13-mint-jersey-from-the-2023-mls-season_ss5_p-200940856+pv-1+u-ee9zbbyikjevnjivbtet+v-wahnpi9vjhsm1r6kmgl5.jpg?_hv=2&w=900",
+      link: "https://www.mlsstore.com/austin-fc/ethan-finlay-mint-jersey-2023/t-32165343+p-572865792+z-9-1096597844"
+    },
+    {
+      id: 3,
+      title: "Ethan Finlay Austin FC Autographed Fanatics Authentic Match-Used #13 Cream adidas Jersey from the 2024 MLS Season - Size S",
+      price: "$299.99",
+      imageURL: "https://images.footballfanatics.com/austin-fc/ethan-finlay-austin-fc-autographed-match-used-number-13-cream-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202678600+u-v6kbefd8hb8gyxtmibzd+v-y9dbnhg3gtwgku3076ik.jpg?_hv=2&w=400",
+      link: "https://www.mlsstore.com/austin-fc/ethan-finlay-cream-jersey-2024/t-32065343+p-9384765792+z-9-384658284"
+    },
+    {
+      id: 4,
+      title: "Ethan Finlay Austin FC Autographed Fanatics Authentic Match-Used #13 Green adidas Jersey from the 2024 MLS Season - Size S",
+      price: "$299.99",
+      imageURL: "https://images.footballfanatics.com/austin-fc/ethan-finlay-austin-fc-autographed-match-used-number-13-green-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202678604+u-nyupvlxdpfverzf9uwi0+v-gceunezwhv4w5bx7spuz.jpg?_hv=2&w=400",
+      link: "https://www.mlsstore.com/austin-fc/ethan-finlay-green-jersey-2024/t-32065343+p-2346582751+z-9-384658284"
+    },
+    {
+      id: 5,
+      title: "Austin FC Autographed Fanatics Authentic Match-Used Soccer Ball from the 2024 MLS Season with 17 Signatures - #2",
+      price: "$299.99",
+      imageURL: "https://images.footballfanatics.com/austin-fc/austin-fc-autographed-match-used-soccer-ball-from-the-2024-mls-season-with-17-signatures-number-2_ss5_p-202749745+u-4tchzqdfa5dbtpxgwgpo+v-oxmk31gqoidzujflowwk.jpg?_hv=2&w=400",
+      link: "https://www.mlsstore.com/austin-fc/autographed-soccer-ball-2024/t-32065343+p-8473627501+z-9-193847293"
+    },
+    {
+      id: 6,
+      title: "Austin FC Autographed Fanatics Authentic Match-Used Soccer Ball from the 2024 MLS Season with 17 Signatures - #1",
+      price: "$299.99",
+      imageURL: "https://images.footballfanatics.com/austin-fc/austin-fc-autographed-match-used-soccer-ball-from-the-2024-mls-season-with-17-signatures-number-1_ss5_p-202749746+pv-1+u-icjboyfgkqvbz3jtahat+v-pbuzmbeivr4pmzsg8ea9.jpg?_hv=2&w=900",
+      link: "https://www.mlsstore.com/austin-fc/autographed-soccer-ball-2024-1/t-32065343+p-9473627501+z-9-193847293"
+    }
   ];
+
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -59,13 +97,13 @@ Copyright: 2024 Getty Images</p>
           {items.map(item => (
             <div key={item.id} className='group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300'>
               <div className='relative overflow-hidden bg-gray-200 h-48'>
-                <img src={item.imageUrl} alt={item.title} className='object-contain w-full h-full group-hover:scale-105 transition duration-300' />
+              <img src={item.imageURL} alt={item.title} className='object-contain w-full h-full group-hover:scale-105 transition duration-300' />
               </div>
               <div className='p-4'>
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>
