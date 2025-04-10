@@ -2,12 +2,68 @@ import React from 'react';
 
 const LuisMuriel = () => {
   const items = [
-    { id: 1, title: "Luis Muriel Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Muriel Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Luis Muriel Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Orlando City Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Luis Muriel Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Women's Orlando City SC Luis Muriel adidas Purple 2024 Legacy Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/womens-adidas-luis-muriel-purple-orlando-city-sc-2024-legacy-kit-replica-player-jersey_ss5_p-202854993+pv-1+u-5oyo75j4jvsihkg2evcr+v-awmamsy8cllbcnprophg.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEOVO4"
+    },
+    {
+      "title": "Youth Orlando City SC Luis Muriel adidas Purple 2025 Perfect Storm Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/youth-adidas-luis-muriel-purple-orlando-city-sc-2025-perfect-storm-replica-player-jersey_ss5_p-202852870+pv-1+u-bnjvb9m2c7hfh0ajtzoa+v-lziytqf6xpeyjxija9wc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/OeO5ON"
+    },
+    {
+      "title": "Men's Orlando City SC Luis Muriel adidas Purple 2025 Perfect Storm Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-luis-muriel-purple-orlando-city-sc-2025-perfect-storm-replica-player-jersey_ss5_p-202852868+pv-1+u-axvll1kxi4astv79ad5w+v-7wqxymborfkllxgqbozo.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/RGZaZg"
+    },
+    {
+      "title": "Women's Orlando City SC Luis Muriel adidas Purple 2024 The Wall Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/womens-adidas-luis-muriel-purple-orlando-city-sc-2024-the-wall-kit-replica-player-jersey_ss5_p-201285400+pv-1+u-ysxpzsb1ff9f1kvzmuxr+v-7qeff6tjukxre2xyzgif.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anx1y"
+    },
+    {
+      "title": "Women's Orlando City SC Luis Muriel adidas Purple 2025 Perfect Storm Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/womens-adidas-luis-muriel-purple-orlando-city-sc-2025-perfect-storm-replica-player-jersey_ss5_p-202852869+pv-1+u-ztwxws0lhbuwgqgotm7z+v-dzodnszytz6y4gvllvaz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAe2A"
+    },
+    {
+      "title": "Men's Orlando City SC Luis Muriel adidas Purple 2025 Perfect Storm Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-luis-muriel-purple-orlando-city-sc-2025-perfect-storm-authentic-player-jersey_ss5_p-202852867+pv-1+u-tdrihj1rlxqm6r0idfnc+v-pkqvqhriko6isqygm2we.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55yL1L"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

@@ -3,12 +3,28 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const NemanjaRadoja = () => {
   const items = [
-    { id: 1, title: "Nemanja Radoja Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Nemanja Radoja Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Nemanja Radoja Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Nemanja Radoja Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Nemanja Radoja Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Nemanja Radoja Sporting Kansas City Autographed Fanatics Authentic Match-Used #6 Navy adidas Jersey from the 2024 MLS Season - Size M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/sporting-kansas-city/nemanja-radoja-sporting-kansas-city-autographed-match-used-number-6-navy-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202678685+pv-1+u-0nj3jo2ft9bw748dm2n3+v-48lsdmt27pdkkmutk8yv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/GKOmKE"
+    },
+    {
+      "title": "Nemanja Radoja Sporting Kansas City Autographed Fanatics Authentic Match-Used #6 Blue adidas Jersey from the 2024 MLS Season - Size M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/sporting-kansas-city/nemanja-radoja-sporting-kansas-city-autographed-match-used-number-6-blue-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202678658+pv-1+u-7rgkykvmwzc3logvvqhu+v-cc7q3hhniyruq3zxtq8x.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Z6LQ6R"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

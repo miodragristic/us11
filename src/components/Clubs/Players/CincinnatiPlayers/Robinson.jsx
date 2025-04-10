@@ -3,12 +3,34 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const MilesRobinson = () => {
   const items = [
-    { id: 1, title: "FC Cincinnati Miles Robinson Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Miles Robinson FC Cincinnati Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "FC Cincinnati Miles Robinson Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Miles Robinson Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Miles Robinson FC Cincinnati Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's FC Cincinnati Miles Robinson adidas Blue 2025 Orange and Blue Legacy Kit Replica Player Jersey",
+      "price": "$134.99",
+      // "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-adidas-miles-robinson-blue-fc-cincinnati-2025-orange-and-blue-legacy-kit-replica-player-jersey_ss5_p-202840876+pv-1+u-3q7n3nsnu983qb91cutb+v-mn0onaojb8h3lbrk0t6g.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXEmrA"
+    },
+    // {
+    //   "title": "Luciano Acosta FC Cincinnati Fanatics Authentic 10.5 x 13 River Jersey Style Number 10 Sublimated Plaque",
+    //   "price": "$29.99",
+    //   "originalPrice": "$29.99",
+    //   "category": "Kids Jerseys",
+    //   "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/luciano-acosta-fc-cincinnati-105-x-13-river-jersey-style-number-10-sublimated-plaque_ss5_p-200581328+u-d6vsazysushcnngpug7o+v-xtuv2c7eprhglu1xv8la.jpg?_hv=2&w=400",
+    //   "link": "https://mlsstore.i8h2.net/RGneQa"
+    // },
+    // {
+    //   "title": "Men's FC Cincinnati Luciano Acosta adidas White 2024 The Canvas Kit Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$31.99",
+    //   "category": "Hats",
+    //   "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-adidas-luciano-acosta-white-fc-cincinnati-2024-the-canvas-kit-authentic-player-jersey_ss5_p-201205504+pv-1+u-ybpx25vwfmpufdkjmash+v-nkc0aqflclualvjtc72y.jpg?_hv=2&w=900",
+    //   "link": "https://mlsstore.i8h2.net/gO63xO"
+    // },
+    
+    //   
+    
+  ] ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -68,7 +90,7 @@ Copyright: 2024 Getty Images
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>

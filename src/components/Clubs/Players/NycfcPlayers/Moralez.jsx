@@ -2,12 +2,38 @@ import React from 'react';
 
 const MaxiMoralez = () => {
   const items = [
-    { id: 1, title: "Maxi Moralez Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Maxi Moralez Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Maxi Moralez Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "New York City FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Maxi Moralez Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's New York City FC Maximiliano Moralez adidas Black 2024 24/7 Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-maximiliano-moralez-black-new-york-city-fc-2024-24/7-kit-replica-player-jersey_ss5_p-202850849+pv-1+u-k9bi8vsqlmu2bwozwc7e+v-tepebkfeodcxhfcc3mhr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/N9RorV"
+    },
+    {
+      "title": "Women's New York City FC Maximiliano Moralez adidas Black 2024 24/7 Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/womens-adidas-maximiliano-moralez-black-new-york-city-fc-2024-24/7-kit-replica-player-jersey_ss5_p-202850850+pv-1+u-mtbiml5o8bofjhcmwm6x+v-cafbtlugtarq3l65cvwn.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrX71"
+    },
+    {
+      "title": "Men's New York City FC Maximiliano Moralez adidas Black 2024 24/7 Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-maximiliano-moralez-black-new-york-city-fc-2024-24/7-kit-authentic-player-jersey_ss5_p-202850848+pv-1+u-zrijgk4wq8o1ebvjexfy+v-kcinn0dfuujj5owxxg7j.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APnk9o"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

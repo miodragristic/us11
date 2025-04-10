@@ -2,11 +2,26 @@ import React from 'react';
 
 const LeonardoCampana = () => {
   const items = [
-    { id: 1, title: "Leonardo Campana Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Leonardo Campana Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Leonardo Campana Poster", imageUrl: 'https://example.com/poster1.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Inter Miami Legacy Kit", imageUrl: 'https://example.com/kit1.jpg', link: 'https://www.example.com/product/4', price: '$89.99' },
-    { id: 5, title: "New England Revolution Scarf", imageUrl: 'https://example.com/scarf1.jpg', link: 'https://www.example.com/product/5', price: '$29.99' },
+    {
+      "title": "Youth New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Custom Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jersey",
+      "shipping": "Ships Free",
+      "availability": "In Stock",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/youth-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-custom-jersey_ss5_p-202709978+pv-1+u-8twemd6gyym1vdeshv7d+v-1are9hxdwjhsp4fb61vn.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/19yyR9"
+    },
+    {
+      "title": "Men's New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Custom Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jersey",
+      "shipping": "Ships Free",
+      "availability": "In Stock",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-custom-jersey_ss5_p-202709913+pv-1+u-2sjbokb8lypstx9a5ovq+v-d1ad5dolfhjeu2mvrd7m.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmGGOX"
+    }
   ];
 
   return (

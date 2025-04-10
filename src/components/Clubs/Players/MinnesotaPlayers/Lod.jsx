@@ -3,12 +3,118 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const RobinLod = () => {
   const items = [
-    { id: 1, title: "Robin Lod Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Robin Lod Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Robin Lod Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Robin Lod Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Robin Lod Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's Minnesota United FC Robin Lod adidas Black 2024 Starry Night Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-robin-lod-black-minnesota-united-fc-2024-starry-night-authentic-player-jersey_ss5_p-202867832+pv-1+u-grdtrkcfvsfgn1vpakpw+v-jhy0bddyeito6yaxouzh.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2NX2"
+    },
+    {
+      "title": "Men's Minnesota United FC Robin Lod adidas Blue 2025 CONVERGENCE Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-robin-lod-blue-minnesota-united-fc-2025-convergence-authentic-player-jersey_ss5_p-202841086+pv-1+u-5nb2loa72qznuprxhyz9+v-ujhrrtiaj2avfv2kizfb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOZPo"
+    },
+    {
+      "title": "Women's Minnesota United FC Robin Lod adidas White 2023 The Northern Lights Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/womens-adidas-robin-lod-white-minnesota-united-fc-2023-the-northern-lights-kit-replica-jersey_ss5_p-5350222+pv-1+u-gmqm3lorscquswotql5h+v-zomkwfqqxmroawd0cy30.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOjW1o"
+    },
+    {
+      "title": "Men's Minnesota United FC Robin Lod adidas Blue 2025 CONVERGENCE Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-robin-lod-blue-minnesota-united-fc-2025-convergence-replica-player-jersey_ss5_p-202841087+pv-1+u-jocvqgeynbieswo7fdhp+v-7rafghqkx2mnrexo3yrw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnO2XW"
+    },
+    {
+      "title": "Men's Minnesota United FC Robin Lod adidas White 2023 The Northern Lights Kit Authentic Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-robin-lod-white-minnesota-united-fc-2023-the-northern-lights-kit-authentic-jersey_pi5350000_altimages_ff_5350230-4c096e0f5da3bce9a388alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bOPmab"
+    },
+    {
+      "title": "Youth Minnesota United FC Robin Lod adidas Blue 2025 CONVERGENCE Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/youth-adidas-robin-lod-blue-minnesota-united-fc-2025-convergence-replica-player-jersey_ss5_p-202841089+pv-1+u-ki419fhp05eng7wt0x6x+v-r4a1fvbeny6fnog4rnpb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/RGZ65R"
+    },
+    {
+      "title": "Robin Lod Minnesota United FC Autographed Fanatics Authentic Match-Used #17 White adidas Jersey from the 2024 MLS Season - Size M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Memorabilia",
+      "shipping": "Ships Free",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/robin-lod-minnesota-united-fc-autographed-match-used-number-17-white-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202767540+pv-1+u-rhjw5cdkcbhn4sxibrdw+v-uxkkjdkzhk7hoins2ul5.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRby9B"
+    },
+    {
+      "title": "Men's Minnesota United FC Robin Lod adidas White 2023 The Northern Lights Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-robin-lod-white-minnesota-united-fc-2023-the-northern-lights-kit-replica-jersey_ss5_p-5350218+pv-1+u-tfitpc8fxiuhlhxbiz7e+v-olnjthvrtzydcgt8iqrr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrNkR"
+    },
+    {
+      "title": "Women's Minnesota United FC Robin Lod adidas Blue 2025 CONVERGENCE Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-robin-lod-white-minnesota-united-fc-2023-the-northern-lights-kit-replica-jersey_ss5_p-5350218+pv-1+u-tfitpc8fxiuhlhxbiz7e+v-olnjthvrtzydcgt8iqrr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrNkR"
+    },
+    {
+      "title": "Minnesota United FC Robin Lod Fanatics Authentic 10.5\" x 13\" Sublimated Player Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Plaques & Prints",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/womens-adidas-robin-lod-blue-minnesota-united-fc-2025-convergence-replica-player-jersey_ss5_p-202841088+pv-1+u-crptg41w0hupibru01ed+v-siznsvelhv6bqzafyoxx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9o03"
+    },
+    {
+      "title": "Minnesota United FC Robin Lod Fanatics Authentic 10.5\" x 13\" Sublimated Player Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Plaques & Prints",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/robin-lod-minnesota-united-fc-105-x-13-sublimated-player-plaque_pi4163000_ff_4163998-09ef3b99c34062d41c9a_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raL2Q5"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

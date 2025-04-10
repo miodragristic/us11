@@ -3,12 +3,91 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const DjordjeMihailovic = () => {
   const items = [
-    { id: 1, title: "Djordje Mihailovic Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Djordje Mihailovic Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Djordje Mihailovic Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Djordje Mihailovic Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Djordje Mihailovic Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's Colorado Rapids Djordje Mihailovic adidas Green 2025 Headwaters Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "availability": "Almost Gone!",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-djordje-mihailovic-green-colorado-rapids-2025-headwaters-replica-player-jersey_ss5_p-202840258+pv-1+u-9xqfeyurkkbnhdtjpgmn+v-xsmoqukgoym0iraad1hd.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PO4n9R"
+    },
+    {
+      "title": "Men's Colorado Rapids Djordje Mihailovic adidas Light Blue 2024 New Day Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-djordje-mihailovic-light-blue-colorado-rapids-2024-new-day-kit-replica-player-jersey_ss5_p-201204877+pv-1+u-1aezbsc5enx9n3q9ualv+v-7enaboluevzwipomxbk0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/GKG1B2"
+    },
+    {
+      "title": "Women's Colorado Rapids Djordje Mihailovic adidas Light Blue 2024 New Day Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/womens-adidas-djordje-mihailovic-light-blue-colorado-rapids-2024-new-day-kit-replica-player-jersey_ss5_p-201204880+pv-1+u-w9sprntlfbdgngvovfjb+v-j8nju9c1wdt4daod0htn.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Qj4EL6"
+    },
+    {
+      "title": "Men's Colorado Rapids Djordje Mihailovic adidas Burgundy 2024 One Flag Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-djordje-mihailovic-burgundy-colorado-rapids-2024-one-flag-kit-replica-player-jersey_ss5_p-201204862+pv-1+u-aympn8hjjq0vulrahlhh+v-bqc3lgciwbjqkgo3ojrr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOZvXM"
+    },
+    {
+      "title": "Youth Colorado Rapids Djordje Mihailovic adidas Green 2025 Headwaters Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/youth-adidas-djordje-mihailovic-green-colorado-rapids-2025-headwaters-replica-player-jersey_ss5_p-202840260+pv-1+u-ptcj9mdrw2jpz9fdinwr+v-ne3ocdsgnn8culmqprwy.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Dynmb2"
+    },
+    {
+      "title": "Men's Colorado Rapids Djordje Mihailovic adidas Burgundy 2024 One Flag Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-djordje-mihailovic-burgundy-colorado-rapids-2024-one-flag-kit-authentic-player-jersey_ss5_p-201204858+pv-1+u-u3rdbsv7mwescrh0nkh7+v-0qywfliwp960vkafosub.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeZ4nP"
+    },
+    {
+      "title": "Women's Colorado Rapids Djordje Mihailovic adidas Green 2025 Headwaters Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/womens-adidas-djordje-mihailovic-green-colorado-rapids-2025-headwaters-replica-player-jersey_ss5_p-202840259+pv-1+u-nxra2qs5bkb39ckx5kuu+v-h4jr7upviyqcmecm6sni.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/JK4Amq"
+    },
+    {
+      "title": "Women's Colorado Rapids Djordje Mihailovic adidas Burgundy 2024 One Flag Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/womens-adidas-djordje-mihailovic-burgundy-colorado-rapids-2024-one-flag-kit-replica-player-jersey_ss5_p-201204866+u-kz69gganv90jcs01idkq+v-q3qlpcbjpmmpdzkrrcur.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/XmORXX"
+    },
+    {
+      "title": "Men's Colorado Rapids Djordje Mihailovic adidas Light Blue 2024 New Day Kit Authentic Player Jersey",
+      "price": "$99.99",
+      "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Reduced Price",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-djordje-mihailovic-light-blue-colorado-rapids-2024-new-day-kit-authentic-player-jersey_ss5_p-201204874+u-btcnvsyxkgkn0n7lgpbz+v-0benrkouwjc1gnw7gzon.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/zxrv2r"
+    }
+  ]
+  
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -65,7 +144,7 @@ const DjordjeMihailovic = () => {
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>

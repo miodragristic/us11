@@ -3,11 +3,46 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const FrancoFragapane = () => {
   const items = [
-    { id: 1, title: "Franco Fragapane Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Franco Fragapane Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Franco Fragapane Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Franco Fragapane Signed Boots", imageUrl: 'https://example.com/boots1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Franco Fragapane Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    {
+      "title": "Franco Fragapane Minnesota United FC Autographed Fanatics Authentic Match-Used #7 Black adidas Jersey from the 2024 MLS Season - Size M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Memorabilia",
+      "shipping": "Ships Free",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/franco-fragapane-minnesota-united-fc-autographed-match-used-number-7-black-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202767603+pv-1+u-p9ntffuefurcgrc4f747+v-sfzej4vbfz6peenawyau.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXP2Xo"
+    },
+    {
+      "title": "Men's Minnesota United FC Franco Fragapane adidas White 2023 The Northern Lights Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-franco-fragapane-white-minnesota-united-fc-2023-the-northern-lights-kit-replica-jersey_ss5_p-5350216+pv-1+u-agealgz6mnxhitfjlyxv+v-v6bno6qrsdyla3vthw0v.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/N9R69v"
+    },
+    {
+      "title": "Men's Minnesota United FC Franco Fragapane adidas White 2023 The Northern Lights Kit Authentic Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/mens-adidas-franco-fragapane-white-minnesota-united-fc-2023-the-northern-lights-kit-authentic-jersey_ss5_p-5350228+pv-1+u-8lzonahjbcadkvjbdw0t+v-s3nzhkux7pobq7zuol2o.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRbyRm"
+    },
+    {
+      "title": "Women's Minnesota United FC Franco Fragapane adidas White 2023 The Northern Lights Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/minnesota-united-fc/womens-adidas-franco-fragapane-white-minnesota-united-fc-2023-the-northern-lights-kit-replica-jersey_ss5_p-5350220+pv-1+u-84rsfi7crkddy0zgq3pu+v-j0txekdppfnhdoex12pt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anJar"
+    }
   ];
 
   return (

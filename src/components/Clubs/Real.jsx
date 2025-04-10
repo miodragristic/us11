@@ -36,10 +36,128 @@ const TrendingPlayers = () => {
 
 const RealSaltLake = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './RealSaltLakeJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './RealSaltLakeTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './RealSaltLakeMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's Real Salt Lake Sport Design Sweden Tan Everyday Relaxed T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-sport-design-sweden-tan-real-salt-lake-everyday-relaxed-t-shirt_ss5_p-202666802+pv-1+u-azyjmwklvs1cvjn9kfax+v-a827u5bxecllojbnvvfq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLqLR"
+    },
+    {
+      "title": "Men's Real Salt Lake adidas White 2025 Grid City Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-adidas-white-real-salt-lake-2025-grid-city-replica-jersey_ss5_p-202652753+pv-1+u-8dlwbqyh0p4psltoazz6+v-4bmqilmpr9xpyurbmmtm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQGQ0"
+    },
+    {
+      "title": "Men's Real Salt Lake Navy Team Hometown Collection T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-navy-real-salt-lake-team-hometown-collection-t-shirt_pi5281000_altimages_ff_5281746-27fb61085e42b763ba6balt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55yDyN"
+    },
+    {
+      "title": "Youth Real Salt Lake adidas White 2025 Grid City Replica Jersey",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/youth-adidas-white-real-salt-lake-2025-grid-city-replica-jersey_ss5_p-202658591+pv-1+u-sntaiwjfpimjetsyh6lq+v-9mjxeszuprmlrkox0ond.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APn1n7"
+    },
+    {
+      "title": "Men's Real Salt Lake adidas White 2025 Grid City Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-adidas-white-real-salt-lake-2025-grid-city-authentic-jersey_ss5_p-202652675+pv-1+u-5oitbs5xzmklso7nqrux+v-bu12aiyg35lg7sdwoahl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/GKO4OL"
+    },
+    {
+      "title": "Men's Real Salt Lake New Era Gray Color Pack Two-Tone 9FIFTY Snapback Hat",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Hats",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-new-era-gray-real-salt-lake-color-pack-two-tone-9fifty-snapback-hat_ss5_p-201948581+pv-1+u-87zrccpoz4peymf0gruu+v-xiyehqohc9lvebvu7pkp.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/VxAvAE"
+    },
+    {
+      "title": "Men's Real Salt Lake New Era Gray Color Pack 9FORTY A-Frame Adjustable Trucker Hat",
+      "price": "$32.99",
+      "originalPrice": "$32.99",
+      "category": "Hats",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-new-era-gray-real-salt-lake-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948603+pv-1+u-qnar7pqind53ibac11ck+v-r6nyqtkxguza4gdfbf77.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45g5m"
+    },
+    {
+      "title": "Men's Real Salt Lake New Era Navy Color Pack A-Frame 59FIFTY Fitted Hat",
+      "price": "$44.99",
+      "originalPrice": "$44.99",
+      "category": "Hats",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-new-era-navy-real-salt-lake-color-pack-a-frame-59fifty-fitted-hat_ss5_p-201948561+pv-1+u-cew6d64nnuvt0jizu3ho+v-j4cjh248ujtqfanbhuii.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxP5P6"
+    },
+    {
+      "title": "Men's Real Salt Lake New Era Tan Active 9TWENTY Adjustable Hat",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Hats",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens%C2%A0new-era-tan-real-salt-lake-active-9twenty-adjustable-hat_ss5_p-202314650+pv-1+u-poo7a2ewqpbjybylqjoi+v-nqbuxx49pfjm8csoq2ay.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEOgRK"
+    },
+    {
+      "title": "Men's Real Salt Lake Fanatics Black Fundamentals Stealth T-Shirt",
+      "price": "$19.99",
+      "originalPrice": "$29.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "Reduced",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-fanatics-black-real-salt-lake-fundamentals-stealth-t-shirt_ss5_p-201167542+pv-1+u-vhnhopipj7myameky43k+v-xeimaml9rhmn81tghahw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yqjP4W"
+    },
+    {
+      "title": "Anderson Julio Real Salt Lake Autographed Fanatics Authentic Match-Used #29 Gold adidas Jersey from the 2024 MLS Season - Size S",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Men's Jerseys",
+      "shipping": "Almost Gone!",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/anderson-julio-real-salt-lake-autographed-match-used-number-29-red-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202767448+pv-1+u-qukydmjewtxk2uctq9dp+v-epf7wehnj5of8b7tg37r.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXPZgX"
+    },
+    {
+      "title": "Andrew Brody Real Salt Lake Autographed Fanatics Authentic Match-Used #2 Red adidas Jersey from the 2024 MLS Season - Size S",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Men's Jerseys",
+      "shipping": "Almost Gone!",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/andrew-brody-real-salt-lake-autographed-match-used-number-2-gold-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202767454+pv-1+u-p1kalmrz7hazmbrinmcv+v-bezbkue5zc4jqodimtcu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bOPr5k"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

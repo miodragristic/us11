@@ -2,11 +2,16 @@ import React from 'react';
 
 const MonsefBakrar = () => {
   const items = [
-    { id: 1, title: "Monsef Bakrar Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Monsef Bakrar Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Monsef Bakrar Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "New York City FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Monsef Bakrar Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's New York City FC adidas Orange 2022 The Volt Kit Replica Custom Jersey",
+      "price": "$119.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-orange-new-york-city-fc-2022-the-volt-kit-replica-custom-jersey_pi4701000_altimages_ff_4701893-59ca9dc00b2d384098c4alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/K0O21N"
+    }
   ];
 
   return (

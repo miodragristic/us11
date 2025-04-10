@@ -36,10 +36,188 @@ const TrendingPlayers = () => {
 
 const NYCFC = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './NYCFCJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './NYCFCTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './NYCFCMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's New York City FC adidas Light Blue 2025 The Excelsior Kit Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Most Popular in Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-light-blue-new-york-city-fc-2025-the-excelsior-kit-authentic-jersey_ss5_p-202644588+pv-1+u-dwdwunzsltswgzqfljnw+v-vfgmet8vo1v2qb2vvfgi.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yqjEX2"
+    },
+    {
+      "title": "Men's New York City FC Sport Design Sweden Navy Hat Trick Hockey Pullover Hoodie",
+      "price": "$94.99",
+      "originalPrice": "$94.99",
+      "category": "Men's Hoodies",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens%C2%A0sport-design-sweden-navy-new-york-city-fc-hat-trick-hockey-pullover-hoodie_ss5_p-202666869+pv-1+u-hrncblfgjv1ztivqg9gn+v-2gneza6dxjwurvehlymr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzmkay"
+    },
+    {
+      "title": "Youth New York City FC Navy/Light Blue Stalwart Defender T-Shirt",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Youth T-Shirts",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in New York City FC",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-navy/light-blue-new-york-city-fc-stalwart-defender-t-shirt_ss5_p-201875246+pv-1+u-six63vpz3yjfgdmoovzm+v-beg8proaz9c1fqc2sctw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAzMA"
+    },
+    {
+      "title": "Youth New York City FC adidas Light Blue 2025 The Excelsior Kit Replica Jersey",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-adidas-light-blue-new-york-city-fc-2025-the-excelsior-kit-replica-jersey_ss5_p-202649404+pv-1+u-deynuppy95yxksfvefgi+v-jlpdgwzslrptq8e35aep.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOoMY"
+    },
+    {
+      "title": "Men's New York City FC New Era Black 2025 Kickoff 9TWENTY Adjustable Hat",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Men's Hats",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Hats",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-new-era-black-new-york-city-fc-2025-kickoff-9twenty-adjustable-hat_ss5_p-202514201+pv-1+u-gkszmiogbaloo2o378ho+v-0wc0db9nerrlxmakgr1t.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXPjYX"
+    },
+    {
+      "title": "Men's New York City FC adidas Black 2024 24/7 Kit Authentic Jersey",
+      "price": "$159.99",
+      "originalPrice": "$159.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Most Popular in Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-black-new-york-city-fc-2024-24/7-kit-authentic-jersey_ss5_p-201101846+pv-1+u-gp2fdnsj1ov11mdhl2aq+v-fdwq2qata3nhzgljtk8z.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2ayXZQ"
+    },
+    {
+      "title": "Men's New York City FC Heathered Gray Logo T-Shirt",
+      "price": "$17.99",
+      "originalPrice": "$34.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "Most Popular in Men T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-heathered-gray-new-york-city-fc-logo-t-shirt_pi4735000_altimages_ff_4735653-3dba106ee9d1add148f4alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/dOk3Yk"
+    },
+    {
+      "title": "Youth New York City FC Blue Unbeatable Pullover Hoodie",
+      "price": "$54.99",
+      "originalPrice": "$54.99",
+      "category": "Youth Hoodies",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Kids Sweatshirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-blue-new-york-city-fc-unbeatable-pullover-hoodie_ss5_p-201875264+pv-1+u-fhwah8hde3sri4ntctzf+v-kwdkcuvzkyovcftkglcm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRb47j"
+    },
+    {
+      "title": "Men's New York City FC adidas Navy 2025 Travel Pants",
+      "price": "$74.99",
+      "originalPrice": "$74.99",
+      "category": "Men's Pants",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Pants",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-navy-new-york-city-fc-2025-travel-pants_ss5_p-201657351+pv-1+u-3clziyb5zvfhgxdixht2+v-vy5r2txfqqnnfalaunbi.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOo7Y"
+    },
+    {
+      "title": "New York City FC 50\" x 60\" City Spotlight Royal Plush Blanket",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Home & Accessories",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/new-york-city-fc-50-x-60-city-spotlight-royal-plush-blanket_ss5_p-200823153+pv-1+u-mskmsgyp8eflrvhehjaj+v-nqlxeszowjhvrmszs31m.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9Lnx03"
+    },
+    {
+      "title": "Men's New York City FC Navy Team Hometown Collection T-Shirt",
+      "price": "$19.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "Most Popular in Men T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-navy-new-york-city-fc-team-hometown-collection-t-shirt_pi5281000_altimages_ff_5281744-3af26b550435ffd5de42alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9QYd"
+    },
+    {
+      "title": "Men's New York City FC New Era Tan Active 9TWENTY Adjustable Hat",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Men's Hats",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Hats",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens%C2%A0new-era-tan-new-york-city-fc-active-9twenty-adjustable-hat_ss5_p-202314648+pv-1+u-pr90cpmj9biztn9v60x5+v-ewusmgdrdn0vihegebcu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxPXY6"
+    },
+    {
+      "title": "Men's New York City FC adidas Navy 2025 Travel Pullover Hoodie",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Men's Hoodies",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Sweatshirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-navy-new-york-city-fc-2025-travel-pullover-hoodie_ss5_p-201657320+pv-1+u-ss7kiekkcjeg8xmbj0ay+v-hcfgz82m3pnuw3zsvmb0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2ayX4Q"
+    },
+    {
+      "title": "Men's New York City FC New Era Sky Blue/Navy 2025 Jersey Hook 9SEVENTY Stretch-Snap Hat",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's Hats",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-new-era-sky-blue/navy-new-york-city-fc-2025-jersey-hook-9seventy-stretch-snap-hat_ss5_p-202216429+pv-1+u-oclvvajyfemzdkdnbsyl+v-coajzzlva9lo7aoav3bz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQ1Aj"
+    },
+    {
+      "title": "Men's New York City FC adidas Light Blue 2025 Jersey Hook AEROREADY T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Men T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-new-era-sky-blue/navy-new-york-city-fc-2025-jersey-hook-9seventy-stretch-snap-hat_ss5_p-202216429+pv-1+u-oclvvajyfemzdkdnbsyl+v-coajzzlva9lo7aoav3bz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQ1Aj"
+    },
+    {
+      "title": "Men's New York City FC Black Hometown Oversized Pullover Hoodie",
+      "price": "$84.99",
+      "originalPrice": "$84.99",
+      "category": "Men's Hoodies",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Sweatshirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-light-blue-new-york-city-fc-2025-jersey-hook-aeroready-t-shirt_ss5_p-201664631+pv-1+u-p4aczineetfeelanpp8k+v-q5evrcdff5gylykwltlr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2oro"
+    },
+    {
+      "title": "Men's New York City FC Fanatics Sky Blue Free Kick Woven Quarter-Zip Hoodie Jacket",
+      "price": "$89.99",
+      "originalPrice": "$49.99",
+      "category": "Toddler Hoodies",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-fanatics-sky-blue-new-york-city-fc-free-kick-woven-quarter-zip-hoodie-jacket_ss5_p-201747227+pv-1+u-bmjreky7u48wqwbgkmxv+v-rdywxrvi6twmqluaq7n0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLe53"
+    },
+    {
+      "title": "Youth New York City FC adidas Light Blue 2025 The Excelsior Kit Replica Custom Jersey",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Men's T-Shirts",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Men T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-adidas-light-blue-new-york-city-fc-2025-the-excelsior-kit-replica-custom-jersey_ss5_p-202708448+pv-1+u-ctymkjkh5v3w962gu674+v-ew9jn1dxar8613zhewqj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1eJmz"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

@@ -3,12 +3,32 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const DarlingtonNagbe = () => {
   const items = [
-    { id: 1, title: "Darlington Nagbe Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Darlington Nagbe Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Darlington Nagbe Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Darlington Nagbe Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Darlington Nagbe Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's Columbus Crew Darlington Nagbe adidas Black 2025 The Goosebumps Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-darlington-nagbe-black-columbus-crew-2025-the-goosebumps-kit-authentic-player-jersey_ss5_p-202840281+pv-1+u-6r8s5dkpdn3qtxd9leqd+v-aoyfqjpiywekswmncnbp.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/K046XA"
+    },
+    {
+      "title": "Men's Columbus Crew Darlington Nagbe adidas Black 2025 The Goosebumps Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-darlington-nagbe-black-columbus-crew-2025-the-goosebumps-kit-replica-player-jersey_ss5_p-202840282+pv-1+u-yyxrrkfonsw1pelw9dsm+v-gva8aq7cricmkqevdtxs.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6yo6oK"
+    },
+    {
+      "title": "Darlington Nagbe Columbus Crew Fanatics Authentic 2023 MLS Cup Champions 12\" x 15\" Sublimated Plaque",
+      "price": "$37.49",
+      "originalPrice": "$49.99",
+      "category": "Memorabilia",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/darlington-nagbe-columbus-crew-2023-mls-cup-champions-12-x-15-sublimated-plaque_ss5_p-201038015+u-y01ufu7oe1rhvvwi1eak+v-msi13fez7ywcqvh4lzjv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7ao6oA"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

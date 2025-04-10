@@ -3,11 +3,16 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const AndreasMaxso = () => {
   const items = [
-    { id: 1, title: "Andreas Maxso Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Andreas Maxso Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Andreas Maxso Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Andreas Maxso Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Andreas Maxso Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    {
+      "title": "Andreas Maxsø Colorado Rapids Autographed Fanatics Authentic Match-Used #5 Blue adidas Jersey from the 2024 MLS Season - Size L",
+      "price": "$299.99",
+      "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Reduced Price",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/andreas-maxs%C3%B8-colorado-rapids-autographed-match-used-number-5-blue-adidas-jersey-from-the-2024-mls-season-size-l_ss5_p-202678804+u-bcpswxeqhaclb0eullg9+v-wc0ghsqtwfdeyzhtrrov.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/Oe4ZbA"
+    }
   ];
 
   return (

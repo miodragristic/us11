@@ -36,10 +36,198 @@ const TrendingPlayers = () => {
 
 const NashvilleSC = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './NashvilleJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './NashvilleTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './NashvilleMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's Nashville SC Sport Design Sweden Cream Game Day Relaxed T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens%C2%A0sport-design-sweden-cream-nashville-sc-game-day-relaxed-t-shirt_ss5_p-202666745+pv-1+u-26iv086c6rjnzayz1ud8+v-jtyce1awffuhqisfuupp.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/gOqWqA"
+    },
+    {
+      "title": "Men's Nashville SC adidas Black 2023 Man In Black Kit Replica Jersey",
+      "price": "$29.99",
+      "originalPrice": "$99.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Most Popular in Nashville SC",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-adidas-black-nashville-sc-2023-man-in-black-kit-replica-jersey_pi5273000_ff_5273770-9a9ba13f5c9c484b448a_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEOZO2"
+    },
+    {
+      "title": "Men's Nashville SC adidas Black 2023 Man In Black Kit Authentic Jersey",
+      "price": "$62.99",
+      "originalPrice": "$159.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Most Popular in Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-adidas-black-nashville-sc-2023-man-in-black-kit-authentic-jersey_ss5_p-5273531+pv-1+u-089v693lfbum3ur6mgmc+v-x2gmkixtdqjhl0g11ctd.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/N9R6RV"
+    },
+    {
+      "title": "Men's Nashville SC New Era Gray Color Pack 9FORTY A-Frame Adjustable Trucker Hat",
+      "price": "$32.99",
+      "originalPrice": "$32.99",
+      "category": "Hats",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-new-era-gray-nashville-sc-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948620+pv-1+u-5rodw5znbhqfqqd5kqwx+v-l6yl6jbqcwyt1k7u0529.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzm2mY"
+    },
+    {
+      "title": "Youth Nashville SC Outerstuff Navy Stalwart Defender T-Shirt",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Youth T-Shirts",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+            "imageUrl": "https://images.footballfanatics.com/nashville-sc/youth-outerstuff-navy-nashville-sc-stalwart-defender-t-shirt_ss5_p-201875223+pv-1+u-ntclsgkji8ql7imjqoy4+v-notgdzap2pukayimf8si.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjA6Ao"
+    },
+    {
+      "title": "Men's Nashville SC adidas Navy 2025 The Heart Of Nashville Kit Authentic Custom Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Most Popular in Men Jerseys",
+            "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-adidas-navy-nashville-sc-2025-the-heart-of-nashville-kit-authentic-custom-jersey_ss5_p-202709840+pv-1+u-d8cmbrztqxbnujpbkr1p+v-daykbbe5dewxkihagzyb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9o9L"
+    },
+    {
+      "title": "Youth Nashville SC adidas Navy 2025 The Heart of Nashville Kit Replica Custom Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/youth-adidas-navy-nashville-sc-2025-the-heart-of-nashville-kit-replica-custom-jersey_ss5_p-202709977+pv-1+u-zhlhptzouhk3ehc4cffw+v-pwywyzluztvamgbxyq1f.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnO2Ry"
+    },
+    {
+      "title": "Men's Nashville SC Fanatics Black Stealth Flex Hat",
+      "price": "$22.99",
+      "originalPrice": "$29.99",
+      "category": "Hats",
+      "shipping": "Ships Free",
+      "availability": "Most Popular in Hats",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-fanatics-black-nashville-sc-stealth-flex-hat_ss5_p-200211781+pv-1+u-vypytrhgd4i8ciywrutg+v-jjtc4nwm6m3r59tsb30w.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6yngVq"
+    },
+    {
+      "title": "Men's Nashville SC New Era Navy Color Pack A-Frame 59FIFTY Fitted Hat",
+      "price": "$44.99",
+      "originalPrice": "$44.99",
+      "category": "Hats",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-new-era-navy-nashville-sc-color-pack-a-frame-59fifty-fitted-hat_ss5_p-201948540+pv-1+u-engjhadpklaq5ipnfqf9+v-mrjph5lczuz4jb4x5dfx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55y7Kn"
+    },
+    {
+      "title": "Men's Nashville SC Sport Design Sweden Charcoal Everyday Relaxed T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-sport-design-sweden-charcoal-nashville-sc-everyday-relaxed-t-shirt_ss5_p-202666794+pv-1+u-mtxhumlnvmgaztztmbh9+v-wjrjyq4qnycvjzvtbouo.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APnEBR"
+    },
+    {
+      "title": "Women's Nashville SC adidas Yellow 2024 The 615 Kit Replica Jersey",
+      "price": "$49.99",
+      "originalPrice": "$99.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/womens-adidas-yellow-nashville-sc-2024-the-615-kit-replica-jersey_ss5_p-201099312+pv-1+u-ne36fpmfcjjwrz7rlduq+v-o5vvcrhdvkj2euia79v0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Z6LyqR"
+    },
+    {
+      "title": "Men's Nashville SC Sport Design Sweden Navy Hometown T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens%C2%A0sport-design-sweden-navy-nashville-sc-hometown-t-shirt_ss5_p-202666844+pv-1+u-86ip04p2cetjqst0hguo+v-t3cpnqsmlj5nlt27rosz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAGg3"
+    },
+    {
+      "title": "Women's Nashville SC Gameday Couture Gray Tackle Titan Oversized Snow Wash T-Shirt",
+      "price": "$44.99",
+      "originalPrice": "$44.99",
+      "category": "Women T-Shirts",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/womens-gameday-couture-gray-nashville-sc-tackle-titan-oversized-snow-wash-t-shirt_ss5_p-202369955+pv-1+u-umpkvcrziyydxftt6haz+v-v3filp6wkxt3fejlwqul.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/dOk7eQ"
+    },
+    {
+      "title": "Youth Nashville SC Hany Mukhtar adidas Navy 2025 The Heart of Nashville Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/youth-adidas-hany-mukhtar-navy-nashville-sc-2025-the-heart-of-nashville-kit-replica-player-jersey_ss5_p-202842108+pv-1+u-uiwwpcgl8riwrxs58cck+v-muw2fc4hhtfcb4sxpcvz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anJd3"
+    },
+    {
+      "title": "Men's Nashville SC adidas Navy 2025 The Heart of Nashville Kit Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-adidas-navy-nashville-sc-2025-the-heart-of-nashville-kit-replica-jersey_ss5_p-202652749+pv-1+u-2bcrc9sq7far2umsr9fe+v-6urbygrr4zerdyzhzmjv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOkqy"
+    },
+    {
+      "title": "Men's Nashville SC Walker Zimmerman adidas Navy 2025 The Heart of Nashville Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-adidas-walker-zimmerman-navy-nashville-sc-2025-the-heart-of-nashville-kit-replica-player-jersey_ss5_p-202842098+pv-1+u-rrpb3siqbikzvtebvotw+v-zvxygw5saqhx5ptg7lzf.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQO5n"
+    },
+    {
+      "title": "Women's Nashville SC adidas Navy 2025 The Heart of Nashville Kit Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/womens-adidas-navy-nashville-sc-2025-the-heart-of-nashville-kit-replica-jersey_ss5_p-202658097+pv-1+u-kq10ztdciazfy8m7aaty+v-hlvqsbzjgh3v5jjmwp3q.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9okM"
+    },
+    {
+      "title": "Men's Nashville SC adidas Navy 2025 The Heart Of Nashville Kit Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-adidas-navy-nashville-sc-2025-the-heart-of-nashville-kit-authentic-jersey_ss5_p-202652669+pv-1+u-tubrc4uty1sqpacjsbkd+v-d3zk3qn3h7qiewlvzjmr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APnEAR"
+    },
+    {
+      "title": "Men's Nashville SC Hany Mukhtar adidas Navy 2025 The Heart of Nashville Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/nashville-sc/mens-adidas-hany-mukhtar-navy-nashville-sc-2025-the-heart-of-nashville-kit-authentic-player-jersey_ss5_p-202842105+pv-1+u-vjuqsbiaud732i7nbfvb+v-ec3xjacapglkkypdfcyp.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXP2Ax"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

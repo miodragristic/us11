@@ -2,12 +2,18 @@ import React from 'react';
 
 const KamalMiller = () => {
   const items = [
-    { id: 1, title: "Kamal Miller Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Kamal Miller Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Kamal Miller Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Portland Timbers Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Kamal Miller Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Kamal Miller Portland Timbers Autographed Fanatics Authentic Match-Used #4 Tan adidas Jersey from the 2024 MLS Season - Size L",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/kamal-miller-portland-timbers-autographed-match-used-number-4-tan-adidas-jersey-from-the-2024-mls-season-size-l_ss5_p-202767541+pv-1+u-emhkynidzeqrgmeuwcp7+v-z0fnmktw894xmpyqghcp.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOjJ2e"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

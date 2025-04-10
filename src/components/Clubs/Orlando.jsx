@@ -36,10 +36,128 @@ const TrendingPlayers = () => {
 
 const OrlandoCity = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './OrlandoCityJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './OrlandoCityTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './OrlandoCityMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's Orlando City SC adidas Purple 2024 Legacy Kit Replica Jersey",
+      "price": "$49.99",
+      "originalPrice": "$99.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-purple-orlando-city-sc-2024-legacy-kit-replica-jersey_ss5_p-201102333+pv-1+u-zns3ucbkikg9jsefvntv+v-vljcenczpi9onmo8a6g2.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APnajj"
+    },
+    {
+      "title": "Men's Orlando City SC adidas Purple 2025 Perfect Storm Replica Custom Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-purple-orlando-city-sc-2025-perfect-storm-replica-custom-jersey_ss5_p-202708341+pv-1+u-qhrrta7t52fhupl5bvni+v-r5dd7xiuzz89d2modt1y.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/gOqNGr"
+    },
+    {
+      "title": "Men's Orlando City SC adidas Purple 2025 Perfect Storm Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-purple-orlando-city-sc-2025-perfect-storm-authentic-jersey_ss5_p-202644590+pv-1+u-ajiqlzqrc2cnvnd87vba+v-zquxp205qfvsbltc72gy.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAKNP"
+    },
+    {
+      "title": "Men's Orlando City SC New Era White 2025 Jersey Hook 9FORTY M-Crown Adjustable Hat",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Men's Hats",
+      "shipping": "",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-new-era-white-orlando-city-sc-2025-jersey-hook-9forty-m-crown-adjustable-hat_ss5_p-202216485+pv-1+u-l2p3pbd4or6ttgjkw9jf+v-6lrojc6o5hogwpkooxau.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4GyKE9"
+    },
+    {
+      "title": "Men's Orlando City SC New Era Purple Color Pack 9FORTY A-Frame Adjustable Trucker Hat",
+      "price": "$32.99",
+      "originalPrice": "$32.99",
+      "category": "Men's Hats",
+      "shipping": "",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-new-era-purple-orlando-city-sc-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948613+pv-1+u-prv4glmeiligeg7k4irw+v-8mdbgs7qqc7x56wvi1h9.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yqjLkV"
+    },
+    {
+      "title": "Men's Orlando City SC adidas Silver 2025 Training Jersey",
+      "price": "$54.99",
+      "originalPrice": "$54.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens%C2%A0adidas-silver-orlando-city-sc-2025-training-jersey_ss5_p-201662796+pv-1+u-mlv5axhjyzssad8wps6k+v-igkekvpniviznpwshgkt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzmNy5"
+    },
+    {
+      "title": "Men's Orlando City SC adidas Purple 2025 Perfect Storm Authentic Custom Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-purple-orlando-city-sc-2025-perfect-storm-authentic-custom-jersey_ss5_p-202698425+pv-1+u-7ef4xvrbvf71upctucw9+v-tvzizstalxau4hw8zj92.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQ2ye"
+    },
+    {
+      "title": "Men's Orlando City SC Fanatics Heather Gray Low Block Trucker Adjustable Hat",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Men's Hats",
+      "shipping": "",
+      "availability": "Almost Gone! Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-fanatics-heather-gray-orlando-city-sc-low-block-trucker-adjustable-hat_ss5_p-201747543+pv-1+u-ypjowtszyhjlyphsr3to+v-ggqjtcbq1r8xafbyptoj.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1eBEr"
+    },
+    {
+      "title": "Men's Orlando City SC White Americana Patriotic Club T-Shirt",
+      "price": "$17.99",
+      "originalPrice": "$34.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-white-orlando-city-sc-americana-patriotic-club-t-shirt_pi3574000_altimages_ff_3574503-549537ac05ece08ec7dealt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxPqbO"
+    },
+    {
+      "title": "Men's Orlando City SC adidas Purple 2025 Perfect Storm Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-purple-orlando-city-sc-2025-perfect-storm-replica-jersey_ss5_p-202644709+pv-1+u-sig2uwghxdhdd8tqzmzj+v-kfvznfphhqodyknpvpub.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQbjd"
+    },
+    {
+      "title": "Men's Orlando City SC adidas Purple Local Wrap T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens%C2%A0adidas-purple-orlando-city-sc-local-wrap-t-shirt_ss5_p-201664411+pv-1+u-w33mlyfanrexhqgbfawv+v-a9arquhit5gmq0r3tawl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRbonJ"
+    },
+    {
+      "title": "Men's Orlando City SC New Era Tan Active 9TWENTY Adjustable Hat",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Men's Hats",
+      "shipping": "",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens%C2%A0new-era-tan-orlando-city-sc-active-9twenty-adjustable-hat_ss5_p-202314666+pv-1+u-s0c0irvuns0asqmjzjov+v-5yvuo7htcrn2njtvt4j2.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anxOA"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

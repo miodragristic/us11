@@ -2,12 +2,128 @@ import React from 'react';
 
 const DiegoChara = () => {
   const items = [
-    { id: 1, title: "Diego Chará Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Diego Chará Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Diego Chará Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Portland Timbers Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Diego Chará Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's Portland Timbers Diego Chara adidas Green 2025 Forever Green & Gold Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Most Popular in Men Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-diego-chara-green-portland-timbers-2025-forever-green-and-gold-replica-player-jersey_ss5_p-202842193+pv-1+u-do6gzlhmexn9rh9bcuvv+v-g2jjuovvd1mdlwnknvdd.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bOPrV9"
+    },
+    {
+      "title": "Women's Portland Timbers Diego Chara Green Authentic Stack Player Name & Number V-Neck T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Women's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/womens-diego-chara-green-portland-timbers-authentic-stack-player-name-and-number-v-neck-t-shirt_pi3821000_altimages_ff_3821834-be8d28264ab794b01181alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQ9Vd"
+    },
+    {
+      "title": "Women's Portland Timbers Diego Chara adidas Green 2023 Portland Plaid Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/womens-adidas-diego-chara-green-portland-timbers-2023-portland-plaid-kit-replica-jersey_ss5_p-5351109+pv-1+u-60hlzygllx7mgvpyhhzm+v-se5y3hhbdxshaxzhdjn6.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRbvNJ"
+    },
+    {
+      "title": "Women's Portland Timbers Diego Chara adidas Green 2025 Forever Green & Gold Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/womens-adidas-diego-chara-green-portland-timbers-2025-forever-green-and-gold-replica-player-jersey_ss5_p-202842194+pv-1+u-ls3xk1q4rnwnevg1ytjb+v-rry4hnzdjrbayc2oeaxf.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrjZA"
+    },
+    {
+      "title": "Men's Portland Timbers Diego Chara adidas Green 2025 Forever Green & Gold Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-diego-chara-green-portland-timbers-2025-forever-green-and-gold-authentic-player-jersey_ss5_p-202842192+pv-1+u-i8yshgjotfjazarrhqpp+v-nzwkgm8fcc20i588hbbu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO91Mz"
+    },
+    {
+      "title": "Men's Portland Timbers Diego Chara Green Authentic Stack Player Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-diego-chara-green-portland-timbers-authentic-stack-player-name-and-number-t-shirt_pi3821000_altimages_ff_3821809-232a2fe84a267825cafealt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOZen"
+    },
+    {
+      "title": "Men's Portland Timbers Diego Chara Green Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-diego-chara-green-portland-timbers-authentic-stack-name-and-number-t-shirt_ss5_p-202772333+pv-1+u-sgnam59smnbzlmrqwkql+v-vh5rn02y229ros2ky0ed.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO91MN"
+    },
+    {
+      "title": "Men's Portland Timbers Diego Chara White Authentic Stack Player Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-diego-chara-white-portland-timbers-authentic-stack-player-name-and-number-t-shirt_pi3821000_altimages_ff_3821810-e4038814632c9ab9a17aalt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APn131"
+    },
+    {
+      "title": "Men's Portland Timbers Diego Chara adidas Red 2024 Archive Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-diego-chara-red-portland-timbers-2024-archive-replica-jersey_ss5_p-201718929+pv-1+u-zg688isgkb5zp20xnlmz+v-utgv6xkzfvq9mjpjejzl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/gOqe6B"
+    },
+    {
+      "title": "Youth Portland Timbers Diego Chara adidas Green 2025 Forever Green & Gold Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/youth-adidas-diego-chara-green-portland-timbers-2025-forever-green-and-gold-replica-player-jersey_ss5_p-202842195+u-zypoctzcwvkotzyg2jhu+v-dttjqtswkjzsll6wh2n6.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/zxP5bM"
+    },
+    {
+      "title": "Men's Portland Timbers Diego Chara adidas Green 2023 Portland Plaid Kit Authentic Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-diego-chara-green-portland-timbers-2023-portland-plaid-kit-authentic-jersey_pi5351000_altimages_ff_5351117-1b8aaec6dec96f73733dalt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2ayL5O"
+    },
+    {
+      "title": "Men's Portland Timbers Diego Chara Green Authentic Stack Player Name & Number Long Sleeve T-Shirt",
+      "price": "$44.99",
+      "originalPrice": "$44.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-diego-chara-green-portland-timbers-authentic-stack-player-name-and-number-long-sleeve-t-shirt_pi3821000_altimages_ff_3821843-9396cb6d3296dee3ee43alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQ9je"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

@@ -3,12 +3,44 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const DejanJoveljic = () => {
   const items = [
-    { id: 1, title: "Dejan Joveljić Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Dejan Joveljić Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Dejan Joveljić Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Dejan Joveljić Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Dejan Joveljić Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's Sporting Kansas City Dejan Joveljic adidas Light Blue 2025 One KC Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/sporting-kansas-city/mens-adidas-dejan-joveljic-light-blue-sporting-kansas-city-2025-one-kc-replica-player-jersey_ss5_p-202915693+pv-1+u-pmgodtqdbhymdftmyfcg+v-giu91udhj0idivy7r7fx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APnoq7"
+    },
+    {
+      "title": "Men's Sporting Kansas City Dejan Joveljic adidas Navy 2024 Diamonds Our Forever Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Authentic Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/sporting-kansas-city/mens-adidas-dejan-joveljic-navy-sporting-kansas-city-2024-diamonds-our-forever-authentic-player-jersey_ss5_p-202915699+pv-1+u-jdp1zfj4u5dymqgfrbtv+v-dyteeifv2mvakhg1ncwt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOj54D"
+    },
+    {
+      "title": "Youth Sporting Kansas City Dejan Joveljic adidas Light Blue 2025 One KC Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/sporting-kansas-city/youth-adidas-dejan-joveljic-light-blue-sporting-kansas-city-2025-one-kc-replica-player-jersey_ss5_p-202915697+pv-1+u-rspbcx9gd30nssjltxcg+v-j4rvfmblgsyvqixdx3fe.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAyKY"
+    },
+    {
+      "title": "Women's Sporting Kansas City Dejan Joveljic adidas Light Blue 2025 One KC Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/sporting-kansas-city/womens-adidas-dejan-joveljic-light-blue-sporting-kansas-city-2025-one-kc-replica-player-jersey_ss5_p-202915695+pv-1+u-ajuge02ly2prmoq4y8vs+v-zdzblnm2vbmwmk2jk07t.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQr1n"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -18,17 +50,17 @@ const DejanJoveljic = () => {
         {/* Player Image and Bio Section */}
         <div className='mb-6'>
           <img 
-            src='https://sportklub.n1info.rs/wp-content/uploads/2023/05/15/1684130316-Dejan-Joveljic-scaled-e1684130362116-550x360.jpg' 
+            src='https://assets.goal.com/images/v3/getty-2200737353/crop/MM5DEOBRGM5DCNJYGI5G433XMU5DAORRGQ3A====/GettyImages-2200737353.jpg' 
             alt='Dejan Joveljić' 
             style={{ objectPosition: 'center 10%' }} 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
           />
         </div>
         <div className="mb-10 text-center text-sm text-gray-500">
-          <p>Creator: Harry How 
+          <p>Creator: Kyle Rivas 
 | 
 Credit: Getty Images
-Copyright: 2022 Getty Images</p>
+Copyright: 2025 Getty Images</p>
         </div>
 
         <div className='text-[#020617] mb-8'>
@@ -49,10 +81,12 @@ Copyright: 2022 Getty Images</p>
         <div className='text-[#020617] mb-8'>
           <h2 className='text-2xl font-semibold mb-2'>Dejan Joveljić: The Serbian Star in MLS</h2>
           <p>
-            Dejan Joveljić is a talented Serbian striker who has risen through the ranks to become one of the key players for LA Galaxy in Major League Soccer. Known for his clinical finishing, movement off the ball, and ability to score in crucial moments, Joveljić has quickly earned the admiration of fans and teammates alike.
+          Dejan Joveljić is a Serbian striker who has risen through the ranks to become one of the key players in Major League Soccer. Known for his clinical finishing, movement off the ball, and ability to score in crucial moments, Joveljić quickly earned the admiration of fans and teammates alike.
           </p>
           <p>
-            His journey began at Red Star Belgrade, where he showcased his potential before moving to Europe with stints at Eintracht Frankfurt, Anderlecht, and Wolfsberger AC. With LA Galaxy, Joveljić has continued to impress, contributing significantly to the team's attacking prowess.
+          His journey began at Red Star Belgrade, where he showcased his potential before moving to Europe with stints at Eintracht Frankfurt, Anderlecht, and Wolfsberger AC. After his time in Europe, Joveljić made a move to LA Galaxy, where he impressed with his goal-scoring abilities and became a vital part of the team's attack.
+
+However, in 2025, Joveljić made a significant transfer to Sporting Kansas City, bringing his goal-scoring prowess and experience to strengthen their offensive lineup. As he embarks on this new chapter in MLS, he is expected to play a key role in Sporting KC's quest for success in both the league and the CONCACAF Champions League.
           </p>
         </div>
 

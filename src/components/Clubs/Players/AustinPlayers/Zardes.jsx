@@ -3,11 +3,11 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const GyasiZardes = () => {
   const items = [
-    { id: 1, title: "Austin FC Gyasi Zardes Green Home Jersey 2023", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Gyasi Zardes Austin FC Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Austin FC Gyasi Zardes Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Gyasi Zardes Signed Austin FC Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Gyasi Zardes Austin FC Green Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    // { id: 1, title: "Austin FC Gyasi Zardes Green Home Jersey 2023", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
+    // { id: 2, title: "Signed Gyasi Zardes Austin FC Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
+    // { id: 3, title: "Austin FC Gyasi Zardes Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
+    // { id: 4, title: "Gyasi Zardes Signed Austin FC Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
+    // { id: 5, title: "Gyasi Zardes Austin FC Green Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
   ];
 
   return (
@@ -54,7 +54,7 @@ Copyright: © 2022 Austin FC</p>
         </div>
 
         {/* Shop Section */}
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Gyasi Zardes Merchandise</h1>
+        {/* <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Gyasi Zardes Merchandise</h1> */}
         <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           {items.map(item => (
             <div key={item.id} className='group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300'>

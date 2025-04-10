@@ -36,10 +36,126 @@ const TrendingPlayers = () => {
 
 const LAFC = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './LAFCJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './LAFCTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './LAFCMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's LAFC adidas Black 2024 Primary Authentic Jersey",
+      "price": "$74.99",
+      "originalPrice": "$159.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-black-lafc-2024-primary-authentic-jersey_ss5_p-201092078+pv-1+u-fv9t2orchosjjnwluulu+v-d461j6hkn00cwdf1ry8i.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOjxkW"
+    },
+    {
+      "title": "Men's LAFC New Era Black Icon 59FIFTY Fitted Hat",
+      "price": "$26.99",
+      "originalPrice": "$44.99",
+      "category": "LAFC",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-new-era-black-lafc-icon-59fifty-fitted-hat_pi3275000_altimages_ff_3275871alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/gOqAVr"
+    },
+    {
+      "title": "Men's LAFC adidas Black 2019 Primary Authentic Jersey",
+      "price": "$49.99",
+      "originalPrice": "$119.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-black-lafc-2019-primary-authentic-jersey_ss5_p-202258865+pv-1+u-eattxsxmbulkwzekopxd+v-7n4djj9zuhknlsfulshc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyA6LP"
+    },
+    {
+      "title": "Women's LAFC New Era Black Script 9TWENTY Adjustable Hat",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Women Hats",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/womens%C2%A0new-era-black-lafc-script-9twenty-adjustable-hat_ss5_p-201948639+pv-1+u-afl28aqmgvv7ifkl1ps4+v-2ikmkdi85ps4dzkgmrpw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/RGZOX9"
+    },
+    {
+      "title": "Women's LAFC adidas Black 2024 Primary Replica Jersey",
+      "price": "$49.99",
+      "originalPrice": "$99.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/womens-adidas-black-lafc-2024-primary-replica-jersey_ss5_p-201241508+pv-1+u-wt7fry1yoe8lb2yu4wft+v-anc0klegwygqoblydduq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anG7A"
+    },
+    {
+      "title": "Men's LAFC Black Team Hometown Collection Pullover Hoodie",
+      "price": "$39.99",
+      "originalPrice": "$74.99",
+      "category": "Sweatshirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-black-lafc-team-hometown-collection-pullover-hoodie_ss5_p-5281771+pv-1+u-c7ocg2xdnsotqsdlokrz+v-wyuvhoysfz06bkwu4pwa.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLz3Q"
+    },
+    {
+      "title": "Men's LAFC New Era Black Icon 9TWENTY Adjustable Hat",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Hats",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-new-era-black-lafc-icon-9twenty-adjustable-hat_pi3555000_altimages_ff_3555103-61c874092223facd7122alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjANrA"
+    },
+    {
+      "title": "Unisex LAFC Fanatics Black LA Strong T-Shirt",
+      "price": "$35.00",
+      "originalPrice": "$35.00",
+      "category": "T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/unisex-fanatics-black-lafc-la-strong-t-shirt_ss5_p-202756566+pv-1+u-ov8jf4yr4cf3ig0ixidg+v-cna6uykrpbjnavock0gb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOjxmZ"
+    },
+    {
+      "title": "Men's LAFC Black Primary Logo II T-Shirt",
+      "price": "$17.99",
+      "originalPrice": "$34.99",
+      "category": "T-Shirts",
+      "shipping": null,
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-black-lafc-primary-logo-ii-t-shirt_ss5_p-2950106+pv-1+u-lysyt2gbmwdlghqpmzfv+v-iemw6bqhsqhlcptncrly.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmGLAa"
+    },
+    {
+      "title": "Men's LAFC adidas Originals White/Gold Centennial 85 Low Basketball Shoes",
+      "price": "$109.99",
+      "originalPrice": "$109.99",
+      "category": "Shoes",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-originals-white/gold-lafc-centennial-85-low-basketball-shoes_ss5_p-201671425+pv-1+u-bji7hoe5ccjpkayelfcv+v-sf82driziseifwewaiq3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yx7V"
+    },
+    {
+      "title": "Men's LAFC adidas White 2025 Secondary Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-white-lafc-2025-secondary-authentic-jersey_ss5_p-202652667+pv-1+u-wzrlfrzoakelkphn9zt0+v-36szgkyjwf16xtnnzcta.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/3Jy9xB"
+    },
+    {
+      "title": "Men's LAFC adidas Green 2023 Smokescreen Replica Jersey",
+      "price": "$27.99",
+      "originalPrice": "$99.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-green-lafc-2023-smokescreen-replica-jersey_pi5273000_ff_5273768-e3c1f862a9d81fcf8dfa_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/dOk9gK"
+    },
+    {
+      "title": "Women's LAFC Gameday Couture Gray Faded Wash Pullover Sweatshirt",
+      "price": "$59.99",
+      "originalPrice": "$59.99",
+      "category": "Women Sweatshirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/womens-gameday-couture-gray-lafc-faded-wash-pullover-sweatshirt_pi5078000_ff_5078962-b32a361e72ba96ecf05f_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1erXj"
+    }
+  ]
+  
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

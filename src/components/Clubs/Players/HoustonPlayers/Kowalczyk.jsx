@@ -3,11 +3,25 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const SebastianKowalczyk = () => {
   const items = [
-    { id: 1, title: "Sebastian Kowalczyk Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Sebastian Kowalczyk Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Sebastian Kowalczyk Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Sebastian Kowalczyk Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Sebastian Kowalczyk Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    {
+      "title": "Camiseta adidas naranja auténtica de la temporada 2025 del Houston Dynamo FC para hombre",
+      "price": "$149.99",
+      "originalPrice": "$134.99",
+      "category": "Replica Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Most Popular in Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-adidas-orange-houston-dynamo-fc-2025-season-20-authentic-jersey_ss5_p-202644580+pv-1+u-dkjgf6nhvaw89d0hqfen+v-d5gl9c1dwuef5zal1wza.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LnWmW"
+    },
+    {
+      "title": "Camiseta adidas personalizada de réplica de la temporada 2020 del Houston Dynamo FC para hombre, color naranja",
+      "price": "$134.99",
+      "originalPrice": "$59.99",
+      "category": "Baseball Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-adidas-orange-houston-dynamo-fc-2025-season-20-replica-custom-jersey_ss5_p-202708338+pv-1+u-uklo3vf6jex6kznzsnlz+v-slxkna3tuv2z5uv9zwfp.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLn9Q"
+    }
   ];
 
   return (

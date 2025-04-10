@@ -36,9 +36,128 @@ const TrendingPlayers = () => {
 
 const HoustonDynamo = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './HoustonJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './HoustonTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './HoustonMerchandise', price: '$49.99' },
+    {
+      "title": "Camiseta auténtica Houston Dynamo FC adidas violeta 2024 Still Holdin' para hombre",
+      "price": "$159.99",
+      "originalPrice": "$159.99",
+      "category": "Authentic Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-adidas-purple-houston-dynamo-fc-2024-still-holdin-authentic-jersey_ss5_p-201101845+pv-1+u-tuua1sr80lxx9xghurai+v-rljhg8i5mn3j3lxhicdu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOPJj"
+    },
+    // {
+    // //   "title": "Réplica de la camiseta adidas naranja de la temporada 2025 del Houston Dynamo FC para hombre",
+    // //   "price": "$99.99",
+    // //   "originalPrice": "$99.99",
+    // //   "category": "Replica Jerseys",
+    // //   "shipping": "Ships Free",
+    // //   "discount": "Most Popular in Jerseys",
+    // //   "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-adidas-purple-houston-dynamo-fc-2024-still-holdin-authentic-jersey_ss5_p-201101845+u-tuua1sr80lxx9xghurai+v-mquxga70q66c1ylahybk.jpg?_hv=2&w=400",
+    // //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // // },
+    {
+      "title": "Réplica de la camiseta adidas naranja de la temporada 2025 del Houston Dynamo FC para hombre",
+      "price": "$99.99",
+      "originalPrice": "$149.99",
+      "category": "Authentic Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-adidas-orange-houston-dynamo-fc-2025-season-20-replica-jersey_ss5_p-202644706+pv-1+u-rt4lh6p0ortpkx6vlrws+v-yt8lcgeme96yarhekso3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLr9BA"
+    },
+    {
+      "title": "Camiseta adidas naranja auténtica de la temporada 2025 del Houston Dynamo FC para hombre",
+      "price": "$149.99",
+      "originalPrice": "$134.99",
+      "category": "Replica Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Most Popular in Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-adidas-orange-houston-dynamo-fc-2025-season-20-authentic-jersey_ss5_p-202644580+pv-1+u-dkjgf6nhvaw89d0hqfen+v-d5gl9c1dwuef5zal1wza.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LnWmW"
+    },
+    {
+      "title": "Camiseta adidas personalizada de réplica de la temporada 2020 del Houston Dynamo FC para hombre, color naranja",
+      "price": "$134.99",
+      "originalPrice": "$59.99",
+      "category": "Baseball Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-adidas-orange-houston-dynamo-fc-2025-season-20-replica-custom-jersey_ss5_p-202708338+pv-1+u-uklo3vf6jex6kznzsnlz+v-slxkna3tuv2z5uv9zwfp.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLn9Q"
+    },
+    {
+      "title": "Camiseta de béisbol negra Fanatics Injury Time del Houston Dynamo FC para hombre",
+      "price": "$59.99",
+      "originalPrice": "$31.99",
+      "category": "Kids T-Shirts",
+      "shipping": "Ships Free",
+      "discount": "Most Popular in Kids T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-fanatics-black-houston-dynamo-fc-injury-time-baseball-jersey_ss5_p-201747344+pv-1+u-ysotwwjcqikenxujsogz+v-ycyjkk8a2fhig6gt7hxk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOPjZ"
+    },
+    {
+      "title": "Camiseta juvenil Stalwart Defender negra de Outerstuff del Houston Dynamo FC",
+      "price": "$31.99",
+      "originalPrice": "$44.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "discount": "Reduced",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/youth-outerstuff-black-houston-dynamo-fc-stalwart-defender-t-shirt_ss5_p-201875241+pv-1+u-f2mqj3slusxxhunq5ntz+v-sv0rdh5xduijm9zisw0p.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzmnQy"
+    },
+    {
+      "title": "Camiseta de manga larga Houston Dynamo FC Fanatics negra/naranja Striker para hombre",
+      "price": "$33.99",
+      "originalPrice": "$32.99",
+      "category": "Hats",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-fanatics-black/orange-houston-dynamo-fc-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372692-0bfd0a0a1d8d43a175f1alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAOaA"
+    },
+    {
+      "title": "Gorra de camionero ajustable con marco en forma de A 9FORTY en color morado del Houston Dynamo FC de New Era para hombre",
+      "price": "$32.99",
+      "originalPrice": "$54.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-new-era-purple-houston-dynamo-fc-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948596+pv-1+u-j1daxxhiivu0zgwapcbg+v-riz0fpduyulg8y985hoa.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LnWmy"
+    },
+    {
+      "title": "Camiseta negra de delantero Fanatics Stoppage Time del Houston Dynamo FC para hombre",
+      "price": "$54.99",
+      "originalPrice": "$34.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "discount": "Most Popular in Men T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-fanatics-black-houston-dynamo-fc-stoppage-time-striker-t-shirt_ss5_p-201747287+pv-1+u-zalhpfjx5kfihwizqqxq+v-dbso0gua0z1mmidqpmev.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55ybWL"
+    },
+    {
+      "title": "Camiseta negra con atmósfera del estadio local del Houston Dynamo FC para hombre",
+      "price": "$34.99",
+      "originalPrice": "$39.99",
+      "category": "Authentic Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-black-houston-dynamo-fc-hometown-stadium-atmosphere-t-shirt_ss5_p-201638755+pv-1+u-depq5z3yhachcc9fqysz+v-4yz9m38jwoo8ynx2oagt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9jyN"
+    },
+    {
+      "title": "Camiseta negra auténtica personalizada con nombre y número del Houston Dynamo FC para hombre",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-black-houston-dynamo-fc-authentic-stack-personalized-any-name-and-number-t-shirt_ss5_p-202929290+pv-1+u-acnauvlfobymaagx7msc+v-w7stirjnwxgqymhppjwa.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2XGK"
+    },
+    {
+      "title": "Camiseta extragrande City Soul en color carbón del Houston Dynamo FC para hombre",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/houston-dynamo-fc/mens-sport-design-sweden-charcoal-houston-dynamo-fc-city-soul-oversized-t-shirt_ss5_p-202666820+pv-1+u-q9mokawzew7bohipmrpk+v-g4f5eoxtgstccmlvzpqv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyADWM"
+    }
   ];
 
   return (

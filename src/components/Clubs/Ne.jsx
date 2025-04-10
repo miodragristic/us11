@@ -36,10 +36,127 @@ const TrendingPlayers = () => {
 
 const NewEnglandRevolution = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './NewEnglandJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './NewEnglandTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './NewEnglandMerchandise', price: '$49.99' },
-  ];
+      {
+        "title": "Youth New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Custom Jersey",
+        "price": "$114.99",
+        "originalPrice": "$114.99",
+        "category": "Youth Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/youth-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-custom-jersey_ss5_p-202709978+pv-1+u-8twemd6gyym1vdeshv7d+v-1are9hxdwjhsp4fb61vn.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/19yyR9"
+      },
+      {
+        "title": "Men's New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Custom Jersey",
+        "price": "$134.99",
+        "originalPrice": "$134.99",
+        "category": "Men's Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-custom-jersey_ss5_p-202709913+pv-1+u-2sjbokb8lypstx9a5ovq+v-d1ad5dolfhjeu2mvrd7m.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/XmGGOX"
+      },
+      {
+        "title": "Men's New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Authentic Jersey",
+        "price": "$149.99",
+        "originalPrice": "$149.99",
+        "category": "Men's Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-authentic-jersey_ss5_p-202652670+pv-1+u-v9wjhxafx1vg5vwivz1q+v-ukxuclglilhsrn5an4rq.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/EEOOJ2"
+      },
+      {
+        "title": "Youth New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Jersey",
+        "price": "$79.99",
+        "originalPrice": "$79.99",
+        "category": "Youth Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/youth-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-jersey_ss5_p-202658588+pv-1+u-9t7xhigxowtfy9szmxxp+v-wmi3qbqnnofhooraikec.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/55yyY2"
+      },
+      {
+        "title": "Men's New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Jersey",
+        "price": "$99.99",
+        "originalPrice": "$99.99",
+        "category": "Men's Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-jersey_ss5_p-202652750+pv-1+u-l7raax5oo0uw5v518v3w+v-mv47pl0hatd9rn1ksg8r.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/GKOOOm"
+      },
+      {
+        "title": "Youth New England Revolution Navy Unbeatable Pullover Hoodie",
+        "price": "$54.99",
+        "originalPrice": "$54.99",
+        "category": "Youth Apparel",
+        "shipping": "Ships Free",
+        "availability": "Ready To Ship",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/youth-navy-new-england-revolution-unbeatable-pullover-hoodie_ss5_p-201875268+pv-1+u-izvfq02zu8g6gm90gshw+v-dlzvcv6ymqmwu11ywjhj.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/o4555O"
+      },
+      {
+        "title": "Men's New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Authentic Custom Jersey",
+        "price": "$194.99",
+        "originalPrice": "$194.99",
+        "category": "Men's Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-authentic-custom-jersey_ss5_p-202709841+pv-1+u-fpz7bedmo1yl93furfbs+v-uf8igauuhlejuxiidfnx.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/4Gyyyn"
+      },
+      {
+        "title": "Men's New England Revolution adidas White Away 2025 Eastern White Pine X Flag of New England Authentic Shorts",
+        "price": "$59.99",
+        "originalPrice": "$59.99",
+        "category": "Men's Shorts",
+        "shipping": "Ships Free",
+        "availability": "Ready To Ship",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-adidas-white-new-england-revolution-away-2025-eastern-white-pine-x-flag-of-new-england-authentic-shorts_ss5_p-201672871+pv-1+u-baaa3msdiqcseyzdsnmx+v-tzvyhjdgyitllntym97v.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/9Lnnn5"
+      },
+      {
+        "title": "Women's New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Custom Jersey",
+        "price": "$134.99",
+        "originalPrice": "$134.99",
+        "category": "Women's Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/womens-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-custom-jersey_ss5_p-202709934+pv-1+u-brvlcqnlvblmxi2aitlc+v-t5s5jyvsc6gnfh9ivrap.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/e1eeeO"
+      },
+      {
+        "title": "Women's New England Revolution adidas White 2025 Eastern White Pine x Flag of New England Replica Jersey",
+        "price": "$99.99",
+        "originalPrice": "$99.99",
+        "category": "Women's Jersey",
+        "shipping": "Ships Free",
+        "availability": "In Stock",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/womens-adidas-white-new-england-revolution-2025-eastern-white-pine-x-flag-of-new-england-replica-jersey_ss5_p-202658098+pv-1+u-z2hq8wy97ujrs71umo7q+v-eeeblh8udx8ecblbhpjq.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/QjAA2Y"
+      },
+      {
+        "title": "Men's New England Revolution New Era Gray Color Pack 9FORTY A-Frame Adjustable Trucker Hat",
+        "price": "$32.99",
+        "originalPrice": "$32.99",
+        "category": "Accessories",
+        "shipping": "Ships Free",
+        "availability": "Ready To Ship",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-new-era-gray-new-england-revolution-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948610+pv-1+u-r2axml4dqsyxvfymqhbl+v-yhcad835plr2uerj954r.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/raLLJG"
+      },
+      {
+        "title": "Youth New England Revolution Outerstuff Navy Stalwart Defender T-Shirt",
+        "price": "$31.99",
+        "originalPrice": "$31.99",
+        "category": "Youth Apparel",
+        "shipping": "Ships Free",
+        "availability": "Ready To Ship",
+        "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-new-era-gray-new-england-revolution-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948610+pv-1+u-r2axml4dqsyxvfymqhbl+v-yhcad835plr2uerj954r.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/e1eekg"
+      }
+  ]
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

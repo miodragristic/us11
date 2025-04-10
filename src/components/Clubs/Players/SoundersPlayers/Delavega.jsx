@@ -2,12 +2,80 @@ import React from 'react';
 
 const PedroDeLaVega = () => {
   const items = [
-    { id: 1, title: "Pedro de la Vega Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Pedro de la Vega Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Pedro de la Vega Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Seattle Sounders FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Pedro de la Vega Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Youth Seattle Sounders FC Pedro de la Vega adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/youth-adidas-pedro-de-la-vega-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900607+pv-1+u-m6spil9dqixxidkosrs2+v-ol8hocwdp6pzqgx3nuh3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLqV3"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Pedro de la Vega adidas Blue 2025 The Salish Sea Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-pedro-de-la-vega-blue-seattle-sounders-fc-2025-the-salish-sea-kit-authentic-player-jersey_ss5_p-202900595+pv-1+u-r3ccc7asz3hwcdgxkseg+v-gawvm4zcwzsn0tbxlt5y.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORvoQ"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Pedro de la Vega adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-pedro-de-la-vega-blue-seattle-sounders-fc-2025-the-salish-sea-kit-authentic-player-jersey_ss5_p-202900595+pv-1+u-r3ccc7asz3hwcdgxkseg+v-gawvm4zcwzsn0tbxlt5y.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORvoQ"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Pedro de la Vega adidas Green 2024 The Anniversary Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+        "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-pedro-de-la-vega-green-seattle-sounders-fc-2024-the-anniversary-kit-replica-player-jersey_ss5_p-201240703+pv-1+u-scpcbvltztbceofagkex+v-cjcnxavrqcfsisef7yzt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAvBo"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Pedro de la Vega adidas Green 2024 The Anniversary Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-pedro-de-la-vega-green-seattle-sounders-fc-2024-the-anniversary-kit-authentic-player-jersey_ss5_p-201240702+pv-1+u-zvhvxcp3ldt8z3ssmqba+v-w1sp3u2oo6te80p88fva.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQGPP"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Pedro de la Vega adidas Red 2024 The Bruce Lee Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-pedro-de-la-vega-red-seattle-sounders-fc-2024-the-bruce-lee-kit-replica-player-jersey_ss5_p-201240706+pv-1+u-csaxfpqpix5rtdcbnscp+v-aegs3dvjdy6o7l2ocdcn.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmGvgX"
+    },
+    {
+      "title": "Women's Seattle Sounders FC Pedro de la Vega adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/womens-adidas-pedro-de-la-vega-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900603+pv-1+u-0irtn18zxiuheqtoyrye+v-sxjfrz7qnfv9stscbrnz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxP5Ar"
+    },
+    {
+      "title": "Women's Seattle Sounders FC Pedro de la Vega adidas Red 2024 The Bruce Lee Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/womens-adidas-pedro-de-la-vega-red-seattle-sounders-fc-2024-the-bruce-lee-kit-replica-player-jersey_ss5_p-201240707+pv-1+u-ban2dhwnhdex6ingbrgh+v-rrpx03ue2tjovv0nj0nq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAvZA"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

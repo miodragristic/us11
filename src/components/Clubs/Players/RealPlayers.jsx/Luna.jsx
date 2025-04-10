@@ -2,11 +2,16 @@ import React from 'react';
 
 const DiegoLuna = () => {
   const items = [
-    { id: 1, title: "Diego Luna Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Diego Luna Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Diego Luna Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Real Salt Lake Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Diego Luna Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's Real Salt Lake Diego Luna adidas Red 2024 Peak Utah Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-adidas-diego-luna-red-real-salt-lake-2024-peak-utah-authentic-player-jersey_ss5_p-202852961+pv-1+u-yak57vdcaycyyk3ki2dr+v-p1rlc2xzbwbngd8ijbhm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOZBd"
+    }
   ];
 
   return (

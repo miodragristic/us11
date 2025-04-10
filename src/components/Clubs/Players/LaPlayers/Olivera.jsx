@@ -3,12 +3,38 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const CristianOlivera = () => {
   const items = [
-    { id: 1, title: "Cristian Olivera Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Cristian Olivera Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Cristian Olivera Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Cristian Olivera Signed Boots", imageUrl: 'https://example.com/boots1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Cristian Olivera Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Cristian Olivera LAFC Autographed Fanatics Authentic Match-Used #13 Green adidas Jersey from the 2024 MLS Season - Size M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Memorabilia",
+      "shipping": "Ships Free",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/lafc/cristian-olivera-lafc-autographed-match-used-number-13-green-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202767522+pv-1+u-srfhw6svbhpt0emsx9zp+v-kwaeiq61xw9i45t75fpb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjANmz"
+    },
+    {
+      "title": "LAFC Autographed Fanatics Authentic Match-Used adidas Soccer Ball from the 2024 MLS Season with 24 Signatures - #1",
+      "price": "$499.99",
+      "originalPrice": "$499.99",
+      "category": "Autographed Memorabilia",
+      "shipping": "Ships Free",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/lafc/lafc-autographed-match-used-adidas-soccer-ball-from-the-2024-mls-season-with-24-signatures-number-1_ss5_p-202986525+pv-1+u-5fehbyxu2vcsqcbdjzmm+v-yrumkqaq5u7pr9emrsqb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyObXG"
+    },
+    {
+      "title": "LAFC Autographed Fanatics Authentic Match-Used adidas Soccer Ball from the 2024 MLS Season with 24 Signatures - #2",
+      "price": "$499.99",
+      "originalPrice": "$499.99",
+      "category": "Autographed Memorabilia",
+      "shipping": "Ships Free",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/lafc/lafc-autographed-match-used-adidas-soccer-ball-from-the-2024-mls-season-with-24-signatures-number-2_ss5_p-202986524+u-qun7zzgve7if0xp72rgj+v-y88kwo1k8chgrqfxurp7.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/QjANm9"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

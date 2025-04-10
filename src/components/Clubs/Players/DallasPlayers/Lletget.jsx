@@ -3,11 +3,73 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const SebastianLletget = () => {
   const items = [
-    { id: 1, title: "Sebastian Lletget Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Sebastian Lletget Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Sebastian Lletget Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Sebastian Lletget Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Sebastian Lletget Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    {
+      "title": "Camiseta réplica de jugador del FC Dallas Sebastian Lletget adidas azul marino 2024 After Burner para hombre",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-adidas-sebastian-lletget-navy-fc-dallas-2024-after-burner-replica-player-jersey_ss5_p-201205531+pv-1+u-okabwg2oluekfbkxwfov+v-nsc9ov3jixsptlnvpggr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APnorj"
+    },
+    {
+      "title": "FC Dal Sebastian Lletget FC Dallas Camiseta blanca autografiada número 8 usada en partidos de la temporada 2024 de la MLS - Talla M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/sebastian-lletget-fc-dallas-autographed-match-used-number-8-white-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202678622+pv-1+u-ujl0qnnfrh3ikezzqbfx+v-vhytct5nrujpgshi2xac.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/19y56R"
+    },
+    {
+      "title": "FC Dal Sebastian Lletget Camiseta roja #8 autografiada del FC Dallas usada en el partido de la temporada 2024 de la MLS - Talla M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Autographed Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/sebastian-lletget-fc-dallas-autographed-match-used-number-8-red-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202678650+pv-1+u-zu0mxgfmshsr5d9bn5zs+v-qhrlu8pwoetm0dhatfsb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Z6Ld2q"
+    },
+    {
+      "title": "Camiseta de jugador réplica del FC Dallas Sebastian Lletget adidas blanca 2024 Burn Baby Burn para mujer",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/womens-adidas-sebastian-lletget-white-fc-dallas-2024-burn-baby-burn-replica-player-jersey_ss5_p-201205545+pv-1+u-jw8qpyyj9pkfr69l9s6d+v-8hljuywkqr6zy6qyzuck.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmGx6o"
+    },
+    {
+      "title": "Camiseta réplica de jugador del FC Dallas Sebastian Lletget adidas azul marino 2024 After Burner para mujer",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "discount": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/womens-adidas-sebastian-lletget-navy-fc-dallas-2024-after-burner-replica-player-jersey_ss5_p-201205535+pv-1+u-tks7fo6d0icoyw9hhmoh+v-xgidtw6n6omwqvp97dbk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45eAb"
+    },
+    {
+      "title": "Camiseta de jugador auténtica del FC Dallas Sebastian Lletget adidas azul marino 2024 After Burner para hombre",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Authentic Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-adidas-sebastian-lletget-navy-fc-dallas-2024-after-burner-authentic-player-jersey_ss5_p-201205527+pv-1+u-9nbbvakvgnuqopadj1px+v-jnargvspkktvmvhhbms3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxPaWO"
+    },
+    {
+      "title": "Camiseta de jugador auténtica del FC Dallas Sebastian Lletget adidas blanca 2024 Burn Baby Burn para hombre",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Authentic Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-adidas-sebastian-lletget-white-fc-dallas-2024-burn-baby-burn-authentic-player-jersey_ss5_p-201205541+pv-1+u-2odbjfb2ocryeiballa8+v-nnned0aaniyai7fca6vx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6ynbvK"
+    }
   ];
 
   return (

@@ -36,10 +36,188 @@ const TrendingPlayers = () => {
 
 const NYRedBulls = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './NYRedBullsJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './NYRedBullsTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './NYRedBullsMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's New York Red Bulls Sport Design Sweden Cream Everyday Relaxed T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-sport-design-sweden-cream-new-york-red-bulls-everyday-relaxed-t-shirt_ss5_p-202666797+pv-1+u-gmrlzaadmsovasoysefm+v-n1appqp58h3d26cyrd27.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yXr3"
+    },
+    {
+      "title": "Men's New York Red Bulls New Era Black 2025 Kickoff 9TWENTY Adjustable Hat",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Hats",
+      "shipping": "Ready To Ship",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-new-era-black-new-york-red-bulls-2025-kickoff-9twenty-adjustable-hat_ss5_p-202427754+pv-1+u-d6nijcbpskzzmx1xomte+v-gx0vsy5nr6szouuveruf.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/RGZYx7"
+    },
+    {
+      "title": "Men's New York Red Bulls adidas Tan 2025 Stone Kit Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-tan-new-york-red-bulls-2025-stone-kit-authentic-jersey_ss5_p-202652672+pv-1+u-f2zaep38lvkhx6t3xigo+v-kn46zdf2vil5stnz3t3q.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2o4P"
+    },
+    {
+      "title": "Men's New York Red Bulls Black Core Smoke Pullover Hoodie",
+      "price": "$34.99",
+      "originalPrice": "$64.99",
+      "category": "Sweatshirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-black-new-york-red-bulls-core-smoke-pullover-hoodie_pi3306000_altimages_ff_3306562alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrXBk"
+    },
+    {
+      "title": "Men's New York Red Bulls adidas Yellow 2023 Daniel Patrick Kit Authentic Jersey",
+      "price": "$39.99",
+      "originalPrice": "$159.99",
+      "category": "Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-yellow-new-york-red-bulls-2023-daniel-patrick-kit-authentic-jersey_pi5275000_altimages_ff_5275745-816017c8aeccb864b7dealt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9Q5M"
+    },
+    {
+      "title": "Men's New York Red Bulls adidas Gray 2025 Travel Shorts",
+      "price": "$64.99",
+      "originalPrice": "$64.99",
+      "category": "Shorts",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-gray-new-york-red-bulls-2025-travel-shorts_ss5_p-201657382+pv-1+u-ycjcuxigfukifgorlac5+v-njiimpzqosoax1ehxfjf.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORYoq"
+    },
+    {
+      "title": "Men's New York Red Bulls Black Hometown Oversized Pullover Hoodie",
+      "price": "$84.99",
+      "originalPrice": "$84.99",
+      "category": "Sweatshirts",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-black-new-york-red-bulls-hometown-oversized-pullover-hoodie_ss5_p-202666858+pv-1+u-3r6o2xjokxh9qekggwrn+v-6keztmv5jc7pdbrbuduu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/19yo6B"
+    },
+    {
+      "title": "Men's New York Red Bulls Sport Design Sweden Khaki City Soul Oversized T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-sport-design-sweden-khaki-new-york-red-bulls-city-soul-oversized-t-shirt_ss5_p-202666825+pv-1+u-jb5edrxcjvngccsfojml+v-inkxdohcgq8ijsudndaf.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yqjEay"
+    },
+    {
+      "title": "Youth New York Red Bulls Black Unbeatable Pullover Hoodie",
+      "price": "$54.99",
+      "originalPrice": "$54.99",
+      "category": "Youth Sweatshirts",
+      "shipping": "Ready To Ship",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/youth-black-new-york-red-bulls-unbeatable-pullover-hoodie_ss5_p-201875267+pv-1+u-rajobxz1z5sdnbow0cvn+v-ma9xtoln9qlotjmqwe2h.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORYeq"
+    },
+    {
+      "title": "Men's New York Red Bulls Fanatics Red Sitter Snapback Hat",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Hats",
+      "shipping": "Ready To Ship",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-fanatics-red-new-york-red-bulls-sitter-snapback-hat_ss5_p-201747479+pv-1+u-xvhknln5f4i5ostj8ays+v-pll4d2khjgy1itj0ngkr.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOjYbQ"
+    },
+    {
+      "title": "Men's New York Red Bulls Heathered Gray Logo T-Shirt",
+      "price": "$17.99",
+      "originalPrice": "$34.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-heathered-gray-new-york-red-bulls-logo-t-shirt_pi4735000_altimages_ff_4735656-17f2f5185049ee5b7f8dalt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45PxY"
+    },
+    {
+      "title": "Men's New York Red Bulls adidas Tan 2025 Stone Kit Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-tan-new-york-red-bulls-2025-stone-kit-replica-jersey_ss5_p-202652751+pv-1+u-qoxfbownrnqvazi0gnsz+v-rxvswutlqemcgjnlbluy.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bOPv66"
+    },
+    {
+      "title": "Men's New York Red Bulls New Era Gray 2025 Jersey Hook 9FORTY M-Crown Adjustable Hat",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Hats",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-new-era-gray-new-york-red-bulls-2025-jersey-hook-9forty-m-crown-adjustable-hat_ss5_p-202216483+pv-1+u-8atyyzu9fo097iv8rpxq+v-hdehtviyetvltxpv4vji.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRb4Eq"
+    },
+    {
+      "title": "Men's New York Red Bulls Navy Shielded T-Shirt",
+      "price": "$17.99",
+      "originalPrice": "$34.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-navy-new-york-red-bulls-shielded-t-shirt_pi2876000_altimages_ff_2876311alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOoAO"
+    },
+    {
+      "title": "Men's New York Red Bulls Black Logo T-Shirt",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-black-new-york-red-bulls-logo-t-shirt_pi4735000_altimages_ff_4735655-7ee6014e0763b3ee9a3dalt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9QDv"
+    },
+    {
+      "title": "Women's New York Red Bulls Fanatics Red Faded Script Pullover Hoodie",
+      "price": "$39.99",
+      "originalPrice": "$59.99",
+      "category": "Women's Sweatshirts",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/womens-fanatics-red-new-york-red-bulls-faded-script-pullover-hoodie_pi3408000_altimages_ff_3408140-9df012f70848962cbc47alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnOeq0"
+    },
+    {
+      "title": "Men's New York Red Bulls Fanatics Red Red Card Transitional Pullover Hoodie",
+      "price": "$59.99",
+      "originalPrice": "$59.99",
+      "category": "Sweatshirts",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-fanatics-red-new-york-red-bulls-red-card-transitional-pullover-hoodie_ss5_p-201747262+pv-1+u-qhejm7n4ie6uaiaterm8+v-pm6mlrps267cruv36t2w.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQ1eW"
+    },
+    {
+      "title": "Youth New York Red Bulls adidas Tan 2025 Stone Kit Replica Custom Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/youth-adidas-tan-new-york-red-bulls-2025-stone-kit-replica-custom-jersey_ss5_p-202709979+pv-1+u-fgiuq9l2vjtzihhskic0+v-9pkg7iyt7mfqi6canmkd.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAzV9"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

@@ -2,12 +2,68 @@ import React from 'react';
 
 const EricMaximChoupoMoting = () => {
   const items = [
-    { id: 1, title: "Eric Choupo-Moting Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Choupo-Moting Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Choupo-Moting Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "New York Red Bulls Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Choupo-Moting Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's New York Red Bulls Eric Maxim Choupo-Moting adidas Tan 2025 Stone Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-eric-maxim-choupo-moting-tan-new-york-red-bulls-2025-stone-kit-authentic-player-jersey_ss5_p-202842161+pv-1+u-m60nub2j9m5znftnfjkw+v-vfm0hd6rennhcw6kkvca.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2ayYQg"
+    },
+    {
+      "title": "Men's New York Red Bulls Eric Maxim Choupo-Moting adidas Red 2024 Legacy Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-eric-maxim-choupo-moting-red-new-york-red-bulls-2024-legacy-replica-player-jersey_ss5_p-202850915+pv-1+u-sw6ptcamfz5bt0zojjdt+v-u2c1ceaquzahwd0cm6yk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4GyKrM"
+    },
+    {
+      "title": "Youth New York Red Bulls Eric Maxim Choupo-Moting adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/youth-adidas-eric-maxim-choupo-moting-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842164+pv-1+u-u2hghqb5sa74u0y6mtml+v-6yesa4tslg069545moim.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRboqm"
+    },
+    {
+      "title": "Men's New York Red Bulls Eric Maxim Choupo-Moting adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-eric-maxim-choupo-moting-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842162+pv-1+u-42b84iprvxlrbfm4xuxa+v-kmuddn5ys4wixk1kwabc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAeNM"
+    },
+    {
+      "title": "Men's New York Red Bulls Eric Maxim Choupo-Moting adidas Red 2024 Legacy Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-eric-maxim-choupo-moting-red-new-york-red-bulls-2024-legacy-authentic-player-jersey_ss5_p-202850914+pv-1+u-wg47ncmutzgn7azgxt9k+v-kxu1cxusm3kiniwkkg08.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55yLM9"
+    },
+    {
+      "title": "Women's New York Red Bulls Eric Maxim Choupo-Moting adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/womens-adidas-eric-maxim-choupo-moting-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842163+pv-1+u-lkw10zu44lcxgzbzuato+v-vlvf7fpmphhuxm0aioie.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APnayx"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

@@ -2,12 +2,68 @@ import React from 'react';
 
 const CristianArango = () => {
   const items = [
-    { id: 1, title: "Cristian Arango Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Cristian Arango Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Cristian Arango Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "San Jose Earthquakes Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Cristian Arango Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's San Jose Earthquakes Cristian Arango adidas Black 2025 Headliner Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-arango-black-san-jose-earthquakes-2025-headliner-replica-player-jersey_ss5_p-202842424+pv-1+u-yngmw3rgfmvrp8ekxkvw+v-eclg7tl0tlaybhcc6dxb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6ynQ1E"
+    },
+    {
+      "title": "Women's San Jose Earthquakes Cristian Arango adidas Black 2025 Headliner Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/womens-adidas-cristian-arango-black-san-jose-earthquakes-2025-headliner-replica-player-jersey_ss5_p-202842425+pv-1+u-lowiorrk4jzx0tbbnrwb+v-kdabilhlfxjbzil3sfgg.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQ9vW"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Arango adidas White 2025 The 50 Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-arango-white-san-jose-earthquakes-2025-the-50-kit-replica-player-jersey_ss5_p-202852978+pv-1+u-vkaslheqh3mv89c03gpl+v-qv4tg8f7upk72jluh9y7.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/K0OvGv"
+    },
+    {
+      "title": "Youth San Jose Earthquakes Cristian Arango adidas Black 2025 Headliner Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/youth-adidas-cristian-arango-black-san-jose-earthquakes-2025-headliner-replica-player-jersey_ss5_p-202842426+pv-1+u-2k49ntultof0ddpsllwo+v-qn0pkoixalmttwir1wzi.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOy13"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Arango adidas Black 2025 Headliner Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-arango-black-san-jose-earthquakes-2025-headliner-authentic-player-jersey_ss5_p-202842423+pv-1+u-414jy3o85e48zfyv4hiv+v-7eo7emagn205a5yi4zlt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/gOqe7v"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Arango adidas White 2025 The 50 Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-arango-white-san-jose-earthquakes-2025-the-50-kit-authentic-player-jersey_ss5_p-202852977+pv-1+u-aecmrv25julmy3ihgdxl+v-ma8gfexcnfbv7hqf2ix9.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yMKY"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

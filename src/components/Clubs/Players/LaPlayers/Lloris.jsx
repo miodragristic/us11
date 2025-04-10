@@ -3,12 +3,39 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const HugoLloris = () => {
   const items = [
-    { id: 1, title: "Hugo Lloris Goalkeeper Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Hugo Lloris Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Hugo Lloris Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Hugo Lloris Signed Gloves", imageUrl: 'https://example.com/gloves1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Hugo Lloris Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's LAFC adidas Green 2023 Replica Goalkeeper Jersey",
+      "price": "$119.99",
+      "originalPrice": "$119.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-green-lafc-2023-replica-goalkeeper-jersey_ss5_p-4907876+pv-1+u-kpaikvgmat3md8xj5zwx+v-uzakmmwdtkjt31k54udw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOjxqQ"
+    },
+    {
+      "title": "Men's LAFC adidas Gold 2024 Goalkeeper Jersey",
+      "price": "$119.99",
+      "originalPrice": "$119.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "status": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-gold-lafc-2024-goalkeeper-jersey_ss5_p-200133905+u-u7vnixbfxsvxweclzdz8+v-rcogbfjjbpaspdjps84v.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/Z6LxOW"
+    },
+    {
+      "title": "Men's LAFC adidas Green 2023 Goalkeeper Long Sleeve Replica Jersey",
+      "price": "$129.99",
+      "originalPrice": "$129.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-green-lafc-2023-goalkeeper-long-sleeve-replica-jersey_ss5_p-4907850+pv-1+u-f6nvm0g81icxr38cx2hd+v-xk8lwhu0y6ubh1vfnkb7.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yxWL"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

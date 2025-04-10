@@ -2,12 +2,38 @@ import React from 'react';
 
 const PabloRuiz = () => {
   const items = [
-    { id: 1, title: "Pablo Ruiz Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Pablo Ruiz Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Pablo Ruiz Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Real Salt Lake Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Pablo Ruiz Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Pablo Ruiz Real Salt Lake Autographed Fanatics Authentic Match-Used #7 Gold adidas Jersey from the 2024 MLS Season - Size S",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Men's Jerseys",
+      "shipping": "Almost Gone!",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/pablo-ruiz-real-salt-lake-autographed-match-used-number-7-gold-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202767604+pv-1+u-jgkhcyilyeoaycxhlin0+v-sg4oszxxpz2rihmzlknh.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2vgo"
+    },
+    {
+      "title": "Pablo Ruiz Real Salt Lake Autographed Fanatics Authentic Match-Used #7 Red adidas Jersey from the 2024 MLS Season - Size S",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Men's Jerseys",
+      "shipping": "Almost Gone!",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/pablo-ruiz-real-salt-lake-autographed-match-used-number-7-red-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202767606+pv-1+u-gw1389t2tna3nodfwnis+v-rfsuq5pmzcpqwtlfr5kk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/K0Ovg9"
+    },
+    {
+      "title": "Real Salt Lake Pablo Ruiz Fanatics Authentic 10.5\" x 13\" Sublimated Player Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Memorabilia",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/pablo-ruiz-real-salt-lake-105-x-13-sublimated-player-plaque_pi4917000_ff_4917394-8ad6a5e8e0c6c4382a18_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7an9dQ"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

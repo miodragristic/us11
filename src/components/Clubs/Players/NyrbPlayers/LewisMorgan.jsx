@@ -2,12 +2,118 @@ import React from 'react';
 
 const LewisMorgan = () => {
   const items = [
-    { id: 1, title: "Lewis Morgan Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Lewis Morgan Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Lewis Morgan Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "New York Red Bulls Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Lewis Morgan Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Youth New York Red Bulls Lewis Morgan adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/youth-adidas-lewis-morgan-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842156+pv-1+u-bn5t3q2dehy7gakstr6h+v-jdkb3od9h6h9wesdqs2d.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anxX5"
+    },
+    {
+      "title": "Men's New York Red Bulls Lewis Morgan adidas Red 2024 Legacy Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-lewis-morgan-red-new-york-red-bulls-2024-legacy-authentic-player-jersey_ss5_p-202850912+pv-1+u-8j4xrkplw9xca2xjxkgt+v-n4niz57cszuqgmqqkfjs.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQ2RZ"
+    },
+    {
+      "title": "Men's New York Red Bulls Lewis Morgan adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-lewis-morgan-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842154+pv-1+u-n42sm7qadc2nj9h7xpj9+v-v1b75ugeubtvh79ztuey.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyO1Wa"
+    },
+    {
+      "title": "Lewis Morgan New York Red Bulls Fanatics Authentic 10.5 x 13 Daniel Patrick Jersey Style Number 10 Sublimated Plaque",
+      "price": "$29.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/lewis-morgan-new-york-red-bulls-105-x-13-daniel-patrick-jersey-style-number-10-sublimated-plaque_ss5_p-200541464+u-hmdfpdra8ibugw22hiu6+v-eyk1pd3f9qo7uoopf8sa.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4GyKdr"
+    },
+    {
+      "title": "Men's New York Red Bulls Lewis Morgan adidas Yellow 2023 Daniel Patrick Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$29.99",
+      "category": "Collectibles",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-lewis-morgan-yellow-new-york-red-bulls-2023-daniel-patrick-kit-replica-jersey_ss5_p-5351002+pv-1+u-hdxufhxq7jzw7oxo29sz+v-lzxmbx6yqpczdo12puhm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRbodB"
+    },
+    {
+      "title": "Men's New York Red Bulls Lewis Morgan adidas Yellow 2023 Daniel Patrick Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/womens-adidas-lewis-morgan-yellow-new-york-red-bulls-2023-daniel-patrick-kit-replica-jersey_pi5351000_altimages_ff_5351006-ec475c0b9547d6272acbalt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anxbd"
+    },
+    {
+      "title": "Women's New York Red Bulls Lewis Morgan adidas Yellow 2023 Daniel Patrick Kit Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/womens-adidas-lewis-morgan-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842155+pv-1+u-bocomenmwph55uzaqlfx+v-kmn22ychyczmz7f9pfcu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzmNgN"
+    },
+    {
+      "title": "Men's New York Red Bulls Lewis Morgan adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$194.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-lewis-morgan-yellow-new-york-red-bulls-2023-daniel-patrick-kit-authentic-jersey_pi5350000_altimages_ff_5350998-210fd9dfe861e5322bc8alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LnQej"
+    },
+    {
+      "title": "Men's New York Red Bulls Lewis Morgan adidas Tan 2025 Stone Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-lewis-morgan-tan-new-york-red-bulls-2025-stone-kit-authentic-player-jersey_ss5_p-202842153+pv-1+u-wlt0aee2rulkqwu7k4c0+v-9k6ipodmglfsway1dzta.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrbyd"
+    },
+    {
+      "title": "Lewis Morgan New York Red Bulls Fanatics Authentic 10.5\" x 13\" Sublimated Player Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Collectibles",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/lewis-morgan-new-york-red-bulls-105-x-13-sublimated-player-plaque_ss5_p-200454057+u-0mqzp9lxutn2kuinl1qk+v-62bwwyoufp3nklt0vq7z.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyO1Qo"
+    },
+    {
+      "title": "Men's New York Red Bulls Lewis Morgan adidas Red 2024 Legacy Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-lewis-morgan-red-new-york-red-bulls-2024-legacy-replica-player-jersey_ss5_p-202850913+pv-1+u-n9xtljxnbblztrac69e9+v-dktoxsq4fsevhwkf9eu3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORkKX"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

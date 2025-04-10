@@ -3,12 +3,72 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const RiquiPuig = () => {
   const items = [
-    { id: 1, title: "Riqui Puig Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Riqui Puig Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Riqui Puig Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Riqui Puig Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Riqui Puig Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Youth LA Galaxy Riqui Puig adidas Navy 2025 RIZON Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "badge": "Most Popular in Kids Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/youth-adidas-riqui-puig-navy-la-galaxy-2025-rizon-replica-player-jersey_ss5_p-202841065+pv-1+u-xzrl7frrodvxmndrngvb+v-zrqdofyivwkuotd5i1fu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOj5KD"
+    },
+    {
+      "title": "Men's LA Galaxy Riqui Puig Navy Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/mens-riqui-puig-navy-la-galaxy-authentic-stack-name-and-number-t-shirt_ss5_p-202772324+pv-1+u-mho0pevtzhwphxkzw7fo+v-uwdop12sy0kczhpb5gmu.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrkGk"
+    },
+    {
+      "title": "Youth LA Galaxy Riqui Puig adidas Green 2024 LA Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/youth-adidas-riqui-puig-green-la-galaxy-2024-la-kit-replica-player-jersey_ss5_p-201285140+pv-1+u-y0l4tqdsnhmlhax8kmpl+v-gaxfnif4fprhufytfbhw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLQPG"
+    },
+    {
+      "title": "Men's LA Galaxy Riqui Puig adidas Green 2024 LA Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/mens-adidas-riqui-puig-green-la-galaxy-2024-la-kit-authentic-player-jersey_ss5_p-201285137+pv-1+u-xnmnkttxlsf0y7o1ngdi+v-to8sxegt0rbzr1qyr7r0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO90qM"
+    },
+    {
+      "title": "Riqui Puig LA Galaxy Fanatics Authentic 10.5\" X 13\" Sublimated Player Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Memorabilia",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/riqui-puig-la-galaxy-105-x-13-sublimated-player-plaque_ss5_p-200139847+u-qbzuuwseviqrjxjzsiyc+v-iwh9famyyioknvuvkiy5.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxPNVm"
+    },
+    {
+      "title": "Women's LA Galaxy Riqui Puig adidas Green 2024 LA Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/womens-adidas-riqui-puig-green-la-galaxy-2024-la-kit-replica-player-jersey_ss5_p-201285139+pv-1+u-j7pudmrdizngvlpv4be7+v-kl2ejihqfkb2yvkd8ul7.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yZN3"
+    },
+    {
+      "title": "Riqui Puig LA Galaxy Fanatics Authentic Framed 16\" x 20\" Stars of the Game Collage - Facsimile Signature",
+      "price": "$89.99",
+      "originalPrice": "$89.99",
+      "category": "Memorabilia",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/riqui-puig-la-galaxy-framed-16-x-20-stars-of-the-game-collage-facsimile-signature_ss5_p-200289366+u-2khzbxydzdumtcpcgxyy+v-ndl5kc4acabypius7wmv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEOKNX"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

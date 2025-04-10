@@ -37,10 +37,163 @@ const TrendingPlayers = () => {
 
 const ColumbusCrew = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './ColumbusJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './ColumbusTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './ColumbusMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Youth Columbus Crew adidas Black 2025 The Goosebumps Kit Replica Custom Jersey",
+      "price": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/youth-adidas-black-columbus-crew-2025-the-goosebumps-kit-replica-custom-jersey_ss5_p-202709971+pv-1+u-acgq8hwc0i3qxihnenui+v-ode5arv7v11upfuxnqlu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmORja"
+    },
+    {
+      "title": "Men's Columbus Crew adidas Black 2025 The Goosebumps Kit Replica Jersey",
+      "price": "$99.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-black-columbus-crew-2025-the-goosebumps-kit-replica-jersey_ss5_p-202652743+pv-1+u-999ybxcjkvvnistr0nx9+v-hlxgah3ixchd062h2npk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2aMezO"
+    },
+    {
+      "title": "Men's Columbus Crew adidas Originals Black Culturewear Collection Full-Zip Track Jacket",
+      "price": "$109.99",
+      "category": "Jackets",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-originals-black-columbus-crew-culturewear-collection-full-zip-track-jacket_ss5_p-201658633+pv-1+u-oxtpspjfz5rihzm3lgrf+v-tfg618chpertzqfpghxb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yq9vK2"
+    },
+    {
+      "title": "Men's Columbus Crew adidas Black 2025 The Goosebumps Kit Authentic Jersey",
+      "price": "$149.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-black-columbus-crew-2025-the-goosebumps-kit-authentic-jersey_ss5_p-202652661+pv-1+u-4le5kdfl2g3qmvzzxlen+v-ddfcdg721pqvqfn4raal.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzZvKy"
+    },
+    {
+      "title": "Youth Columbus Crew adidas Black 2025 The Goosebumps Kit Replica Jersey",
+      "price": "$79.99",
+      "category": "Kids Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/youth-adidas-black-columbus-crew-2025-the-goosebumps-kit-replica-jersey_ss5_p-202658581+pv-1+u-1uz1kkv8mrwzuizlxghd+v-agy7jvazbganmuycu6fj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kOZvKN"
+    },
+    {
+      "title": "Youth Columbus Crew Rock Em Socks Three-Pack Crew Socks Set",
+      "price": "$54.99",
+      "category": "Accessories",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/youth-rock-em-socks-columbus-crew-three-pack-crew-socks-set_ss5_p-200596163+pv-1+u-hjjz0djybwwxxpn1yahj+v-yxqkfsknj0fno1c0gzrr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/19RkYd"
+    },
+    {
+      "title": "Columbus Crew Rock Em Socks Three-Pack Crew Socks Set",
+      "price": "$54.99",
+      "category": "Accessories",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/youth-rock-em-socks-columbus-crew-three-pack-crew-socks-set_ss5_p-200596163+pv-1+u-hjjz0djybwwxxpn1yahj+v-yxqkfsknj0fno1c0gzrr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bO2KBx"
+    },
+    {
+      "title": "Men's Columbus Crew Black Color Slider Pullover Hoodie",
+      "price": "$39.99",
+      "originalPrice": "$74.99",
+      "category": "Sweatshirts",
+      "shipping": "Ships Free",
+      "discount": "Reduced Price",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-black-columbus-crew-color-slider-pullover-hoodie_ss5_p-201089042+pv-1+u-su2a1x7fldq415dyyo72+v-mpo5zwvt7i9lhzuvc6cw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/dOnvzK"
+    },
+    {
+      "title": "Men's Columbus Crew Fanatics Black Red Card Transitional Pullover Hoodie",
+      "price": "$59.99",
+      "category": "Men Sweatshirts",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-fanatics-black-columbus-crew-red-card-transitional-pullover-hoodie_ss5_p-201747259+pv-1+u-kcmujuqzumvoney63ujo+v-gfwhhizqfv8wktjr9gex.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOZvmX"
+    },
+    {
+      "title": "Men's Columbus Crew Stadium Essentials Black Compete Quarter-Zip Jacket",
+      "price": "$89.99",
+      "category": "Men Sweatshirts",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-stadium-essentials-black-columbus-crew-compete-quarter-zip-jacket_ss5_p-202156254+pv-1+u-bhdo3esmmyjrkv1p39ij+v-padfqiywr0zafmp4wdbt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55YGNL"
+    },
+  //   {
+  //     "title": "Men's Columbus Crew Fanatics Heather Gray Low Block Trucker Adjustable Hat",
+  //     "price": "$29.99",
+  //     "category": "Hats",
+  //     "shipping": "Ships Free",
+  //     "availability": "Ready To Ship",
+  //     "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-fanatics-heather-gray-columbus-crew-low-block-trucker-adjustable-hat_ss5_p-201747552+pv-1+u-4ksfthixarshftcujfzm+v-ftawsijhwflpedmuazhj.jpg?_hv=2&w=900",
+  //     "link": "https://mlsstore.i8h2.net/jeZ4d0"
+  //   },
+  //   {
+  //     "title": "Sport Design Sweden Columbus Crew Youth Black Starting Lineup Home T-Shirt",
+  //     "price": "$34.99",
+  //     "category": "Kids T-Shirts",
+  //     "shipping": "Ships Free",
+  //     "availability": "Ready To Ship",
+  //     "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-fanatics-heather-gray-columbus-crew-low-block-trucker-adjustable-hat_ss5_p-201747552+pv-1+u-4ksfthixarshftcujfzm+v-ftawsijhwflpedmuazhj.jpg?_hv=2&w=900",
+  //     "link": "https://mlsstore.i8h2.net/jeZ4d0"
+  //   },
+  //   {
+  //     "title": "Men's Columbus Crew Stadium Essentials Black Half-Time 2-Hit Pullover Sweatshirt",
+  //     "price": "$79.99",
+  //     "category": "Men Sweatshirts",
+  //     "shipping": "Ships Free",
+  //     "availability": "Ready To Ship",
+  //     "imageUrl": "URL_SLIKE_13",
+  //     "link": "URL_PROIZVODA_13"
+  //   },
+  //   {
+  //     "title": "Women's Columbus Crew Gameday Couture White Crewneck Drop Shoulder Sweatshirt",
+  //     "price": "$55.99",
+  //     "category": "Women Sweatshirts",
+  //     "shipping": "Ships Free",
+  //     "imageUrl": "URL_SLIKE_14",
+  //     "link": "URL_PROIZVODA_14"
+  //   },
+  //   {
+  //     "title": "Men's Columbus Crew Gold Hometown Oversized Pullover Hoodie",
+  //     "price": "$84.99",
+  //     "category": "Sweatshirts",
+  //     "shipping": "Ships Free",
+  //     "availability": "Ready To Ship",
+  //     "imageUrl": "URL_SLIKE_15",
+  //     "link": "URL_PROIZVODA_15"
+  //   },
+  //   {
+  //     "title": "Men's Columbus Crew New Era Black 2025 Jersey Hook 9FORTY M-Crown Adjustable Hat",
+  //     "price": "$34.99",
+  //     "category": "Hats",
+  //     "shipping": "Ships Free",
+  //     "availability": "Ready To Ship",
+  //     "imageUrl": "URL_SLIKE_16",
+  //     "link": "URL_PROIZVODA_16"
+  //   },
+  //   {
+  //     "title": "Columbus Crew 2025 Jersey Hook Scarf",
+  //     "price": "$34.99",
+  //     "category": "Accessories",
+  //     "shipping": "Ships Free",
+  //     "availability": "Ready To Ship",
+  //     "imageUrl": "URL_SLIKE_17",
+  //     "link": "URL_PROIZVODA_17"
+  //   },
+  //   {
+  //     "title": "Men's Columbus Crew Black Victory Arch T-Shirt",
+  //     "price": "$34.99",
+  //     "category": "T-Shirts",
+  //     "shipping": "Ships Free",
+  //     "imageUrl": "URL_SLIKE_18",
+  //     "link": "URL_PROIZVODA_18"
+  //   }
+   ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

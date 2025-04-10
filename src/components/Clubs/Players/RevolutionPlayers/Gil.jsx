@@ -2,12 +2,58 @@ import React from 'react';
 
 const CarlesGil = () => {
   const items = [
-    { id: 1, title: "Carles Gil Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Carles Gil Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Carles Gil Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Carles Gil Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Carles Gil Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Carles Gil New England Revolution Fanatics Authentic 10.5\" x 13\" Jersey Style Number 10 Sublimated Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Collectibles",
+      "shipping": "Ships Free",
+      "availability": "In Stock",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/carles-gil-new-england-revolution-105-x-13-jersey-style-number-10-sublimated-plaque_ss5_p-200541452+u-kwnu5rxe16ylclx8zzs3+v-g2yleeyxnn4gjd9errot.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/N9RR7K"
+    },
+    {
+      "title": "Unisex New England Revolution Carles Gil Navy Player Adjustable Hat",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Accessories",
+      "shipping": "Ships Free",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/unisex-carles-gil-navy-new-england-revolution-player-adjustable-hat_ss5_p-201204710+pv-1+u-rjabf4tuqxr4vaov5w8x+v-nptggt42quzwqharl674.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOjjYX"
+    },
+    {
+      "title": "Carles Gil New England Revolution 10.5\" x 13\" Sublimated Player Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Collectibles",
+      "shipping": "Ships Free",
+      "availability": "In Stock",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/carles-gil-new-england-revolution-105-x-13-sublimated-player-plaque_ss5_p-200454056+u-jhnam5bngfygrub1dmiz+v-t5bijowryoglpw0f72d0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrr7v"
+    },
+    {
+      "title": "Carles Gil New England Revolution Fanatics Authentic Framed 16\" x 20\" Stars of the Game Collage",
+      "price": "$89.99",
+      "originalPrice": "$89.99",
+      "category": "Collectibles",
+      "shipping": "Ships Free",
+      "availability": "In Stock",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/carles-gil-new-england-revolution-framed-16-x-20-stars-of-the-game-collage_ss5_p-200469893+u-gniulqzfi9pfmdzhgwjz+v-xltwiuurrvi3jmcxzjlj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQQv0"
+    },
+    {
+      "title": "Men's New England Revolution Carles Gil Navy Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's Apparel",
+      "shipping": "Ships Free",
+      "availability": "In Stock",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/mens-carles-gil-navy-new-england-revolution-authentic-stack-name-and-number-t-shirt_ss5_p-202772328+pv-1+u-yk2ws0s2tg3mg9muvyvh+v-m5hhray1youixu4uz0uu.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55yyVN"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

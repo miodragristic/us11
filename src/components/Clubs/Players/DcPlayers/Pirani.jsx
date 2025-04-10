@@ -3,12 +3,56 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const GabrielPirani = () => {
   const items = [
-    { id: 1, title: "Gabriel Pirani Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Gabriel Pirani Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Gabriel Pirani Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Gabriel Pirani Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Gabriel Pirani Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    {
+      "title": "Men's D.C. United Gabriel Pirani adidas Black 2024 The Icon Kit Authentic Player Jersey",
+      "price": "$146.24",
+      "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-gabriel-pirani-black-dc-united-2024-the-icon-kit-authentic-player-jersey_ss5_p-201204984+pv-1+u-wsyqgjzsuxkhmlih42bd+v-detscxoadnsnzeuywdgk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEJDq2"
+    },
+    {
+      "title": "Gabriel Pirani D.C. United Autographed Fanatics Authentic Match-Used #10 White adidas Jersey from the 2024 MLS Season - Size S",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Memorabilia",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/gabriel-pirani-dc-united-autographed-match-used-number-10-white-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202678596+pv-1+u-kokbpanb0joi3ebjnkgi+v-y91a8obkfdhoyrhk78hh.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Oe4A1W"
+    },
+    {
+      "title": "D.C. United Autographed Fanatics Authentic Match-Used Soccer Ball from the 2024 MLS Season with 11 Signatures - #1",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Memorabilia",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/dc-united-autographed-match-used-soccer-ball-from-the-2024-mls-season-with-11-signatures-number-1_ss5_p-202755257+pv-1+u-hpqavbozxy0crqhyw6q1+v-kbqflmrjjjf5gy0c3dpq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4GoVdn"
+    },
+    {
+      "title": "D.C. United Autographed Fanatics Authentic Match-Used Soccer Ball from the 2024 MLS Season with 11 Signatures - #2",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Memorabilia",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/dc-united-autographed-match-used-soccer-ball-from-the-2024-mls-season-with-11-signatures-number-2_ss5_p-202755256+pv-1+u-hpesigmwds2qvy6gs1cd+v-diuvfvlyy4j0fe7ghbqz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOZdnM"
+    },
+    {
+      "title": "Women's D.C. United Gabriel Pirani adidas Black 2024 The Icon Kit Replica Player Jersey",
+      "price": "$101.24",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/womens-adidas-gabriel-pirani-black-dc-united-2024-the-icon-kit-replica-player-jersey_ss5_p-201204992+pv-1+u-6nbt7kflh04zjwvimwrv+v-sr7pstrmdtkwgde9racj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LOoe5"
+    },
+    {
+      "title": "Men's D.C. United Gabriel Pirani adidas Black 2024 The Icon Kit Replica Player Jersey",
+      "price": "$101.24",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-gabriel-pirani-black-dc-united-2024-the-icon-kit-replica-player-jersey_ss5_p-201204988+pv-1+u-owjrhweys6unnncuffnt+v-jo20tbkfeaslaxw9fhmm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aO2d5R"
+    }
   ];
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

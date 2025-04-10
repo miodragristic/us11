@@ -3,12 +3,58 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const CadenClark = () => {
   const items = [
-    { id: 1, title: "Caden Clark Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Caden Clark Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Caden Clark Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Caden Clark Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Caden Clark Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's CF Montreal Caden Clark adidas Blue 2025 Montréal Original Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-caden-clark-blue-cf-montreal-2025-montr%C3%A9al-original-authentic-player-jersey_ss5_p-202840189+pv-1+u-ewbgrkzhpaejs4amxvyh+v-kkjnihft6tfi7yh6kvbr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/GKOZgL"
+    },
+    {
+      "title": "Men's CF Montreal Caden Clark adidas Light Blue 2024 Montréal Original Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-caden-clark-light-blue-cf-montreal-2024-montr%C3%A9al-original-authentic-player-jersey_ss5_p-202850452+pv-1+u-hsiencngib2iguhrwhhe+v-gwhotnmd17pv2fpstycd.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Z6LyNk"
+    },
+    {
+      "title": "Youth CF Montreal Caden Clark adidas Blue 2025 Montréal Original Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/youth-adidas-caden-clark-blue-cf-montreal-2025-montr%C3%A9al-original-replica-player-jersey_ss5_p-202840192+pv-1+u-hccl5wci4zwxv0jrismt+v-6zezvm7trokgiajbljm5.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45yOm"
+    },
+    {
+      "title": "Women's CF Montreal Caden Clark adidas Blue 2025 Montréal Original Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/womens-adidas-caden-clark-blue-cf-montreal-2025-montr%C3%A9al-original-replica-player-jersey_ss5_p-202840191+pv-1+u-nrd89okxoq6en98wptlk+v-ghqshuv88y7sdgqk4f8i.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09ydjJ"
+    },
+    {
+      "title": "Men's CF Montreal Caden Clark adidas Blue 2025 Montréal Original Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-caden-clark-blue-cf-montreal-2025-montr%C3%A9al-original-replica-player-jersey_ss5_p-202840190+pv-1+u-z2jjkykg7hkx0ociib8k+v-djytezc9wfcemnoz2n8c.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bOPmNk"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

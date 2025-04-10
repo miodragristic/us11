@@ -36,10 +36,398 @@ const TrendingPlayers = () => {
 
 const CFMontreal = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './CFMontrealJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './CFMontrealTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './CFMontrealMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's CF Montreal adidas Blue 2025 Montréal Original Replica Custom Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-blue-cf-montreal-2025-montr%C3%A9al-original-replica-custom-jersey_ss5_p-202708336+pv-1+u-s47uatalgbz7yd4duina+v-1x9kpdrieokjwadlmmkx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnO2x1"
+    },
+    {
+      "title": "Men's CF Montreal adidas Blue 2025 Montréal Original Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-blue-cf-montreal-2025-montr%C3%A9al-original-replica-jersey_ss5_p-202644704+pv-1+u-8ymynd3eldg4t8tswqiz+v-kkkca8zqicf2mclezn0s.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEOZ9P"
+    },
+    {
+      "title": "Men's CF Montreal adidas Blue 2025 Montréal Original Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-blue-cf-montreal-2025-montr%C3%A9al-original-authentic-jersey_ss5_p-202644575+pv-1+u-wew2iiyrgi2xvxemoa4j+v-0jdpq5htjrfrgtzdrayi.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/OeOmnQ"
+    },
+    {
+      "title": "Men's CF Montreal Prince Owusu adidas Blue 2025 Montréal Original Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-prince-owusu-blue-cf-montreal-2025-montr%C3%A9al-original-authentic-player-jersey_ss5_p-202840201+pv-1+u-darh6reowie9vewonufg+v-fgygyjti3l8fihympalb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/dOk7LM"
+    },
+    {
+      "title": "Youth CF Montreal adidas Blue 2025 Montréal Original Replica Jersey",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Kids Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/youth-adidas-blue-cf-montreal-2025-montr%C3%A9al-original-replica-jersey_ss5_p-202649400+pv-1+u-f8crspuj9bcvdbdurzjh+v-1etpcqakelpqzujadnzk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2N5J"
+    },
+    {
+      "title": "Men's CF Montreal Samuel Piette adidas Blue 2025 Montréal Original Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-samuel-piette-blue-cf-montreal-2025-montr%C3%A9al-original-authentic-player-jersey_ss5_p-202840193+pv-1+u-hsnye752vdgphwmi1ky7+v-tqvv6hlaj41otusjljcb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LnJMy"
+    },
+    {
+      "title": "Youth CF Montreal adidas Blue 2025 Montréal Original Replica Custom Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/youth-adidas-blue-cf-montreal-2025-montr%C3%A9al-original-replica-custom-jersey_ss5_p-202708444+pv-1+u-xbupo7aeefonzuyswqsn+v-ior7odj37jafvlnxjge0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1eArj"
+    },
+    {
+      "title": "Women's CF Montreal adidas Blue 2025 Montréal Original Replica Custom Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/womens-adidas-blue-cf-montreal-2025-montr%C3%A9al-original-replica-custom-jersey_ss5_p-202708385+pv-1+u-wkvjpky7njjcmwjheyax+v-tbxnhlmnviixlqkrtqca.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/VxA6b3"
+    },
+    {
+      "title": "Men's CF Montreal Giacomo Vrioni adidas Blue 2025 Montréal Original Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/mens-adidas-giacomo-vrioni-blue-cf-montreal-2025-montr%C3%A9al-original-replica-player-jersey_ss5_p-202840198+pv-1+u-nsvi3rindoezcdcalrwl+v-dxahfhuuvmkdnjn6afov.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnO2zL"
+    },
+    {
+      "title": "Men's CF Montreal adidas Blue 2025 Montréal Original Replica Custom Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/womens-adidas-caden-clark-blue-cf-montreal-2025-montr%C3%A9al-original-replica-player-jersey_ss5_p-202840191+pv-1+u-nrd89okxoq6en98wptlk+v-ghqshuv88y7sdgqk4f8i.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAG6M"
+    },
+    {
+      "title": "Women's CF Montreal adidas Blue 2025 Montréal Original Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Woman Jerseys",
+      "shipping": "Ships Free",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/cf-montreal/womens-adidas-blue-cf-montreal-2025-montr%C3%A9al-original-replica-jersey_ss5_p-202649343+pv-1+u-uwx0qsdlw4bcjgfkdve0+v-6ftruhpgkkysrt4y119q.jpg?_hv=2&w=900E",
+      "link": "https://mlsstore.i8h2.net/mOj22X"
+    },
+    // {
+    //   "title": "Men's CF Montreal adidas Blue 2025 Montréal Original Authentic Jersey",
+    //   "price": "$149.99",
+    //   "originalPrice": "$149.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Prince Owusu adidas Blue 2025 Montréal Original Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Youth CF Montreal adidas Blue 2025 Montréal Original Replica Jersey",
+    //   "price": "$79.99",
+    //   "originalPrice": "$79.99",
+    //   "category": "Kids Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Samuel Piette adidas Blue 2025 Montréal Original Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Youth CF Montreal adidas Blue 2025 Montréal Original Replica Custom Jersey",
+    //   "price": "$114.99",
+    //   "originalPrice": "$114.99",
+    //   "category": "Kids Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Women's CF Montreal adidas Blue 2025 Montréal Original Replica Custom Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Women Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Giacomo Vrioni adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Women's CF Montreal Caden Clark adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Women Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Caden Clark adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Giacomo Vrioni adidas Light Blue 2024 Montréal Original Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Samuel Piette adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Women's CF Montreal Samuel Piette adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Women Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Women's CF Montreal Prince Owusu adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Women Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Caden Clark adidas Blue 2025 Montréal Original Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Prince Owusu adidas Light Blue 2024 Montréal Original Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Women's CF Montreal Giacomo Vrioni adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Women Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Caden Clark adidas Light Blue 2024 Montréal Original Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Youth CF Montreal Caden Clark adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$114.99",
+    //   "originalPrice": "$114.99",
+    //   "category": "Kids Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Women's CF Montreal adidas Blue 2025 Montréal Original Replica Jersey",
+    //   "price": "$99.99",
+    //   "originalPrice": "$99.99",
+    //   "category": "Women Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal adidas Blue 2025 Montréal Original Authentic Custom Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Prince Owusu adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$134.99",
+    //   "originalPrice": "$134.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Youth CF Montreal Samuel Piette adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$114.99",
+    //   "originalPrice": "$114.99",
+    //   "category": "Kids Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Giacomo Vrioni adidas Blue 2025 Montréal Original Authentic Player Jersey",
+    //   "price": "$194.99",
+    //   "originalPrice": "$194.99",
+    //   "category": "Men Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Youth CF Montreal Giacomo Vrioni adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$114.99",
+    //   "originalPrice": "$114.99",
+    //   "category": "Kids Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Youth CF Montreal Prince Owusu adidas Blue 2025 Montréal Original Replica Player Jersey",
+    //   "price": "$114.99",
+    //   "originalPrice": "$114.99",
+    //   "category": "Kids Jerseys",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal Heather Gray The Game Is Everything Personalized Any Name & Number T-Shirt",
+    //   "price": "$39.99",
+    //   "originalPrice": "$39.99",
+    //   "category": "Men Apparel",
+    //   "shipping": "Ships Free",
+    //   "availability": "",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal New Era Light Blue Color Pack 9FORTY A-Frame Adjustable Trucker Hat",
+    //   "price": "$32.99",
+    //   "originalPrice": "$32.99",
+    //   "category": "Men Hats",
+    //   "shipping": "Ships Free",
+    //   "availability": "Ready To Ship",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // },
+    // {
+    //   "title": "Men's CF Montreal New Era Black 2025 Kickoff 9TWENTY Adjustable Hat",
+    //   "price": "$27.99",
+    //   "originalPrice": "$27.99",
+    //   "category": "Men Hats",
+    //   "shipping": "Ships Free",
+    //   "availability": "Ready To Ship",
+    //   "imageUrl": "URL_TO_IMAGE_HERE",
+    //   "link": "URL_TO_PRODUCT_PAGE_HERE"
+    // }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

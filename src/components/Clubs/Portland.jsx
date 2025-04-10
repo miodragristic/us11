@@ -36,10 +36,158 @@ const TrendingPlayers = () => {
 
 const PortlandTimbers = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './PortlandTimbersJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './PortlandTimbersTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './PortlandTimbersMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's Portland Timbers adidas Green 2025 Forever Green & Gold Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Most Popular in Men Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-green-portland-timbers-2025-forever-green-and-gold-authentic-jersey_ss5_p-202644592+pv-1+u-ppgdcqni2qlx97sqnjnj+v-95zckjcpmjsrqud7wdp2.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQGzv"
+    },
+    {
+      "title": "Men's Portland Timbers adidas Green 2025 Forever Green & Gold Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-green-portland-timbers-2025-forever-green-and-gold-replica-jersey_ss5_p-202644710+pv-1+u-mpl34bviazrw9rfyr0ck+v-zpa0tlhj3s8yhcjol1wc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOj95b"
+    },
+    {
+      "title": "Youth Portland Timbers adidas Green 2025 Forever Green & Gold Replica Jersey",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "Most Popular in Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/youth-adidas-green-portland-timbers-2025-forever-green-and-gold-replica-jersey_ss5_p-202649406+pv-1+u-qniggus6tpu78gocl8td+v-yhdcbdhyc59njzt2j2vy.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/GKO4nr"
+    },
+    {
+      "title": "Women's Portland Timbers adidas Green 2025 Forever Green & Gold Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "Most Popular in Women Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/womens-adidas-green-portland-timbers-2025-forever-green-and-gold-replica-jersey_ss5_p-202649349+pv-1+u-gflt5rdmfg0dufnbc9s8+v-qlhlia2fqn9wljzwu85g.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/JKOvLr"
+    },
+    {
+      "title": "Men's Portland Timbers adidas Green 2025 Forever Green & Gold Authentic Custom Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-green-portland-timbers-2025-forever-green-and-gold-authentic-custom-jersey_ss5_p-202698427+pv-1+u-hhr81tgdcninpm6sapkd+v-i33m485usauhucrvvdch.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmGvL4"
+    },
+    {
+      "title": "Men's Portland Timbers Fanatics Green Fundamentals T-Shirt",
+      "price": "$19.99",
+      "originalPrice": "$34.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "Most Popular in Men T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-fanatics-green-portland-timbers-fundamentals-t-shirt_ss5_p-201167507+pv-1+u-m33f74jcvf5gyzd6flao+v-pwzvsfse3fidjvbutvfw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45gXn"
+    },
+    {
+      "title": "Men's Portland Timbers Fanatics Black Stealth Flex Hat",
+      "price": "$22.99",
+      "originalPrice": "$29.99",
+      "category": "Hats",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-fanatics-black-portland-timbers-stealth-flex-hat_ss5_p-200211797+pv-1+u-ztzrbwuazytefluwweji+v-icb8xkig8vtxapfcj07l.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAv6G"
+    },
+    {
+      "title": "Portland Timbers Fanatics Scarf",
+      "price": "$19.99",
+      "originalPrice": "$29.99",
+      "category": "Accessories",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/fanatics-portland-timbers-scarf_ss5_p-200374258+pv-1+u-znnc5d0dxqqnllfhymmh+v-rz5on8y8mtw5qsfyjhll.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/OeOv9z"
+    },
+    {
+      "title": "Men's Portland Timbers Green Hometown Collection PDX Tri-Blend T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "Most Popular in Men T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-green-portland-timbers-hometown-collection-pdx-tri-blend-t-shirt_ss5_p-3560564+pv-1+u-gym4yintzlrq9hltnubo+v-1cu3nqgy2xrbz3n2j8tv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOyxL"
+    },
+    {
+      "title": "Men's Portland Timbers Sport Design Sweden Khaki Everyday Relaxed T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-sport-design-sweden-khaki-portland-timbers-everyday-relaxed-t-shirt_ss5_p-202666801+pv-1+u-xtmlnvrnqneacajrx43v+v-6gazenmw1xz0w5tzyo8f.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LnjM0"
+    },
+    {
+      "title": "Portland Timbers Green 2025 Jersey Hook Scarf",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Accessories",
+      "shipping": "Ready To Ship",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/green-portland-timbers-2025-jersey-hook-scarf_ss5_p-202840851+u-qc41fzntzekxs3w5xq4r+v-tflypxhmpdcebobygo58.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORvrX"
+    },
+    {
+      "title": "Men's Portland Timbers 500 Level Black Timber Joey Pullover Sweatshirt",
+      "price": "$59.99",
+      "originalPrice": "$59.99",
+      "category": "Men's Sweatshirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-500-level-black-portland-timbers-timber-joey-pullover-sweatshirt_ss5_p-201462913+u-iytirri0wfk5loa6jq6e+v-i7m3jtmrmyudpr2148lj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrj2A"
+    },
+    {
+      "title": "Women's Portland Timbers adidas Green 2023 Portland Plaid Kit Replica Jersey",
+      "price": "$49.99",
+      "originalPrice": "$99.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/womens-adidas-green-portland-timbers-2023-portland-plaid-kit-replica-jersey_ss5_p-5273089+pv-1+u-uyrxwckclxqcild7rzgi+v-v73jfixcnvc6pls4hr8u.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAv6P"
+    },
+    {
+      "title": "Men's Portland Timbers 500 Level Heather Gray Timber Joey Pullover Sweatshirt",
+      "price": "$59.99",
+      "originalPrice": "$59.99",
+      "category": "Men's Sweatshirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-500-level-heather-gray-portland-timbers-timber-joey-pullover-sweatshirt_ss5_p-201462912+u-s5ysssujradywbciny4x+v-xeyqgjcm8az4gletrts4.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/19yMWR"
+    },
+    {
+      "title": "Men's Portland Timbers adidas Green 2023 Portland Plaid Kit Authentic Custom Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/portland-timbers/mens-adidas-green-portland-timbers-2023-portland-plaid-kit-authentic-custom-jersey_pi5281000_altimages_ff_5281662-f4f75f8bf1e47d5e73b9alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmGvXo"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

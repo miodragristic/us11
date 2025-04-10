@@ -38,10 +38,88 @@ const TrendingPlayers = () => {
 
 const FCCincinnati = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: 'https://www.amazon.com/jerseys-cincinnati-fc', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: 'https://www.amazon.com/tshirts-cincinnati-fc', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: 'https://www.amazon.com/merchandise-cincinnati-fc', price: '$49.99' },
-  ];
+    {
+      "title": "Men's FC Cincinnati adidas Blue 2025 Orange and Blue Legacy Kit Authentic Custom Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-adidas-blue-fc-cincinnati-2025-orange-and-blue-legacy-kit-authentic-custom-jersey_ss5_p-202698413+pv-1+u-hispoux2wwhe61cs3mhq+v-nternmvivefpboc0ftgy.jpg?_hv=2&w=900",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-adidas-blue-2025-orange-and-blue-legacy-kit-authentic-custom-jersey/t-10575477+p-35330295219960+z-8-1022979804?_ref=p-SRP:m-GRID:i-r0c0:po-0"
+    },
+    {
+      "title": "Youth FC Cincinnati adidas Blue 2025 Orange and Blue Legacy Kit Replica Jersey",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Kids Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/youth-adidas-blue-fc-cincinnati-2025-orange-and-blue-legacy-kit-replica-jersey_ss5_p-202649401+pv-1+u-wcjr8l1brh6fclm5glgb+v-s2j3rd3ufbmceiqyutu7.jpg?_hv=2&w=900",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/youth-fc-cincinnati-adidas-blue-2025-orange-and-blue-legacy-kit-replica-jersey/t-10240911+p-029980737121521+z-9-2505727033?_ref=p-SRP:m-GRID:i-r0c1:po-1"
+    },
+    {
+      "title": "Men's FC Cincinnati New Era Tan Active 9TWENTY Adjustable Hat",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Hats",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens%C2%A0new-era-tan-fc-cincinnati-active-9twenty-adjustable-hat_ss5_p-202314661+u-fud3egjugt57v2oegung+v-ojy8o0jfqlr9ke5asbyp.jpg?_hv=2&w=400",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-new-era-tan-active-9twenty-adjustable-hat/t-21248788+p-359979586737889+z-9-4159064721?_ref=p-SRP:m-GRID:i-r0c2:po-2"
+    },
+    {
+      "title": "Men's FC Cincinnati adidas Blue 2025 Orange and Blue Legacy Kit Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-adidas-blue-fc-cincinnati-2025-orange-and-blue-legacy-kit-replica-jersey_ss5_p-202644705+u-wwfzmn12rc4hl0r5cxfd+v-y9f2uofudcrnyeg2fcyf.jpg?_hv=2&w=400",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-adidas-blue-2025-orange-and-blue-legacy-kit-replica-jersey/t-43242166+p-795524397148127+z-9-1301522098?_ref=p-SRP:m-GRID:i-r1c0:po-3"
+    },
+    {
+      "title": "Men's FC Cincinnati adidas Blue 2025 Orange and Blue Legacy Kit Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-adidas-blue-fc-cincinnati-2025-orange-and-blue-legacy-kit-authentic-jersey_ss5_p-202644578+pv-1+u-wnvypynisdq8jgwhp2i8+v-kdbzgupiulws5a92hbx4.jpg?_hv=2&w=900",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-adidas-blue-2025-orange-and-blue-legacy-kit-authentic-jersey/t-10020977+p-807768516015678+z-9-1971101910?_ref=p-SRP:m-GRID:i-r1c1:po-4"
+    },
+    {
+      "title": "Men's FC Cincinnati Fanatics Blue Injury Time Baseball Jersey",
+      "price": "$59.99",
+      "originalPrice": "$59.99",
+      "category": "Baseball Jersey",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-fanatics-blue-fc-cincinnati-injury-time-baseball-jersey_ss5_p-201747332+u-kbxgkpqifv9yogj3ikvb+v-o7blruaofkmf5kwlogao.jpg?_hv=2&w=400",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-fanatics-blue-injury-time-baseball-jersey/t-32793200+p-916623747174605+z-9-3628552592?_ref=p-SRP:m-GRID:i-r2c0:po-6"
+    },
+    {
+      "title": "Men's FC Cincinnati Black Forever Lucky T-Shirt",
+      "price": "$17.99",
+      "originalPrice": "$34.99",
+      "category": "T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-black-fc-cincinnati-forever-lucky-t-shirt_ss5_p-3397817+u-sdnztxa7nqjbrpgtvgz5+v-f8xwblaoxnclip2xulmc.jpg?_hv=2&w=400",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-black-forever-lucky-t-shirt/t-21351011+p-0369092931679+z-9-2393266464?_ref=p-SRP:m-GRID:i-r2c2:po-8"
+    },
+    {
+      "title": "Men's FC Cincinnati Heather Gray Victory Arch Pullover Hoodie",
+      "price": "$34.99",
+      "originalPrice": "$64.99",
+      "category": "Sweatshirts",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-heather-gray-fc-cincinnati-victory-arch-pullover-hoodie_pi3324000_ff_3324931-78d06a219c7aeffaec10c_full.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/AP35Y1https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-heather-gray-victory-arch-pullover-hoodie/t-10351044+p-3625800409702+z-9-1634254895?_ref=p-SRP:m-GRID:i-r3c0:po-9https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-heather-gray-victory-arch-pullover-hoodie/t-10351044+p-3625800409702+z-9-1634254895?_ref=p-SRP:m-GRID:i-r3c0:po-9"
+    },
+    {
+      "title": "Men's FC Cincinnati Fanatics Blue Stoppage Time Striker T-Shirt",
+      "price": "$54.99",
+      "originalPrice": "$54.99",
+      "category": "T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-fanatics-blue-fc-cincinnati-stoppage-time-striker-t-shirt_ss5_p-201747279+u-ue3irlteotcer0kwpwed+v-twa2gmcwulq4j1mt302t.jpg?_hv=2&w=400",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-fanatics-blue-stoppage-time-striker-t-shirt/t-21790933+p-462256183774449+z-9-2713659459?_ref=p-SRP:m-GRID:i-r3c1:po-10"
+    },
+    {
+      "title": "Men's FC Cincinnati 500 Level Royal All For Cincy State Pullover Hoodie",
+      "price": "$69.99",
+      "originalPrice": "$69.99",
+      "category": "Hoodies",
+      "imageUrl": "https://images.footballfanatics.com/fc-cincinnati/mens-500-level-royal-fc-cincinnati-all-for-cincy-state-pullover-hoodie_ss5_p-201463011+u-j8ridljlzmrfz77e9vzi+v-ipyiepn54m2tsmqfyfoy.jpg?_hv=2&w=400",
+      "link": "https://www.mlsstore.com/en/fc-cincinnati/mens-fc-cincinnati-500-level-royal-all-for-cincy-state-pullover-hoodie/t-10353299+p-462212376270144+z-9-3862548247?_ref=p-SRP:m-GRID:i-r3c2:po-11"
+    }
+  ]  
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -115,7 +193,7 @@ const FCCincinnati = () => {
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>

@@ -3,12 +3,44 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const MarcoReus = () => {
   const items = [
-    { id: 1, title: "Marco Reus Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Marco Reus Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Marco Reus Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Marco Reus Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Marco Reus Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Men's LA Galaxy Marco Reus Navy Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/mens-marco-reus-navy-la-galaxy-authentic-stack-name-and-number-t-shirt_ss5_p-202772325+pv-1+u-omwd9az9qxhq5uvd7zbd+v-bhiyopwwoxio6h0k4aur.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmGYa5"
+    },
+    {
+      "title": "Men's LA Galaxy Marco Reus adidas Green 2024 LA Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/mens-adidas-marco-reus-green-la-galaxy-2024-la-kit-authentic-player-jersey_ss5_p-202211419+pv-1+u-8xkyxapfpw2rjkamswzw+v-0grxctbgcekkcienwskg.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxPNKm"
+    },
+    {
+      "title": "Women's LA Galaxy Marco Reus adidas Green 2024 LA Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/womens-adidas-marco-reus-green-la-galaxy-2024-la-kit-replica-player-jersey_ss5_p-202211421+pv-1+u-bazlwyddzlb2e88an8xs+v-4msegbgrf1dxogninw7p.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAqe3"
+    },
+    {
+      "title": "Youth LA Galaxy Marco Reus adidas Green 2024 LA Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/youth-adidas-marco-reus-green-la-galaxy-2024-la-kit-replica-player-jersey_ss5_p-202211422+pv-1+u-trhxeu1y7oel7hx9jukx+v-eswtdyfdzqbxfn45d7y8.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yZ63"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

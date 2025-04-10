@@ -36,10 +36,138 @@ const TrendingPlayers = () => {
 
 const DCUnited = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './DCUnitedJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './DCUnitedTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './DCUnitedMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's D.C. United adidas White 2023 The Cherry Blossom Kit Authentic Jersey",
+      "price": "$74.99",
+      "originalPrice": "$159.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-white-dc-united-2023-the-cherry-blossom-kit-authentic-jersey_pi5273000_altimages_ff_5273525-6005f2e6d940b954b1dcalt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxrKnM"
+    },
+    {
+      "title": "Men's D.C. United adidas White 2023 The Cherry Blossom Kit Replica Jersey",
+      "price": "$44.99",
+      "originalPrice": "$99.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-white-dc-united-2023-the-cherry-blossom-kit-replica-jersey_pi5273000_altimages_ff_5273764-d3f90aaef190d3741ae9alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09A6RV"
+    },
+    {
+      "title": "Men's D.C. United Sport Design Sweden Tan Everyday Relaxed T-Shirt",
+      "price": "$29.99",
+      "originalPrice": "$39.99",
+      "category": "T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-sport-design-sweden-tan-dc-united-everyday-relaxed-t-shirt_ss5_p-202666808+pv-1+u-ke637eb7e3bittauen9z+v-lije7znrfzoddslx6wmx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/3JoKmB"
+    },
+    {
+      "title": "Men's D.C. United adidas Black 2024 The Icon Kit Replica Jersey",
+      "price": "$74.99",
+      "originalPrice": "$99.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-black-dc-united-2024-the-icon-kit-replica-jersey_ss5_p-201273854+pv-1+u-m2bfvqppd2vuqn7kz9ot+v-zdmukfsjv6njasmk7gqr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLQKO5"
+    },
+    {
+      "title": "Men's D.C. United adidas Natural 2025 The Soul Kit Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-natural-dc-united-2025-the-soul-kit-authentic-jersey_ss5_p-202652662+pv-1+u-imlmx3j13svoe61kmbrd+v-o4jixrqwbxo7xhzwwurr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raOKRR"
+    },
+    {
+      "title": "Youth D.C. United Outerstuff Black Stalwart Defender T-Shirt",
+      "price": "$23.99",
+      "originalPrice": "$31.99",
+      "category": "Kids T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/youth-outerstuff-black-dc-united-stalwart-defender-t-shirt_ss5_p-201875234+pv-1+u-dcgcrn2lernyx3rypvhd+v-uhybivdgcxucn8wfqqss.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bO2B5x"
+    },
+    {
+      "title": "Men's D.C. United adidas Natural 2025 The Soul Kit Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-natural-dc-united-2025-the-soul-kit-replica-jersey_ss5_p-202652744+pv-1+u-tkiktqewnk1ezmanssbk+v-lr7pv4fvzyd5h5gxe3mm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/gOgnr9"
+    },
+    {
+      "title": "Women's D.C. United adidas White 2023 The Cherry Blossom Kit Replica Jersey",
+      "price": "$19.99",
+      "originalPrice": "$99.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/womens-adidas-white-dc-united-2023-the-cherry-blossom-kit-replica-jersey_pi5274000_altimages_ff_5274090-e8be617e4816e8be94f3alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXoKjX"
+    },
+    {
+      "title": "Men's D.C. United adidas Black 2024 The Icon Kit Authentic Jersey",
+      "price": "$119.99",
+      "originalPrice": "$159.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-black-dc-united-2024-the-icon-kit-authentic-jersey_ss5_p-201092074+pv-1+u-bycn44t9agklncvsb5va+v-derymh0pqepyenrdfpun.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LO6x3"
+    },
+    {
+      "title": "Youth D.C. United adidas Natural 2025 The Soul Kit Replica Jersey",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Kids Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/youth-adidas-natural-dc-united-2025-the-soul-kit-replica-jersey_ss5_p-202658582+pv-1+u-pwvf0zclz4wvidstddvl+v-j7zn1llikmyttljzuvun.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/Dyn61d"
+    },
+    {
+      "title": "Men's D.C. United Christian Benteke adidas Black 2024 The Icon Kit Replica Player Jersey",
+      "price": "$101.24",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-christian-benteke-black-dc-united-2024-the-icon-kit-replica-player-jersey_ss5_p-201204985+pv-1+u-pygtwia630xjmonxcwmc+v-wmgsxstyo4qfl3saswjg.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55YdL2"
+    },
+    {
+      "title": "Men's D.C. United Christian Benteke adidas Natural 2025 The Soul Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-christian-benteke-natural-dc-united-2025-the-soul-kit-replica-player-jersey_ss5_p-202900476+pv-1+u-e4zhakq0ixamjklrrc4m+v-yei1rhyffkndzbc2bsnb.jpg?_hv=2&w=900",
+      "link": "mlsstore.i8h2.net/zxrKBr"
+    },
+    {
+      "title": "Unisex D.C. United Live Breathe Futbol Black Tekker Half-Zip Anorak Jacket",
+      "price": "$112.49",
+      "originalPrice": "$149.99",
+      "category": "Jackets",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/unisex-live-breathe-futbol-black-dc-united-tekker-half-zip-anorak-jacket_ss5_p-201638121+pv-1+u-t3hs1eyaoqyaauoxau9q+v-81fojhia1wqwib5etkkv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09A61R"
+    },
+    {
+      "title": "Men's D.C. United adidas Natural 2025 The Soul Kit Authentic Custom Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-adidas-natural-dc-united-2025-the-soul-kit-authentic-custom-jersey_ss5_p-202709833+pv-1+u-j54eqpu9gns6fsnqnmk9+v-7a7szzxnn1e6geydyeia.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmOaEX"
+    },
+    {
+      "title": "Men's D.C. United Fanatics Black/Red Striker Long Sleeve T-Shirt",
+      "price": "$35.99",
+      "originalPrice": "$44.99",
+      "category": "T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyReEA"
+    },
+    {
+      "title": "Men's FC Dallas Mitchell & Ness Dallas Burn City Full-Snap Satin Jacket",
+      "brand": "Mitchell & Ness",
+      "team": "FC Dallas / Dallas Burn",
+      "color": "Unknown",
+      "price": "$149.99",
+      "shipsFree": true,
+      "status": "Ready To Ship"
+    },
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

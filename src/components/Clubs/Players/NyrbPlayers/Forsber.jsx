@@ -2,12 +2,118 @@ import React from 'react';
 
 const EmilForsberg = () => {
   const items = [
-    { id: 1, title: "Emil Forsberg Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Emil Forsberg Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Emil Forsberg Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "New York Red Bulls Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Emil Forsberg Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's New York Red Bulls Emil Forsberg adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-emil-forsberg-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842150+pv-1+u-zh5z8qx9s48ynomnmhko+v-iafmocfervhy0vb9nbm2.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/kO9bg0"
+    },
+    {
+      "title": "Men's New York Red Bulls Emil Forsberg adidas Red 2024 Legacy Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-emil-forsberg-red-new-york-red-bulls-2024-legacy-replica-player-jersey_ss5_p-201242657+pv-1+u-th4rdhcpge4fvwbzvxky+v-qckmmid0stvmnvcy1yoa.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/JKOQb2"
+    },
+    {
+      "title": "Men's New York Red Bulls Emil Forsberg Red Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-emil-forsberg-red-new-york-red-bulls-authentic-stack-name-and-number-t-shirt_ss5_p-202772330+pv-1+u-q9m0z2a6kvon8m5xhiqd+v-0rtw3pr8ivgr5kuhrjbd.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4GyK50"
+    },
+    {
+      "title": "Youth New York Red Bulls Emil Forsberg adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/youth-adidas-emil-forsberg-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842152+pv-1+u-x6hrass16ysyn6zgjjvp+v-4niyvwqr1q9zxme85joy.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRboDe"
+    },
+    {
+      "title": "Women's New York Red Bulls Emil Forsberg adidas Red 2024 Legacy Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/womens-adidas-emil-forsberg-red-new-york-red-bulls-2024-legacy-replica-player-jersey_ss5_p-201242660+pv-1+u-6h0vi3bjopnff3uxrf45+v-fybc0nvvkles3wykeygr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOjbR7"
+    },
+    {
+      "title": "Men's New York Red Bulls Emil Forsberg adidas Red 2024 Legacy Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-emil-forsberg-red-new-york-red-bulls-2024-legacy-authentic-player-jersey_ss5_p-201242654+pv-1+u-eqlk04puqftizwrmcrk8+v-muzdsuve8lgaptzphqbl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xLrbEx"
+    },
+    {
+      "title": "Men's New York Red Bulls Emil Forsberg adidas Tan 2025 Stone Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-emil-forsberg-tan-new-york-red-bulls-2025-stone-kit-authentic-player-jersey_ss5_p-202842149+pv-1+u-o9j1x2qlgygwrfv89s1d+v-9ytxyiutjccyxqcypppg.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/19yO5D"
+    },
+    {
+      "title": "Men's New York Red Bulls Emil Forsberg adidas Yellow 2024 Daniel Patrick Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-emil-forsberg-yellow-new-york-red-bulls-2024-daniel-patrick-kit-replica-player-jersey_ss5_p-201242667+pv-1+u-mi8myjgbrzxcg8idjtky+v-te3xsf7asjrgph425gs2.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAKDJ"
+    },
+    {
+      "title": "Women's New York Red Bulls Emil Forsberg adidas Tan 2025 Stone Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/womens-adidas-emil-forsberg-tan-new-york-red-bulls-2025-stone-kit-replica-player-jersey_ss5_p-202842151+pv-1+u-xpzaicon0wb7zleaue1l+v-ivnrnnydovkeecey4ian.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/bOPy3g"
+    },
+    {
+      "title": "Women's New York Red Bulls Emil Forsberg adidas Yellow 2024 Daniel Patrick Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/womens-adidas-emil-forsberg-yellow-new-york-red-bulls-2024-daniel-patrick-kit-replica-player-jersey_ss5_p-201242668+pv-1+u-nziz0gwxxcmeuksy0hwo+v-c2ld2o89qtcmpiaaysxg.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQbn3"
+    },
+    {
+      "title": "Men's New York Red Bulls Emil Forsberg adidas Yellow 2024 Daniel Patrick Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/new-york-red-bulls/mens-adidas-emil-forsberg-yellow-new-york-red-bulls-2024-daniel-patrick-kit-authentic-player-jersey_ss5_p-201242666+pv-1+u-eyxieaozbz72zycxt0sc+v-mq0a0bwjp4esk4cftumw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55yLgb"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

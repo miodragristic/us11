@@ -2,12 +2,143 @@ import React from 'react';
 
 const JordanMorris = () => {
   const items = [
-    { id: 1, title: "Jordan Morris Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Jordan Morris Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Jordan Morris Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Seattle Sounders FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Jordan Morris Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's Seattle Sounders FC Jordan Morris adidas Blue 2025 The Salish Sea Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "Most Popular in Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-jordan-morris-blue-seattle-sounders-fc-2025-the-salish-sea-kit-authentic-player-jersey_ss5_p-202900593+pv-1+u-ouksmx2pffnue9eszv9h+v-ajn0apkfyyguvauxfkj1.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4GyxbZ"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Jordan Morris adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-jordan-morris-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900597+pv-1+u-3uxm6q3ljgoyjxrye1zv+v-yoydua7p6oahv8cdvpqx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOZXn"
+    },
+    {
+      "title": "Youth Seattle Sounders FC Jordan Morris adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "availability": "Most Popular in Kids Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/youth-adidas-jordan-morris-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900605+pv-1+u-jrwywsxjit7jams00i5e+v-fsacgrioenrff10k2ymm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLq6R"
+    },
+    {
+      "title": "USMNT Jordan Morris Player Scarf",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Scarves",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/jordan-morris-usmnt-player-scarf_ss5_p-201543037+u-g1q4fkknid5cix8axmte+v-lz7ndzjyirskoqjigpoz.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQGo5"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Jordan Morris adidas Green 2024 The Anniversary Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-jordan-morris-green-seattle-sounders-fc-2024-the-anniversary-kit-authentic-player-jersey_ss5_p-201206352+pv-1+u-pxdv6nb5qvseotmqxgj5+v-ljkwntjjvyrwggrtsyls.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1e5Vj"
+    },
+    {
+      "title": "Women's Seattle Sounders FC Jordan Morris adidas Red 2024 The Bruce Lee Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/womens-adidas-jordan-morris-red-seattle-sounders-fc-2024-the-bruce-lee-kit-replica-player-jersey_ss5_p-201206373+pv-1+u-pw3lwfdqibhck8yjkfuf+v-wgyy4fusqgn0caoqyb5n.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAvm3"
+    },
+    {
+      "title": "Women's Seattle Sounders FC Jordan Morris adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/womens-adidas-jordan-morris-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900601+pv-1+u-xq5vnufwnlmw3bt2scze+v-jm4cnpkzuedg1jwyltay.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQGo0"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Jordan Morris adidas Red 2024 The Bruce Lee Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-jordan-morris-red-seattle-sounders-fc-2024-the-bruce-lee-kit-replica-player-jersey_ss5_p-201206369+pv-1+u-6p5xyq93q8iaqtvelmhl+v-er3auddc1loui8znk4yy.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APn1J7"
+    },
+    {
+      "title": "Jordan Morris Seattle Sounders FC Fanatics Authentic 10.5\" x 13\" Legacy Green Jersey Style Number 13 Sublimated Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Collectibles",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/jordan-morris-seattle-sounders-fc-105-x-13-legacy-green-jersey-style-number-13-sublimated-plaque_ss5_p-200599751+u-kdjyojppskso1qg8rbv6+v-dvbzz3dblgprt6ostogn.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/VxAvqE"
+    },
+    {
+      "title": "Women's Seattle Sounders FC Jordan Morris Fanatics Black Playmaker Name and Number V-Neck T-Shirt",
+      "price": "$19.99",
+      "originalPrice": "$34.99",
+      "category": "Women's T-Shirts",
+      "availability": "Almost Gone! as of 05/04/2021",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/womens-fanatics-jordan-morris-black-seattle-sounders-fc-playmaker-name-and-number-v-neck-t-shirt_pi4205000_altimages_ff_4205326-0915eb8d688b46afa712alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45gEm"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Jordan Morris adidas Green 2024 The Anniversary Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-jordan-morris-green-seattle-sounders-fc-2024-the-anniversary-kit-replica-player-jersey_ss5_p-201206356+pv-1+u-j7jykbx90ttz46zxsfda+v-uwk0zp0jimmuucnot9jc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxP5L6"
+    },
+    {
+      "title": "Unisex Seattle Sounders FC Jordan Morris Blue Player Adjustable Hat",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Hats",
+      "availability": "Almost Gone! Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/unisex-jordan-morris-blue-seattle-sounders-fc-player-adjustable-hat_ss5_p-201204717+pv-2+u-a8t5cojmij2djcz3yi8k+v-jgmwiuygzpq35tdwz6ou.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yMrJ"
+    },
+    {
+      "title": "Unsigned Seattle Sounders FC Jordan Morris Fanatics Authentic 2020 MLS Playoffs Round 1 Goal in Win vs. LAFC Photograph",
+      "price": "$9.99-$14.99",
+      "originalPrice": "$9.99-$14.99",
+      "category": "Photographs",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/jordan-morris-seattle-sounders-fc-unsigned-2020-mls-playoffs-round-1-goal-in-win-vs-lafc-photograph_pi4153000_ff_4153819-5a91f41848b7db2eaec7_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXPZOX"
+    },
+    {
+      "title": "Unsigned Seattle Sounders FC Jordan Morris Fanatics Authentic Dribbling Photograph",
+      "price": "$9.99-$39.99",
+      "originalPrice": "$9.99-$39.99",
+      "category": "Photographs",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/jordan-morris-seattle-sounders-fc-unsigned-dribbling-photograph_pi3891000_ff_3891266-3e853d59867835bede73_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRbv5j"
+    },
+    {
+      "title": "Men's Seattle Sounders FC adidas Green 2021 Primary Authentic Custom Jersey",
+      "price": "$164.99",
+      "originalPrice": "$9.99-$39.99",
+      "category": "Photographs",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-green-seattle-sounders-fc-2021-primary-authentic-custom-jersey_pi4286000_altimages_ff_4286576-1ce382a23af50f116a78alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2ayLPQ"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

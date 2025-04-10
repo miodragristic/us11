@@ -2,12 +2,28 @@ import React from 'react';
 
 const MikaelUhre = () => {
   const items = [
-    { id: 1, title: "Mikael Uhre Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Uhre Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Mikael Uhre Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Philadelphia Union Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Mikael Uhre Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Mikael Uhre Philadelphia Union Autographed Fanatics Authentic Match-Used #7 Tan adidas Jersey from the 2024 MLS Season - Size L",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Match-Used Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/philadelphia-union/mikael-uhre-philadelphia-union-autographed-match-used-number-7-tan-adidas-jersey-from-the-2024-mls-season-size-l_ss5_p-202767677+pv-1+u-2dg7f8c1yny9ugbxoqgg+v-lthp6jzyhzlgwsjxedz6.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/55yDj9"
+    },
+    {
+      "title": "Mikael Uhre Philadelphia Union Autographed Fanatics Authentic Match-Used #7 Navy adidas Jersey from the 2024 MLS Season - Size L",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Match-Used Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/philadelphia-union/mikael-uhre-philadelphia-union-autographed-match-used-number-7-navy-adidas-jersey-from-the-2024-mls-season-size-l_ss5_p-202767678+pv-1+u-ynys6t9opfiuqhxy78on+v-hdvudfxxhdzpg2ayzt3g.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOj9Kb"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

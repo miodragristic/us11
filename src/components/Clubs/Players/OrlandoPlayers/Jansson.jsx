@@ -2,12 +2,78 @@ import React from 'react';
 
 const RobinJansson = () => {
   const items = [
-    { id: 1, title: "Robin Jansson Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Jansson Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Robin Jansson Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Orlando City Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Robin Jansson Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Women's Orlando City SC Robin Jansson adidas Purple 2024 The Wall Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/womens-adidas-robin-jansson-purple-orlando-city-sc-2024-the-wall-kit-replica-player-jersey_ss5_p-201205926+pv-1+u-alyj3ycjo20aehzvrfir+v-lsul70qvkryipfwxfhoq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEOVJ4"
+    },
+    {
+      "title": "Men's Orlando City SC Robin Jansson adidas Purple 2025 Perfect Storm Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-robin-jansson-purple-orlando-city-sc-2025-perfect-storm-replica-player-jersey_ss5_p-202852860+pv-1+u-bzvew4zyt7trlcljqawt+v-9cpnxyjeomwfqmhu3wmm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/3JyOoB"
+    },
+    {
+      "title": "Men's Orlando City SC Robin Jansson adidas Purple 2025 Perfect Storm Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-robin-jansson-purple-orlando-city-sc-2025-perfect-storm-authentic-player-jersey_ss5_p-202852859+pv-1+u-pub0y88qx9vqcockjh9j+v-spen8ug7kznmqloktget.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/N9RPRK"
+    },
+    {
+      "title": "Youth Orlando City SC Robin Jansson adidas Purple 2025 Perfect Storm Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/youth-adidas-robin-jansson-purple-orlando-city-sc-2025-perfect-storm-replica-player-jersey_ss5_p-202852862+pv-1+u-vcchwrv5l7kgvxptvigt+v-klcjryg2li39mwtz5onh.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7anxny"
+    },
+    {
+      "title": "Women's Orlando City SC Robin Jansson adidas Purple 2024 Legacy Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/womens-adidas-robin-jansson-purple-orlando-city-sc-2024-legacy-kit-replica-player-jersey_ss5_p-201205912+pv-1+u-cv5qk5s21llzkx76mbls+v-wpz1oenhadp7a4gnl8ay.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9LnQny"
+    },
+    {
+      "title": "Women's Orlando City SC Robin Jansson adidas Purple 2025 Perfect Storm Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/womens-adidas-robin-jansson-purple-orlando-city-sc-2025-perfect-storm-replica-player-jersey_ss5_p-202852861+pv-1+u-9lv5pzlkoosent2qy6gb+v-auxp0ip4cjrqucgfcrno.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQ2Q5"
+    },
+    {
+      "title": "Men's Orlando City SC Robin Jansson adidas Purple 2024 Legacy Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/orlando-city-sc/mens-adidas-robin-jansson-purple-orlando-city-sc-2024-legacy-kit-replica-player-jersey_ss5_p-201205908+pv-1+u-ftungf5o1decrjugznvp+v-4tv2amu1q2yh2i1pgz3g.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOj6jZ"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

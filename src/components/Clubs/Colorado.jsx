@@ -36,10 +36,135 @@ const TrendingPlayers = () => {
 
 const ColoradoRapids = () => {
   const items = [
-    { id: 1, title: 'Jerseys', imageUrl: 'path/to/jersey-image.jpg', link: './ColoradoJerseys', price: '$79.99' },
-    { id: 2, title: 'T-Shirts', imageUrl: 'path/to/tshirt-image.jpg', link: './ColoradoTShirts', price: '$29.99' },
-    { id: 3, title: 'Merchandise', imageUrl: 'path/to/merch-image.jpg', link: './ColoradoMerchandise', price: '$49.99' },
-  ];
+    {
+      "title": "Men's Colorado Rapids Sport Design Sweden Mint City Soul Oversized T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-sport-design-sweden-mint-colorado-rapids-city-soul-oversized-t-shirt_ss5_p-202666832+pv-1+u-aj0oz8i6ygse3j75epkb+v-49ziqgd3h8zv1x7h2tqq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/POVLBe"
+    },
+    {
+      "title": "Youth Colorado Rapids adidas Green 2025 Headwaters Replica Jersey",
+      "price": "$79.99",
+      "originalPrice": "$79.99",
+      "category": "Kids Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/youth-adidas-green-colorado-rapids-2025-headwaters-replica-jersey_ss5_p-202658580+pv-1+u-ujmnl06vviq1gosiqf5v+v-hqcfrl93appibdiqclsb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/VxYrQO"
+    },
+    {
+      "title": "Men's Colorado Rapids Charcoal Jersey Hook Hockey Pullover Hoodie",
+      "price": "$94.99",
+      "originalPrice": "$94.99",
+      "category": "Sweatshirts",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-charcoal-colorado-rapids-jersey-hook-hockey-pullover-hoodie_ss5_p-202666865+u-k7eu9d1tpuvxvziyzocc+v-thj27i1lo96pjopfzfqa.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/gO6zrA"
+    },
+    {
+      "title": "Youth Colorado Rapids Outerstuff Burgundy Stalwart Defender T-Shirt",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Kids T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/youth-outerstuff-burgundy-colorado-rapids-stalwart-defender-t-shirt_ss5_p-201875231+pv-1+u-p0qnoxkmbckwxjyckrcp+v-kllqiztgrr1lefahbrvr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09jrnR"
+    },
+    {
+      "title": "Men's Colorado Rapids adidas Green 2025 Headwaters Replica Custom Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-green-colorado-rapids-2025-headwaters-replica-custom-jersey_ss5_p-202709905+pv-1+u-twpohtapr92bmfh1pgay+v-xnrgha6txicfcdhefnir.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6ydaxq"
+    },
+    {
+      "title": "Men's Colorado Rapids Fanatics Burgundy Iconic Quarter-Zip Jacket",
+      "price": "$29.99",
+      "originalPrice": "$41.99",
+      "category": "Jackets",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-fanatics-burgundy-colorado-rapids-iconic-quarter-zip-jacket_ss5_p-4647909+pv-1+u-y5qi56jlp69tw8vy3m0s+v-x0bigqnogowcth6a9evt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1EoQO"
+    },
+    {
+      "title": "Men's Colorado Rapids adidas Green 2025 Headwaters Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-green-colorado-rapids-2025-headwaters-replica-jersey_ss5_p-202652742+pv-1+u-ptyh0qov1wcafoqpngds+v-uaxfbkk8w1ew9dihostv.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/xL5xXk"
+    },
+    {
+      "title": "Men's Colorado Rapids Fanatics Cream Tempo Corduroy Snapback Hat",
+      "price": "$31.99",
+      "originalPrice": "$31.99",
+      "category": "Hats",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-fanatics-cream-colorado-rapids-tempo-corduroy-snapback-hat_ss5_p-201747607+pv-1+u-rmsne923xvq3p2yl6tqm+v-uo6cbdmvwpzitf07hdps.jpg?_hv=2&w=900",
+      "link": "http://mlsstore.i8h2.net/POVLY6"
+    },
+    {
+      "title": "Men's Colorado Rapids New Era Burgundy Jersey Hook Cuff Knit Hat with Pom",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Hats",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-new-era-burgundy-colorado-rapids-jersey-hook-cuff-knit-hat-with-pom_ss5_p-201155097+pv-1+u-aewpelxui7xkuhbvcatx+v-o7xxvm1hacbefp4ck0nd.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/POVLY6"
+    },
+    {
+      "title": "Men's Colorado Rapids New Era White 2025 Jersey Hook 9SEVENTY Stretch-Snap Hat",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Hats",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-new-era-white-colorado-rapids-2025-jersey-hook-9seventy-stretch-snap-hat_ss5_p-202216444+pv-1+u-jzfuuw75abzqfn198mmx+v-mlubqzhudu0vpmhldcy3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/XmnPo5"
+    },
+    {
+      "title": "Colorado Rapids Green 2025 Jersey Hook Scarf",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Scarves",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/green-colorado-rapids-2025-jersey-hook-scarf_ss5_p-202840853+u-ktphmulphbhshosnakhz+v-xmk84kywglhgdqwgntqb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnyWe9"
+    },
+    {
+      "title": "Men's Colorado Rapids Fanatics Burgundy Elevated Speed Flex Hat",
+      "price": "$19.99",
+      "originalPrice": "$27.99",
+      "category": "Hats",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-fanatics-burgundy-colorado-rapids-elevated-speed-flex-hat_pi2995000_altimages_ff_2995608alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEenGX"
+    },
+    // {
+    //   "title": "Men's Colorado Rapids New Era Black 2024 Kick Off Collection Golfer Snapback Hat",
+    //   "price": "$34.99",
+    //   "originalPrice": "$34.99",
+    //   "category": "Hats",
+    //   "imageUrl": "",
+    //   "link": ""
+    // },
+    // {
+    //   "title": "Men's Colorado Rapids New Era White 2025 Jersey Hook Cuffed Knit Hat with Pom",
+    //   "price": "$29.99",
+    //   "originalPrice": "$29.99",
+    //   "category": "Hats",
+    //   "imageUrl": "",
+    //   "link": ""
+    // },
+    // {
+    //   "title": "Sport Design Sweden Colorado Rapids Youth Light Blue Starting Lineup Home T-Shirt",
+    //   "price": "$34.99",
+    //   "originalPrice": "$34.99",
+    //   "category": "Kids T-Shirts",
+    //   "imageUrl": "",
+    //   "link": ""
+    // },
+    {
+      "title": "Men's Colorado Rapids adidas Green 2025 Headwaters Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/mens-adidas-green-colorado-rapids-2025-headwaters-authentic-jersey_ss5_p-202652660+pv-1+u-ucua6armdxjdpddyhexs+v-oik0ev53j5ndfq03cdfx.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeyE2n"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

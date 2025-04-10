@@ -2,12 +2,18 @@ import React from 'react';
 
 const MattPolster = () => {
   const items = [
-    { id: 1, title: "Matt Polster Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Matt Polster Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Matt Polster Training Kit", imageUrl: 'https://example.com/kit1.jpg', link: 'https://www.example.com/product/3', price: '$79.99' },
-    { id: 4, title: "Matt Polster Autographed Cleats", imageUrl: 'https://example.com/cleats1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "New England Revolution Scarf", imageUrl: 'https://example.com/scarf1.jpg', link: 'https://www.example.com/product/5', price: '$29.99' },
-  ];
+    {
+      "title": "Matt Polster New England Revolution Autographed Fanatics Authentic Match-Used #8 White adidas Jersey from the 2024 MLS Season - Size M",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Collectibles",
+      "shipping": "Ships Free",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/new-england-revolution/matt-polster-new-england-revolution-autographed-match-used-number-8-white-adidas-jersey-from-the-2024-mls-season-size-m_ss5_p-202767534+u-q6ckjofeh1qwrwzjympe+v-kbomie4qvhpebzurxge0.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/BnOOry"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

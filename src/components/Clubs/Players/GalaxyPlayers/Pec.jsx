@@ -3,12 +3,54 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const GabrielPec = () => {
   const items = [
-    { id: 1, title: "Gabriel Pec Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Gabriel Pec Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Gabriel Pec Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Gabriel Pec Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Gabriel Pec Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Youth LA Galaxy Gabriel Pec adidas Green 2024 LA Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/youth-adidas-gabriel-pec-green-la-galaxy-2024-la-kit-replica-player-jersey_ss5_p-201341070+pv-1+u-cft9avowikzdqdn9r0nf+v-dzyuyl9j1bu43kknfcym.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/dOkazQ"
+    },
+    {
+      "title": "Youth LA Galaxy Gabriel Pec adidas Navy 2025 RIZON Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/youth-adidas-gabriel-pec-navy-la-galaxy-2025-rizon-replica-player-jersey_ss5_p-202841069+pv-1+u-pj3m2itofv9wxxxj2zpt+v-nhstzwlonyvimfohob1t.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/N9RkqO"
+    },
+    {
+      "title": "Men's LA Galaxy Gabriel Pec adidas Green 2024 LA Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/mens-adidas-gabriel-pec-green-la-galaxy-2024-la-kit-authentic-player-jersey_ss5_p-201341067+pv-1+u-u7gbonikos6mbtuhbquf+v-rupps7m6frx4p53pblgr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yqj21D"
+    },
+    {
+      "title": "Women's LA Galaxy Gabriel Pec adidas Navy 2025 RIZON Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "badge": "Most Popular in Women Jerseys",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/womens-adidas-gabriel-pec-navy-la-galaxy-2025-rizon-replica-player-jersey_ss5_p-202841068+pv-1+u-orfbkgot42zufobr8oxt+v-05xjgkgplgbwlnzquc94.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRb9aO"
+    },
+    {
+      "title": "Women's LA Galaxy Gabriel Pec adidas Green 2024 LA Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/la-galaxy/womens-adidas-gabriel-pec-green-la-galaxy-2024-la-kit-replica-player-jersey_ss5_p-201341069+pv-1+u-ujmjgskxejpjk7rnwuyf+v-7qmofapong0zluvyvqnf.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2mLP"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

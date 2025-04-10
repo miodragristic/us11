@@ -3,12 +3,48 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const KeeganRosenberry = () => {
   const items = [
-    { id: 1, title: "Keegan Rosenberry Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Keegan Rosenberry Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Keegan Rosenberry Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Keegan Rosenberry Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Keegan Rosenberry Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Keegan Rosenberry Colorado Rapids Autographed Fanatics Authentic Match-Used #2 Maroon Jersey from the 2023 MLS Season",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Jerseys",
+      "availability": "Almost Gone!",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/keegan-rosenberry-colorado-rapids-autographed-match-used-number-2-maroon-jersey-from-the-2023-mls-season_ss5_p-200940894+pv-1+u-i1n1ok5gi1dj45nicobd+v-zlihmtwr3alb4tbyizne.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6ydaqN"
+    },
+    {
+      "title": "Keegan Rosenberry Colorado Rapids Autographed Fanatics Authentic Match-Used #2 Maroon adidas Jersey from the 2024 MLS Season - Size S",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Jerseys",
+      "availability": "Almost Gone!",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/keegan-rosenberry-colorado-rapids-autographed-match-used-number-2-maroon-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202678557+pv-1+u-opz3emo1vmj8xw3zzxd8+v-hdcxhcsvhmohtugvflsc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOE6bD"
+    },
+    {
+      "title": "Keegan Rosenberry Colorado Rapids Autographed Fanatics Authentic Match-Used #2 Blue Jersey from the 2023 MLS Season",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Jerseys",
+      "availability": "Almost Gone!",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/keegan-rosenberry-colorado-rapids-autographed-match-used-number-2-blue-jersey-from-the-2023-mls-season_ss5_p-200940885+pv-1+u-f7vbu6h2llxbdzcmdxly+v-1bq5q0nooopbyb6pigcs.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/POVLW6"
+    },
+    {
+      "title": "Keegan Rosenberry Colorado Rapids Autographed Fanatics Authentic Match-Used #2 Blue adidas Jersey from the 2024 MLS Season - Size S",
+      "price": "$299.99",
+      "originalPrice": "$299.99",
+      "category": "Jerseys",
+      "availability": "Almost Gone!",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/colorado-rapids/keegan-rosenberry-colorado-rapids-autographed-match-used-number-2-blue-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202678567+pv-1+u-abqvp3g5jiwl5ehajmiy+v-ggq1izzgetiidkh2qopu.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/9Lz1rQ"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>
@@ -50,7 +86,7 @@ const KeeganRosenberry = () => {
           </p>
           <p>
             With his tactical awareness and leadership, Rosenberry has earned recognition as one of the top defenders in Major League Soccer. 
-            His commitment and versatility continue to inspire both teammates and fans alike.
+            His commitment and versatility continue to inspire both teammates and fans alike. 
           </p>
         </div>
 
@@ -66,7 +102,7 @@ const KeeganRosenberry = () => {
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <p className='text-lg font-semibold'>{item.price}</p>
                 <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
+                  Buy on MLS Store <FaShoppingCart className='inline-block ml-2' />
                 </a>
               </div>
             </div>

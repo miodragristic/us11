@@ -3,12 +3,98 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const OlivierGiroud = () => {
   const items = [
-    { id: 1, title: "Olivier Giroud Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Olivier Giroud Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Olivier Giroud Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$39.99' },
-    { id: 4, title: "Olivier Giroud Signed Boots", imageUrl: 'https://example.com/boots1.jpg', link: 'https://www.example.com/product/4', price: '$329.99' },
-    { id: 5, title: "Olivier Giroud Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
-  ];
+    {
+      "title": "Women's LAFC Olivier Giroud adidas Black 2024 Primary Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/womens-adidas-olivier-giroud-black-lafc-2024-primary-replica-player-jersey_ss5_p-201684693+pv-1+u-cwm7p49e8jfkbsysqogy+v-uutvmmclczyege29j3uc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/YRbqMP"
+    },
+    {
+      "title": "Men's LAFC Olivier Giroud adidas White 2025 Secondary Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-olivier-giroud-white-lafc-2025-secondary-replica-player-jersey_ss5_p-202891353+pv-1+u-t2wp6jbduj70ifa1zhcq+v-nptxogf0yl78pnsvsdgw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/mOjXPM"
+    },
+    {
+      "title": "Men's LAFC Olivier Giroud Black Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-olivier-giroud-black-lafc-authentic-stack-name-and-number-t-shirt_ss5_p-202772326+pv-1+u-2h3ohjir8ogyx2lohjpr+v-laoahttbc2bx98sefkt1.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyObv2"
+    },
+    {
+      "title": "Men's LAFC Olivier Giroud adidas White 2025 Secondary Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-olivier-giroud-white-lafc-2025-secondary-authentic-player-jersey_ss5_p-202891349+pv-1+u-gqjhfwayggeertxczgtn+v-jakaibq4kvimd2ycrs4v.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOx7a"
+    },
+    {
+      "title": "Men's LAFC Olivier Giroud adidas Black 2024 Primary Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-olivier-giroud-black-lafc-2024-primary-replica-player-jersey_ss5_p-201684692+pv-1+u-nc0zfynjukhnb4reitux+v-mzjxw8k4xwituvnvlxsj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOjx7j"
+    },
+    {
+      "title": "Men's LAFC Olivier Giroud Black Authentic Stack Name & Number T-Shirt",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Men T-Shirts",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-olivier-giroud-black-lafc-authentic-stack-name-and-number-t-shirt_ss5_p-202213771+pv-1+u-luhtfdv9sxxsnhrybnxt+v-ixljjultcawrfaubrd2h.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45XYg"
+    },
+    {
+      "title": "Women's LAFC Olivier Giroud adidas White 2025 Secondary Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/womens-adidas-olivier-giroud-white-lafc-2025-secondary-replica-player-jersey_ss5_p-202891357+pv-1+u-47m4wosqilkjis3kllmb+v-uuitnktlupksflevaknb.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/OeO9PA"
+    },
+    {
+      "title": "Men's LAFC Olivier Giroud adidas Tan 2024 Archive Authentic Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-olivier-giroud-tan-lafc-2024-archive-authentic-jersey_ss5_p-201718925+pv-1+u-nbresnaovmb7t90cncw1+v-tenaun8mnrjk5sswtzjq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyA61n"
+    },
+    {
+      "title": "Men's LAFC Olivier Giroud adidas Black 2024 Primary Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-olivier-giroud-black-lafc-2024-primary-authentic-player-jersey_ss5_p-201684691+pv-1+u-nylnyqqaji3ujm7z047v+v-nb0wck7n1ctsrtw3aqls.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEOz3n"
+    },
+    {
+      "title": "Youth LAFC Olivier Giroud adidas White 2025 Secondary Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/lafc/youth-adidas-olivier-giroud-white-lafc-2025-secondary-replica-player-jersey_ss5_p-202891361+pv-1+u-zeu4zcytyfxtaucytgzd+v-xhwzblnmybajtbq2khgl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/3Jy9nA"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-white pt-[150px]'>

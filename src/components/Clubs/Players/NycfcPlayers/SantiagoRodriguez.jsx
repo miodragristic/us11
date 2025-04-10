@@ -2,11 +2,16 @@ import React from 'react';
 
 const SantiagoRodriguez = () => {
   const items = [
-    { id: 1, title: "Santiago Rodríguez Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Santiago Rodríguez Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Santiago Rodríguez Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "New York City FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Santiago Rodríguez Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's New York City FC Black Hometown Oversized Pullover Hoodie",
+      "price": "$84.99",
+      "originalPrice": "$84.99",
+      "category": "Men's Hoodies",
+      "shipping": "Ready To Ship",
+      "availability": "Most Popular in Sweatshirts",
+      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-light-blue-new-york-city-fc-2025-jersey-hook-aeroready-t-shirt_ss5_p-201664631+pv-1+u-p4aczineetfeelanpp8k+v-q5evrcdff5gylykwltlr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2oro"
+    }
   ];
 
   return (

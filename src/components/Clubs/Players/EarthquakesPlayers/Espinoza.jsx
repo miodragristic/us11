@@ -2,12 +2,108 @@ import React from 'react';
 
 const CristianEspinoza = () => {
   const items = [
-    { id: 1, title: "Cristian Espinoza Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Cristian Espinoza Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Cristian Espinoza Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "San Jose Earthquakes Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Cristian Espinoza Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's San Jose Earthquakes Cristian Espinoza adidas Black 2025 Headliner Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-espinoza-black-san-jose-earthquakes-2025-headliner-authentic-player-jersey_ss5_p-202842419+pv-1+u-azxsc5idggbttwetitsp+v-w0exz1vu50oya29mcpov.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOyoM"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Espinoza adidas White 2025 The 50 Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-espinoza-white-san-jose-earthquakes-2025-the-50-kit-authentic-player-jersey_ss5_p-202855001+pv-1+u-t4c25srknc7gh2tfktxe+v-u92phon2djab2m7mhtf1.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjAvzo"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Espinoza adidas Black 2025 Headliner Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-espinoza-black-san-jose-earthquakes-2025-headliner-replica-player-jersey_ss5_p-202842420+pv-1+u-lpxlpcanrdafba4a2fyj+v-tzt9riv3b6lwdnjdetmr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/raLqev"
+    },
+    {
+      "title": "Women's San Jose Earthquakes Cristian Espinoza adidas Black 2025 Headliner Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/womens-adidas-cristian-espinoza-black-san-jose-earthquakes-2025-headliner-replica-player-jersey_ss5_p-202842421+pv-1+u-vnz8ry8ivjy6jyusscbt+v-fagbqg1kszxeq02nufri.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXPZea"
+    },
+    {
+      "title": "Youth San Jose Earthquakes Cristian Espinoza adidas Black 2025 Headliner Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/youth-adidas-cristian-espinoza-black-san-jose-earthquakes-2025-headliner-replica-player-jersey_ss5_p-202842422+pv-1+u-zltv1kez1rnarz9rm8vk+v-twm9lqsgjmctfbyjvege.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6ynQR3"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Espinoza Blue Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "shipping": "",
+      "availability": "",
+      "link": "https://mlsstore.i8h2.net/MA2vvN",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-cristian-espinoza-blue-san-jose-earthquakes-authentic-stack-name-and-number-t-shirt_ss5_p-202772334+pv-1+u-7w33ivhdb5rbyyicirwx+v-jnxqqex23jw1ccpwowhv.png?_hv=2&w=900"
+    },
+    {
+      "title": "Unisex San Jose Earthquakes Cristian Espinoza Black Player Adjustable Hat",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Unisex Hats",
+      "shipping": "",
+      "availability": "Ready To Ship",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/unisex-cristian-espinoza-black-san-jose-earthquakes-player-adjustable-hat_ss5_p-201204716+pv-2+u-nk1xazgqwljmuqxmxszq+v-hgsjfbhzm4xgmsccjapy.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOZZq"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Espinoza adidas Blue 2023 Active Fault Jersey Authentic Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "Almost Gone!",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-espinoza-blue-san-jose-earthquakes-2023-active-fault-jersey-authentic-jersey_pi5353000_altimages_ff_5353731-d56084982b7c20b18c42alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORvvq"
+    },
+    {
+      "title": "Men's San Jose Earthquakes Cristian Espinoza adidas White 2025 The 50 Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/mens-adidas-cristian-espinoza-white-san-jose-earthquakes-2025-the-50-kit-replica-player-jersey_ss5_p-202855002+pv-1+u-30cpn6yd7lahxt6oyc41+v-arfckixahtq82y2r9ecr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1e55Z"
+    },
+    {
+      "title": "Women's San Jose Earthquakes Cristian Espinoza adidas Blue 2023 Active Fault Jersey Replica Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "shipping": "",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/san-jose-earthquakes/womens-adidas-cristian-espinoza-blue-san-jose-earthquakes-2023-active-fault-jersey-replica-jersey_pi5353000_altimages_ff_5353725-333b4985d78cf6b40210alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOZZG"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>

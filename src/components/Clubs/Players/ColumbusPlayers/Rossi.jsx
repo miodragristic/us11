@@ -3,11 +3,22 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const DiegoRossi = () => {
   const items = [
-    { id: 1, title: "Diego Rossi Home Jersey 2024", imageUrl: 'https://example.com/jersey1.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Diego Rossi Soccer Ball", imageUrl: 'https://example.com/ball1.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    { id: 3, title: "Diego Rossi Name & Number T-Shirt", imageUrl: 'https://example.com/tshirt1.jpg', link: 'https://www.example.com/product/3', price: '$34.99' },
-    { id: 4, title: "Diego Rossi Signed Match Cleats", imageUrl: 'https://example.com/cleat1.jpg', link: 'https://www.example.com/product/4', price: '$349.99' },
-    { id: 5, title: "Diego Rossi Training Jersey", imageUrl: 'https://example.com/jersey2.jpg', link: 'https://www.example.com/product/5', price: '$119.99' },
+    {
+      "title": "Men's Columbus Crew Diego Rossi adidas Black 2025 The Goosebumps Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "category": "Kids Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-diego-rossi-black-columbus-crew-2025-the-goosebumps-kit-authentic-player-jersey_ss5_p-202840277+pv-1+u-j6vu2hvobyeurzfckqck+v-vbp62lbyb5iblki47sfa.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/AP35Y1"
+    },
+    {
+      "title": "Men's Columbus Crew Diego Rossi adidas Black 2025 The Goosebumps Kit Replica Player Jersey",
+      "price": "$134.99",
+      "category": "Jerseys",
+      "shipping": "Ships Free",
+      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-diego-rossi-black-columbus-crew-2025-the-goosebumps-kit-replica-player-jersey_ss5_p-202840278+pv-1+u-rovczb7doiu2srm0443e+v-r2dfxqjyboj1d4owmqnc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/dOnWGq"
+    }
   ];
 
   return (
