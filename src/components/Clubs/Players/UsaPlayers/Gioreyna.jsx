@@ -2,12 +2,35 @@ import React from 'react';
 
 const GiovanniReyna = () => {
   const items = [
-    { id: 1, title: "Giovanni Reyna Borussia Dortmund Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Giovanni Reyna Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Giovanni Reyna Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Borussia Dortmund Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Giovanni Reyna Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Youth USMNT Giovanni Reyna White Name & Number T-Shirt",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Youth T-Shirts",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/youth-giovanni-reyna-white-usmnt-name-and-number-t-shirt_ss5_p-201543141+pv-1+u-qbb0otr6wuq9j9d8rxvt+v-yjzcxjp8afftllkcmbt7.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/EEO4R4"
+    },
+    {
+      "title": "USMNT Giovanni Reyna Player Scarf",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Scarves",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/giovanni-reyna-usmnt-player-scarf_ss5_p-201543036+u-of9vvlwt2wdpw4fq0bqf+v-vo16zzov7tfp055pmi2o.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6yn4Vr"
+    },
+    {
+      "title": "Youth USMNT Giovanni Reyna Navy Name & Number T-Shirt",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Youth T-Shirts",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/youth-giovanni-reyna-navy-usmnt-name-and-number-t-shirt_ss5_p-201543145+pv-1+u-yvw3lzokbfaxjgt8mg7p+v-1zlbbvtmbljwk05chkta.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4Gy4gZ"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -62,7 +85,14 @@ Copyright: 2019 FIFA</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

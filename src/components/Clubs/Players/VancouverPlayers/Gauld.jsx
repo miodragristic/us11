@@ -2,12 +2,26 @@ import React from 'react';
 
 const RyanGauld = () => {
   const items = [
-    { id: 1, title: "Ryan Gauld Vancouver Whitecaps Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Ryan Gauld Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Ryan Gauld Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Vancouver Whitecaps Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Ryan Gauld Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Women's Vancouver Whitecaps FC Ryan Gauld adidas White 2025 The Peak Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/vancouver-whitecaps-fc/womens-adidas-ryan-gauld-white-vancouver-whitecaps-fc-2025-the-peak-replica-player-jersey_ss5_p-202843097+pv-1+u-fvnjyun6xn70hkooglpo+v-d5auyaekb6yhvh81abwj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1ezBD"
+    },
+    {
+      "title": "Men's Vancouver Whitecaps FC Ryan Gauld Deep Sea Blue Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/vancouver-whitecaps-fc/mens-ryan-gauld-deep-sea-blue-vancouver-whitecaps-fc-authentic-stack-name-and-number-t-shirt_ss5_p-202772337+pv-1+u-lsa1wne8exeuqqvntuqw+v-6usyr6wyenqk2eft0qf0.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKO6rj"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -20,6 +34,7 @@ const RyanGauld = () => {
             src='https://cdn1.rangersnews.uk/uploads/24/2024/03/GettyImages-1717990663-1140x760.jpg' 
             alt='Ryan Gauld' 
             className='w-full h-[400px] object-cover rounded-lg shadow-md' 
+            
           />
         </div>
         <div className="mb-10 text-center text-sm text-gray-500">
@@ -69,7 +84,14 @@ Copyright: 2023 Jordan Jones</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

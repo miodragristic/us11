@@ -2,11 +2,51 @@ import React from 'react';
 
 const AlbertRusnak = () => {
   const items = [
-    { id: 1, title: "Albert Rusnák Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Albert Rusnák Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Albert Rusnák Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Seattle Sounders FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Albert Rusnák Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's Seattle Sounders FC Albert Rusnak adidas Blue 2025 The Salish Sea Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-albert-rusnak-blue-seattle-sounders-fc-2025-the-salish-sea-kit-authentic-player-jersey_ss5_p-202900596+pv-1+u-goh1qfax3pjmj7rrpwzo+v-drpx4kdgupb7utxoh6ch.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/19yL4x"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Albert Rusnak adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-albert-rusnak-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900600+u-xllxrrdye8owzsu1urid+v-kpzmllynohfmemu4luxc.jpg?_hv=2&w=400",
+      "link": "https://mlsstore.i8h2.net/GjDAzJ"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Albert Rusnak adidas Green 2024 The Anniversary Kit Replica Player Jersey",
+      "price": "$101.24",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "with code",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-albert-rusnak-green-seattle-sounders-fc-2024-the-anniversary-kit-replica-player-jersey_ss5_p-202853011+pv-1+u-jhu4sv9iw9aasc0iy5wn+v-ayejsfnpn01ldlsb1asx.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6yn9Jb"
+    },
+    {
+      "title": "Women's Seattle Sounders FC Albert Rusnak adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/womens-adidas-albert-rusnak-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900604+pv-1+u-yzuusbw9tvugrbuigdrv+v-ejwygmcicv10tge1piva.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOg2a"
+    },
+    {
+      "title": "Youth Seattle Sounders FC Albert Rusnak adidas Blue 2025 The Salish Sea Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Kids Jerseys",
+      "availability": "",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/youth-adidas-albert-rusnak-blue-seattle-sounders-fc-2025-the-salish-sea-kit-replica-player-jersey_ss5_p-202900608+pv-1+u-23p3urxuaftfaoxn917z+v-iofdu54zyq8cijhns5n5.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1eM6X"
+    }
   ];
 
   return (
@@ -67,7 +107,14 @@ Copyright: 2024 Getty Images</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

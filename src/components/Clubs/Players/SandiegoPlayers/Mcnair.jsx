@@ -2,11 +2,29 @@ import React from 'react';
 
 const PaddyMcNair = () => {
   const items = [
-    { id: 1, title: "Paddy McNair San Diego FC Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Paddy McNair Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Paddy McNair Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "San Diego FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Paddy McNair Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's San Diego FC adidas Navy 2025 State of Flow Authentic Jersey",
+      "price": "$159.99",
+      "originalPrice": "$159.99",
+      "category": "Men's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/san-diego-fc/mens-adidas-navy-san-diego-fc-2025-state-of-flow-authentic-jersey_ss5_p-202580390+pv-1+u-cmpkub21hbmne9slf8ax+v-lbbeda6jzxqts476jhvk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/jeQYq5"
+    },
+    {
+      "title": "Men's San Diego FC adidas Navy 2025 State of Flow Replica Jersey",
+      "price": "$99.99",
+      "originalPrice": "$99.99",
+      "category": "Men's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/san-diego-fc/mens-adidas-navy-san-diego-fc-2025-state-of-flow-replica-jersey_ss5_p-202580623+pv-1+u-ngpxat06s8dcwvbd5xk4+v-6tztuqy9kkmave7t3ps8.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzmYPL"
+    }
+    // { id: 1, title: "Paddy McNair San Diego FC Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
+    // { id: 2, title: "Signed Paddy McNair Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
+    // { id: 3, title: "Paddy McNair Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
+    // { id: 4, title: "San Diego FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
+    // { id: 5, title: "Paddy McNair Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
   ];
 
   return (
@@ -65,7 +83,14 @@ Copyright: 2024 Visionhaus</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

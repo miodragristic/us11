@@ -53,18 +53,21 @@ const RudyCamacho = () => {
 
         {/* Shop Section */}
         <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Rudy Camacho Merchandise</h1>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
           {items.map(item => (
-            <div key={item.id} className='group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300'>
-              <div className='relative overflow-hidden bg-gray-200 h-48'>
-                <img src={item.imageUrl} alt={item.title} className='object-contain w-full h-full group-hover:scale-105 transition duration-300' />
-              </div>
+            <div key={item.id} className='bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg'>
+              <img className='w-full h-64 object-cover' src={item.imageUrl} alt={item.title} />
               <div className='p-4'>
-                <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
-                <p className='text-lg font-semibold'>{item.price}</p>
-                <a href={item.link} target='_blank' rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300 mt-2'>
-                  Buy on Amazon <FaShoppingCart className='inline-block ml-2' />
-                </a>
+                <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
+                <p className='text-gray-600'>{item.price}</p>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

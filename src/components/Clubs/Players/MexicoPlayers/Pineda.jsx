@@ -2,11 +2,15 @@ import React from 'react';
 
 const OrbelinPineda = () => {
   const items = [
-    { id: 1, title: "Orbelín Pineda Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Orbelín Pineda Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Orbelín Pineda Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "AEK Athens Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Orbelín Pineda Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's Mexico National Team adidas Black 2025 Third Authentic Jersey",
+      "price": "$149.99",
+      "originalPrice": "$149.99",
+      "category": "Men's Jerseys",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-black-mexico-national-team-2025-third-authentic-jersey_ss5_p-202920632+pv-1+u-girgctyndvhamcgvk0ys+v-ciqsfj2tp7xm7u8mbjg5.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WydjjX"
+    }
   ];
 
   return (
@@ -65,7 +69,14 @@ Copyright: 2023 Jam Media</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

@@ -2,12 +2,98 @@ import React from 'react';
 
 const LorenzoInsigne = () => {
   const items = [
-    { id: 1, title: "Lorenzo Insigne Toronto FC Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Lorenzo Insigne Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Lorenzo Insigne Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Toronto FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Lorenzo Insigne Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's Toronto FC Lorenzo Insigne adidas Gray 2023 Club Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-lorenzo-insigne-gray-toronto-fc-2023-club-kit-authentic-player-jersey_ss5_p-5351512+pv-1+u-g2ntrdglrd2uv369ybhk+v-prmnbxprcqbywqmbjusl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnOLky"
+    },
+    {
+      "title": "Men's Toronto FC Lorenzo Insigne Black Team Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-lorenzo-insigne-black-toronto-fc-team-authentic-stack-name-and-number-t-shirt_pi4972000_altimages_ff_4972671-711e388469a1eacb6f58alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxPdOr"
+    },
+    {
+      "title": "Men's Toronto FC Lorenzo Insigne adidas White 2024 GTA Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-lorenzo-insigne-white-toronto-fc-2024-gta-kit-authentic-player-jersey_ss5_p-201206446+pv-1+u-fggkcy8xmplemupeq47f+v-hohfobzrzm9svn6alcyk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yazR"
+    },
+    {
+      "title": "Men's Toronto FC Lorenzo Insigne adidas White 2024 GTA Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-lorenzo-insigne-white-toronto-fc-2024-gta-kit-replica-player-jersey_ss5_p-201206449+pv-1+u-hdjr55wynh7edp36fefa+v-0nwz4ohttx7oeevchp9n.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXPdVA"
+    },
+    {
+      "title": "Men's Toronto FC Lorenzo Insigne Red Authentic Stack Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-lorenzo-insigne-red-toronto-fc-authentic-stack-name-and-number-t-shirt_ss5_p-202772336+pv-1+u-semmaxgbbgriqniygf11+v-csgi7yk26kjxlkuywjuj.png?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2aym77"
+    },
+    {
+      "title": "Lorenzo Insigne Toronto FC Fanatics Authentic Framed 16\" x 20\" Stars of the Game Collage - Facsimile Signature",
+      "price": "$89.99",
+      "originalPrice": "$89.99",
+      "category": "Memorabilia",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/lorenzo-insigne-toronto-fc-framed-16-x-20-stars-of-the-game-collage-facsimile-signature_ss5_p-200289365+u-rr9ld9bsld3beg4nmsdr+v-nnqjsapdddeosdcffzfw.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/RGZVEN"
+    },
+    {
+      "title": "Men's Toronto FC Lorenzo Insigne adidas Gray 2023 Club Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-lorenzo-insigne-gray-toronto-fc-2023-club-kit-replica-player-jersey_pi5351000_altimages_ff_5351500-f400fe40b465711e637falt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/vPQdmv"
+    },
+    {
+      "title": "Lorenzo Insigne Toronto FC Fanatics Authentic 10.5\" X 13\" Sublimated Player Plaque",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Memorabilia",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/lorenzo-insigne-toronto-fc-105-x-13-sublimated-player-plaque_ss5_p-200139844+u-1e3ncbxq8dfupgus08vz+v-rleojtn3wezzhoo3uxv9.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yqjNo3"
+    },
+    {
+      "title": "Women's Toronto FC Lorenzo Insigne adidas Gray 2023 Club Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/womens-adidas-lorenzo-insigne-gray-toronto-fc-2023-club-kit-replica-player-jersey_pi5351000_altimages_ff_5351504-9ca271424a87d6308ab3alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/K0O5EN"
+    },
+    {
+      "title": "Women's Toronto FC Lorenzo Insigne adidas White 2024 GTA Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/womens-adidas-lorenzo-insigne-white-toronto-fc-2024-gta-kit-replica-player-jersey_ss5_p-201206452+pv-1+u-ktrpcbwfwz5s3ivsye7x+v-8daeg20dcpm8l87gqot8.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/7angKg"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -65,7 +151,14 @@ Copyright: 2022 Getty Images</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

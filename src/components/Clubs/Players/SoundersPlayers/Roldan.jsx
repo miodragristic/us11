@@ -2,12 +2,44 @@ import React from 'react';
 
 const CristianRoldan = () => {
   const items = [
-    { id: 1, title: "Cristian Roldan Home Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Cristian Roldan Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Cristian Roldan Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Seattle Sounders FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Cristian Roldan Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's Seattle Sounders FC Cristian Roldan adidas Green 2024 The Anniversary Kit Authentic Player Jersey",
+      "price": "$146.24",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "with code",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-cristian-roldan-green-seattle-sounders-fc-2024-the-anniversary-kit-authentic-player-jersey_ss5_p-201206353+pv-1+u-uumd1warf78tzvx7zlm7+v-zttuye80trggdrlnftqq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAanG"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Cristian Roldan adidas Red 2024 The Bruce Lee Kit Replica Player Jersey",
+      "price": "$101.24",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "with code",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-cristian-roldan-red-seattle-sounders-fc-2024-the-bruce-lee-kit-replica-player-jersey_ss5_p-201206370+pv-1+u-qvmsccpvalmkbpcvvh9v+v-nh5gfdk0t02d62u5xonc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/nXP3Go"
+    },
+    {
+      "title": "Women's Seattle Sounders FC Cristian Roldan adidas Red 2024 The Bruce Lee Kit Replica Player Jersey",
+      "price": "$101.24",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "with code",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/womens-adidas-cristian-roldan-red-seattle-sounders-fc-2024-the-bruce-lee-kit-replica-player-jersey_ss5_p-201206374+pv-1+u-v7mrhbjhwsaursyoyxwk+v-lx91dejpyhj6d19ugolk.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/2ayqEg"
+    },
+    {
+      "title": "Men's Seattle Sounders FC Cristian Roldan adidas Green 2024 The Anniversary Kit Replica Player Jersey",
+      "price": "$101.24",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "with code",
+      "imageUrl": "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-cristian-roldan-green-seattle-sounders-fc-2024-the-anniversary-kit-replica-player-jersey_ss5_p-201206357+pv-1+u-echngoptpmcaqjssou3y+v-8kxzmn4yrymbisihhayt.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/4GyDbM"
+    }
   ];
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -63,7 +95,14 @@ Copyright: 2021 Getty Images</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

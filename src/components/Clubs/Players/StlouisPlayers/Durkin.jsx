@@ -2,12 +2,26 @@ import React from 'react';
 
 const ChrisDurkin = () => {
   const items = [
-    { id: 1, title: "Chris Durkin St. Louis City Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Chris Durkin Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Chris Durkin Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "St. Louis City Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Chris Durkin Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+      {
+        "title": "Chris Durkin D.C. United Autographed Fanatics Authentic Match-Used #8 White Jersey from the 2023 MLS Season",
+        "price": "$299.99",
+        "originalPrice": "$299.99",
+        "category": "Men's Jerseys",
+        "availability": "almost gone",
+        "imageUrl": "https://images.footballfanatics.com/dc-united/chris-durkin-dc-united-autographed-match-used-number-8-white-jersey-from-the-2023-mls-season_ss5_p-201145662+pv-1+u-6aiqywdihyxiqwccdxbz+v-ryjqdrdem9qhwyeuqmpn.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/MA2OvK"
+      },
+      {
+        "title": "Men's St. Louis City SC adidas Red 2023 CITY Kit Authentic Custom Jersey",
+        "price": "$194.99",
+        "originalPrice": "$194.99",
+        "category": "Men's Jerseys",
+        "availability": "available",
+        "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/mens-adidas-red-st-louis-city-sc-2023-city-kit-authentic-custom-jersey_pi5229000_altimages_ff_5229600-5a32cdf1dbb1f2ddd100alt1_full.jpg?_hv=2&w=900",
+        "link": "https://mlsstore.i8h2.net/7anP9y"
+      }
+    ]
+;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -67,7 +81,14 @@ Copyright: Adam Nurkiewicz/isiphotos.com</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

@@ -2,12 +2,99 @@ import React from 'react';
 
 const JonathanOsorio = () => {
   const items = [
-    { id: 1, title: "Jonathan Osorio Toronto FC Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Jonathan Osorio Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Jonathan Osorio Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Toronto FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Jonathan Osorio Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Women's Toronto FC Jonathan Osorio adidas Gray 2023 Club Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/womens-adidas-jonathan-osorio-gray-toronto-fc-2023-club-kit-replica-player-jersey_pi5351000_altimages_ff_5351506-6ca74aa270da3a878198alt1_full.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORGqe"
+    },
+    {
+      "title": "Women's Toronto FC Jonathan Osorio adidas White 2024 GTA Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/womens-adidas-jonathan-osorio-white-toronto-fc-2024-gta-kit-replica-player-jersey_ss5_p-201206454+pv-1+u-egdspsavtmlqllcgebnu+v-xqlfyon43ksyjdlantpj.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzmdLn"
+    },
+    {
+      "title": "Women's Toronto FC Jonathan Osorio adidas Red 2025 Club Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/womens-adidas-jonathan-osorio-red-toronto-fc-2025-club-kit-replica-player-jersey_ss5_p-202853672+pv-1+u-8qobjghpkzoptbd3azoj+v-ccsfk7wwqtjiglluzfh3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyOxZy"
+    },
+    {
+      "title": "Men's Toronto FC Jonathan Osorio adidas Gray 2023 Club Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-jonathan-osorio-gray-toronto-fc-2023-club-kit-authentic-player-jersey_ss5_p-5351514+pv-1+u-nycs7fzwujwnt04bap5f+v-ypqgtkkgovm6mugzzz61.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORGv6"
+    },
+    {
+      "title": "Men's Toronto FC Jonathan Osorio adidas White 2024 GTA Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-jonathan-osorio-white-toronto-fc-2024-gta-kit-authentic-player-jersey_ss5_p-201206448+pv-1+u-clsmxvvbiek2uga7cm80+v-dvr0cllmkwawi8ubbg2p.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/GKO94E"
+    },
+    {
+      "title": "Men's Toronto FC Jonathan Osorio adidas White 2024 GTA Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-jonathan-osorio-white-toronto-fc-2024-gta-kit-replica-player-jersey_ss5_p-201206451+pv-1+u-nftuipklzb0lg3cfocvr+v-m08k3hwdpiekv8cojclh.jpg?_hv=2&w=900",
+      "link": "hhttps://mlsstore.i8h2.net/XmGBv5"
+    },
+    {
+      "title": "Men's Toronto FC Jonathan Osorio adidas Gray 2023 Club Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jersey",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-jonathan-osorio-gray-toronto-fc-2023-club-kit-authentic-player-jersey_ss5_p-5351514+u-nycs7fzwujwnt04bap5f+v-hgmfrf2ni2xralqxbwve.jpg?_hv=2&w=400",
+      "link": "hhttps://mlsstore.i8h2.net/vPQd9A"
+    },
+    {
+      "title": "Youth Toronto FC Jonathan Osorio adidas Red 2025 Club Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Jersey",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/youth-adidas-jonathan-osorio-red-toronto-fc-2025-club-kit-replica-player-jersey_ss5_p-202853673+pv-1+u-c6ktwkf3xejui9lj4ueh+v-ip4vpsyerfqt1l3erqte.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/qzmdvn"
+    },
+    {
+      "title": "Men's Toronto FC Jonathan Osorio adidas Red 2025 Club Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-jonathan-osorio-red-toronto-fc-2025-club-kit-authentic-player-jersey_ss5_p-202853670+pv-1+u-v1mqowbnw9vjwb57lr0m+v-s7puoiacq5smjkyrcqp9.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/JKOPAQ"
+    },
+    {
+      "title": "Men's Toronto FC Jonathan Osorio adidas Red 2025 Club Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Jersey",
+      "availability": "regular price",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-jonathan-osorio-red-toronto-fc-2025-club-kit-replica-player-jersey_ss5_p-202853671+pv-1+u-tw5zp3j87tqthdhvrqwn+v-dlwlk6a7u67n1abfpibr.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKOkda"
+    }
+  ]
+  
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -62,7 +149,14 @@ Copyright: 2022 Andrew Katsampes/ISI Photos</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

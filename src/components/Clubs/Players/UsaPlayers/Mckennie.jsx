@@ -2,12 +2,44 @@ import React from 'react';
 
 const WestonMcKennie = () => {
   const items = [
-    { id: 1, title: "Weston McKennie Juventus Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Weston McKennie Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Weston McKennie Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Juventus Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Weston McKennie Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Youth USMNT Weston McKennie White Name & Number T-Shirt",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Youth T-Shirts",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/youth-weston-mckennie-white-usmnt-name-and-number-t-shirt_ss5_p-201543140+pv-1+u-idhmfwlewcfv1rhhwmnh+v-ac1jzl6je5onrfyktvto.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKO92L"
+    },
+    {
+      "title": "Women's USMNT Weston McKennie White Name & Number T-Shirt",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Women's T-Shirts",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/womens-weston-mckennie-white-usmnt-name-and-number-t-shirt_ss5_p-201543149+pv-1+u-xaeqypj58mqsifmjfaj7+v-lxjmf9bkwm2afb98hwsq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/yqjVbv"
+    },
+    {
+      "title": "USMNT Weston McKennie Player Scarf",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Scarves",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/weston-mckennie-usmnt-player-scarf_ss5_p-201543034+u-ntlinbqg1cri6kh7b6pr+v-xueesvekzaxtm5lkoksg.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/MA2rB3"
+    },
+    {
+      "title": "Women's USMNT Weston McKennie Navy Name & Number T-Shirt",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Women's T-Shirts",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/womens-weston-mckennie-navy-usmnt-name-and-number-t-shirt_ss5_p-201543147+pv-1+u-1ruitc2orgdltbsvd7hg+v-p7k0xi1qzffmxwizl3zm.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/DyO4eo"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -63,7 +95,14 @@ Copyright: 2024 USSF</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

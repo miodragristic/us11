@@ -172,7 +172,6 @@ Copyright: (c) Copyright 2023, dpa (www.dpa.de). Alle Rechte vorbehalten</p>
         </div>
 
         {/* Shop Section */}
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Emil Forsberg Merchandise</h1>
         <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
           {items.map(item => (
             <div key={item.id} className='bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg'>
@@ -180,7 +179,14 @@ Copyright: (c) Copyright 2023, dpa (www.dpa.de). Alle Rechte vorbehalten</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

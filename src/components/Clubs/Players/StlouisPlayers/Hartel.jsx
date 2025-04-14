@@ -2,12 +2,80 @@ import React from 'react';
 
 const MarcelHartel = () => {
   const items = [
-    { id: 1, title: "Marcel Hartel St. Louis City Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Marcel Hartel Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Marcel Hartel Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "St. Louis City Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Marcel Hartel Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's St. Louis City SC Marcel Hartel adidas Red 2025 Forever CITY Red Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/mens-adidas-marcel-hartel-red-st-louis-city-sc-2025-forever-city-red-authentic-player-jersey_ss5_p-202843073+pv-1+u-wnwfyewmyyj75qigs6wc+v-cf0hk7ra6er9i3ntodhl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/QjADvA"
+    },
+    {
+      "title": "Women's St. Louis City SC Marcel Hartel adidas White 2024 The Confluence Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/womens-adidas-marcel-hartel-white-st-louis-city-sc-2024-the-confluence-kit-replica-player-jersey_ss5_p-202853102+pv-1+u-uhqbvcyizc9f2h1xrrlu+v-cnyrrsk2gky3g8vwirw7.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/PORxvY"
+    },
+    {
+      "title": "Women's St. Louis City SC Marcel Hartel adidas Red 2025 Forever CITY Red Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Women's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/womens-adidas-marcel-hartel-red-st-louis-city-sc-2025-forever-city-red-replica-player-jersey_ss5_p-202843075+pv-1+u-0uumvfpwwp3fbyoh16f6+v-d1gjarntppqoqf1tifl9.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/aOjg9Z"
+    },
+    {
+      "title": "Youth St. Louis City SC Marcel Hartel adidas Red 2025 Forever CITY Red Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/youth-adidas-marcel-hartel-red-st-louis-city-sc-2025-forever-city-red-replica-player-jersey_ss5_p-202843076+pv-1+u-tvpsms9wa5fqhrqyu5lt+v-r0hidvo0rcfso4tndry3.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/GKOW4k"
+    },
+    {
+      "title": "Youth St. Louis City SC Marcel Hartel adidas White 2024 The Confluence Kit Replica Player Jersey",
+      "price": "$114.99",
+      "originalPrice": "$114.99",
+      "category": "Youth Jerseys",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/youth-adidas-marcel-hartel-white-st-louis-city-sc-2024-the-confluence-kit-replica-player-jersey_ss5_p-202853103+pv-1+u-malptov7hjlcnccb8uhl+v-xabw4tpi9mvcjnsifvk2.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/JKOnva"
+    },
+    {
+      "title": "Men's St. Louis City SC Marcel Hartel adidas White 2024 The Confluence Kit Authentic Player Jersey",
+      "price": "$194.99",
+      "originalPrice": "$194.99",
+      "category": "Men's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/mens-adidas-marcel-hartel-white-st-louis-city-sc-2024-the-confluence-kit-authentic-player-jersey_ss5_p-202853100+pv-1+u-a2h0uz5bzzqhfk9lcwq0+v-lqo25rrrx6wx58axhkks.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45Mg9"
+    },
+    {
+      "title": "Men's St. Louis City SC Marcel Hartel adidas Red 2025 Forever CITY Red Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/mens-adidas-marcel-hartel-red-st-louis-city-sc-2025-forever-city-red-replica-player-jersey_ss5_p-202843074+pv-1+u-xgbi9hi8aulpgoxywrpd+v-mikchz0afml8de7nbrhf.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/zxPM5M"
+    },
+    {
+      "title": "Men's St. Louis City SC Marcel Hartel adidas White 2024 The Confluence Kit Replica Player Jersey",
+      "price": "$134.99",
+      "originalPrice": "$134.99",
+      "category": "Men's Jerseys",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/st-louis-city-sc/mens-adidas-marcel-hartel-white-st-louis-city-sc-2024-the-confluence-kit-replica-player-jersey_ss5_p-202853101+pv-1+u-znjcsfvanli4alsl2t84+v-jcfvlrmp4c86hxuyzdbd.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/09yqMV"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -66,7 +134,14 @@ Copyright: ©Icon Sportswire (A Division of XML Team Solutions) All Rights Reser
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

@@ -315,7 +315,7 @@ const App = () => {
   <Route path="/delavega" element={<PedroDeLaVega />} />
   <Route path="/rusnak" element={<AlbertRusnak />} />
   <Route path="/roldan" element={<CristianRoldan />} />
-  <Route path="/bernardeschi" element={<FedericoBernardeschi />} />
+  <Route path="/bernardeski" element={<FedericoBernardeschi />} />
   <Route path="/insigne" element={<LorenzoInsigne />} />
   <Route path="/kevinlong" element={<KevinLong />} />
   <Route path="/osorio" element={<JonathanOsorio />} />

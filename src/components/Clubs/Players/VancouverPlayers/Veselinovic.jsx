@@ -2,11 +2,11 @@ import React from 'react';
 
 const RankoVeselinovic = () => {
   const items = [
-    { id: 1, title: "Ranko Veselinović Vancouver Whitecaps Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Ranko Veselinović Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Ranko Veselinović Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Vancouver Whitecaps Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Ranko Veselinović Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    // { id: 1, title: "Ranko Veselinović Vancouver Whitecaps Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
+    // { id: 2, title: "Signed Ranko Veselinović Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
+    // { id: 3, title: "Ranko Veselinović Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
+    // { id: 4, title: "Vancouver Whitecaps Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
+    // { id: 5, title: "Ranko Veselinović Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
   ];
 
   return (
@@ -19,7 +19,8 @@ const RankoVeselinovic = () => {
           <img 
             src='https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1632715707355-3BU3N34LO87LMCPZSM95/2021-09-10+Ranko+Veselinovi%C4%87.jpg?format=750w' 
             alt='Ranko Veselinović' 
-            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
+            className='w-full h-[400px] object-cover rounded-lg shadow-md'
+            style={{ objectPosition: 'center 20%' }}   
           />
         </div>
         <div className="mb-10 text-center text-sm text-gray-500">
@@ -70,7 +71,14 @@ const RankoVeselinovic = () => {
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

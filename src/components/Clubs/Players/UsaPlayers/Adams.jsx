@@ -2,12 +2,44 @@ import React from 'react';
 
 const TylerAdams = () => {
   const items = [
-    { id: 1, title: "Tyler Adams Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Tyler Adams Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Tyler Adams Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Bournemouth Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Tyler Adams Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Men's USMNT Tyler Adams Navy Name & Number T-Shirt",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Men's T-Shirts",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/mens-tyler-adams-navy-usmnt-name-and-number-t-shirt_ss5_p-201543153+pv-1+u-3gzjsjjqfsrqa8lvgqfe+v-he7doxqwlfn4lchfxojl.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/e1emgr"
+    },
+    {
+      "title": "Youth USMNT Tyler Adams White Name & Number T-Shirt",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Youth T-Shirts",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/youth-tyler-adams-white-usmnt-name-and-number-t-shirt_ss5_p-201543144+pv-1+u-6cstp3l232dzajrfwunk+v-uczpcs3olwhew9v2vzgo.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/VxA1BA"
+    },
+    {
+      "title": "Youth USMNT Tyler Adams Navy Name & Number T-Shirt",
+      "price": "$27.99",
+      "originalPrice": "$27.99",
+      "category": "Youth T-Shirts",
+      "availability": "almost gone",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/youth-tyler-adams-navy-usmnt-name-and-number-t-shirt_ss5_p-201543146+pv-1+u-oewcamyeb4wwhqctatbv+v-j1wpyyzga43ewfsehvka.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/o45r0b"
+    },
+    {
+      "title": "USMNT Tyler Adams Player Scarf",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Scarves",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/tyler-adams-usmnt-player-scarf_ss5_p-201543039+u-10l7hjldqwszmqjnhgpy+v-mleqlgw3lndtcjmvh2rc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/WyAVRP"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -63,7 +95,14 @@ Credit: AFP via Getty Images</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

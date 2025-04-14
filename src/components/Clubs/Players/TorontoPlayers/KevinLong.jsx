@@ -2,11 +2,15 @@ import React from 'react';
 
 const KevinLong = () => {
   const items = [
-    { id: 1, title: "Kevin Long Toronto FC Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Kevin Long Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Kevin Long Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "Toronto FC Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Kevin Long Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
+    {
+      "title": "Men's Toronto FC adidas White 2024 GTA Kit Replica Jersey",
+      "price": "$69.99",
+      "originalPrice": "$99.99",
+      "category": "Men's Jerseys",
+      "availability": "discounted",
+      "imageUrl": "https://images.footballfanatics.com/toronto-fc/mens-adidas-white-toronto-fc-2024-gta-kit-replica-jersey_ss5_p-201102339+pv-1+u-qr7crpvoajravp4hrcfh+v-avneoacewfz8wr9jdsd0.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/K0ONYv"
+    }
   ];
 
   return (
@@ -70,7 +74,14 @@ Copyright: PA Wire/PA Images</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}

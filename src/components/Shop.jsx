@@ -67,7 +67,7 @@ const generateShopItems = () => {
     { id: 29, title: "St. Louis City SC", imageUrl: StLouis, link: "./St" },
     { id: 30, title: "San Diego", imageUrl: SanDiego, link: "./Sandiego" },
     { id: 31, title: "USA National Team", imageUrl: USANational, link: "./Usa" },
-    { id: 32, title: "Canada National Team", imageUrl: CanadaNational, link: "./Canada" },
+    // { id: 32, title: "Canada National Team", imageUrl: CanadaNational, link: "./Canada" },
     { id: 33, title: "Mexico National Team", imageUrl: MexicanNational, link: "./Mexico" },
   ];
 };
@@ -92,7 +92,8 @@ const Shop = () => {
               <div className='p-4'>
                 <h3 className='text-xl font-bold group-hover:text-blue-600 transition duration-300'>{item.title}</h3>
                 <a href={item.link} rel='noopener noreferrer' className='block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300'>
-                  Visit <FaShoppingCart className='inline-block ml-2' />
+                  Visit
+                   {/* <FaShoppingCart className='inline-block ml-2' /> */}
                 </a>
               </div>
             </div>

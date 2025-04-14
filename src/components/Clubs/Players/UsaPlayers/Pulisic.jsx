@@ -2,12 +2,35 @@ import React from 'react';
 
 const ChristianPulisic = () => {
   const items = [
-    { id: 1, title: "Christian Pulisic AC Milan Jersey", imageUrl: 'https://example.com/jersey.jpg', link: 'https://www.example.com/product/1', price: '$129.99' },
-    { id: 2, title: "Signed Christian Pulisic Soccer Ball", imageUrl: 'https://example.com/ball.jpg', link: 'https://www.example.com/product/2', price: '$249.99' },
-    { id: 3, title: "Christian Pulisic Poster", imageUrl: 'https://example.com/poster.jpg', link: 'https://www.example.com/product/3', price: '$19.99' },
-    { id: 4, title: "AC Milan Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    { id: 5, title: "Christian Pulisic Autographed Photo", imageUrl: 'https://example.com/photo.jpg', link: 'https://www.example.com/product/5', price: '$99.99' },
-  ];
+    {
+      "title": "Women's USMNT Christian Pulisic White Name & Number T-Shirt",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Women's T-Shirts",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/womens-christian-pulisic-white-usmnt-name-and-number-t-shirt_ss5_p-201543148+pv-1+u-nfvtvoxvxdqsk4akvv5y+v-lzot1dtksbggslsdtgfn.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/APn4Ex"
+    },
+    {
+      "title": "Women's USMNT Christian Pulisic Navy Name & Number T-Shirt",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Women's T-Shirts",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/usmnt/womens-christian-pulisic-navy-usmnt-name-and-number-t-shirt_ss5_p-201543150+pv-1+u-wtavcfhx5cn37r4w4jye+v-ye11pt5bitpra6olijiq.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/gOq3GO"
+    },
+    {
+      "title": "USMNT Christian Pulisic Player Scarf",
+      "price": "$34.99",
+      "originalPrice": "$34.99",
+      "category": "Scarves",
+      "availability": "available",
+      "imageUrl": "https://images.footballfanatics.com/christian-pulisic-usmnt-player-scarf_ss5_p-201543035+u-0najsbraqlmslfdsceym+v-s9aqtbctdrlyqrnlihyn.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/BnO4Px"
+    }
+  ]
+  ;
 
   return (
     <div className='w-full min-h-screen bg-gray-100 pt-[150px]'>
@@ -64,7 +87,14 @@ Copyright: 2021 John Dorton/ISI Photos</p>
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a href={item.link} className='text-blue-600 hover:underline'>Buy Now</a>
+                <a
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+>
+  Buy Now
+</a>
               </div>
             </div>
           ))}
