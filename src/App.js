@@ -18,6 +18,9 @@ import Contact from './components/Contact';
 import Social from './components/Social';
 import Navbar from './components/Navbar';
 import Imga from './components/Blog/Imga';
+import Boupendza from './components/Blog/Boupendza.jsx';
+import OnePlanetKit from './components/Blog/OnePlanetKit.jsx';
+import ThomasMullerMLSBlog from './components/Blog/ThomasMullerMLSBlog.jsx';
 import SanDiegoNews from './components/Blog/SanDiegoNews.jsx';
 import SanDiegoFirstWin from './components/Blog/SanDiegoFirstWin.jsx';
 import Mlspast from './components/Blog/Mlspast.jsx';
@@ -201,6 +204,9 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog/FC25" element={<FC25 />} />
         <Route path="/blog/inter-miami-global-attraction" element={<Imga />} />
+        <Route path="/blog/Boupendza" element={<Boupendza />} />
+        <Route path="/blog/OnePlanetKit" element={<OnePlanetKit />} />
+        <Route path="/blog/ThomasMullerMLSBlog" element={<ThomasMullerMLSBlog />} />
         <Route path="/blog/san-diego-news" element={<SanDiegoNews />} />
         <Route path="/blog/san-diego-first-win" element={<SanDiegoFirstWin />} />
         <Route path="/blog/supplements-in-soccer" element={<SupplementsSoccer />} />
