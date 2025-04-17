@@ -8,6 +8,15 @@ import Us11 from '../assets/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 15,
+      title: 'Peter Vermes Bids Farewell to Sporting KC',
+      author: 'Mio Ristic',
+      date: 'April 16, 2025',
+      excerpt: ' A Storied Legacy and Logical Parting.',
+      imageUrl: 'https://nb1.hu/wp-content/uploads/2023/10/GettyImages-1257216781-scaled-e1743504066347.jpg',
+      link: '/blog/PeterVermesBlog',
+    },
+    {
       id: 14,
       title: 'Chicago Fire Makes Ambitious Move for Kevin De Bruyne',
       author: 'Mio Ristic',
