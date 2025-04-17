@@ -104,6 +104,15 @@ const HomePage = () => {
   // Mock blog posts array
   const blogPosts = [
     {
+      id: 14,
+      title: 'Chicago Fire Makes Ambitious Move for Kevin De Bruyne',
+      author: 'Mio Ristic',
+      date: 'April 16, 2025',
+      excerpt: ' What We Know So Far.',
+      imageUrl: 'https://icdn.sempreinter.com/wp-content/uploads/2023/05/Kevin-De-Bruyne-8.jpg',
+      link: '/blog/KevinDb',
+    },
+    {
       id: 13,
       title: 'Thomas Müller to MLS? The End of an Era, the Start of a New One',
       author: 'Mio Ristic',
@@ -148,15 +157,15 @@ const HomePage = () => {
       imageUrl: Inter,
       link: '/blog/inter-miami-global-attraction',
     },
-    {
-      id: 4,
-      title: 'MLS in FC25',
-      author: 'Mio Ristic',
-      date: 'July 1, 2024',
-      excerpt: 'FC25 – Overview, MLS Clubs, and U.S. National Team.',
-      imageUrl: 'https://drop-assets.ea.com/images/1BY2V24NDqyjYKlDV8mJrx/ff63d00bb5bf24ad0c1b87adcd0e2771/EA_FC25_Standard_KeyArt_16-9_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5384114583333334,yPosition=0.538425925925926&q=85&w=1280',
-      link: '/blog/FC25',
-    },
+    // {
+    //   id: 4,
+    //   title: 'MLS in FC25',
+    //   author: 'Mio Ristic',
+    //   date: 'July 1, 2024',
+    //   excerpt: 'FC25 – Overview, MLS Clubs, and U.S. National Team.',
+    //   imageUrl: 'https://drop-assets.ea.com/images/1BY2V24NDqyjYKlDV8mJrx/ff63d00bb5bf24ad0c1b87adcd0e2771/EA_FC25_Standard_KeyArt_16-9_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5384114583333334,yPosition=0.538425925925926&q=85&w=1280',
+    //   link: '/blog/FC25',
+    // },
     // {
     //   id: 3,
     //   title: 'San Diego: A New MLS Team Ready for Big Challenges',

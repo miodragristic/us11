@@ -8,6 +8,15 @@ import Us11 from '../assets/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 14,
+      title: 'Chicago Fire Makes Ambitious Move for Kevin De Bruyne',
+      author: 'Mio Ristic',
+      date: 'April 16, 2025',
+      excerpt: ' What We Know So Far.',
+      imageUrl: 'https://icdn.sempreinter.com/wp-content/uploads/2023/05/Kevin-De-Bruyne-8.jpg',
+      link: '/blog/KevinDb',
+    },
+    {
       id: 13,
       title: 'Thomas Müller to MLS? The End of an Era, the Start of a New One',
       author: 'Mio Ristic',
