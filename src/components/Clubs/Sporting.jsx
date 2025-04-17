@@ -156,7 +156,7 @@ const SportingKansasCity = () => {
             <li><strong>Stadium:</strong> Children’s Mercy Park, Kansas City, Kansas</li>
             <li><strong>Capacity:</strong> 18,467</li>
             <li><strong>Owner:</strong> Sporting Club</li>
-            <li><strong>Head Coach:</strong> Peter Vermes</li>
+            <li><strong>Head Coach:</strong> Kerry Zavagnin (interim)</li>
             <li><strong>League:</strong> Major League Soccer</li>
           </ul>
         </div>

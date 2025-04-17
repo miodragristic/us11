@@ -70,7 +70,7 @@ Copyright: 2025 Getty Images</p>
             <li><strong>Date of Birth:</strong> 7 August 1999 (Bijeljina, Republika Srpska, Bosnia and Herzegovina)</li>
             <li><strong>Position:</strong> Striker</li>
             <li><strong>Height:</strong> 1.80 m (5 ft 11 in)</li>
-            <li><strong>Current Team:</strong> LA Galaxy</li>
+            <li><strong>Current Team:</strong> Sporting Kansas City</li>
             <li><strong>Youth Teams:</strong> Sloga United, Red Star Belgrade</li>
             <li><strong>Senior Teams:</strong> Red Star Belgrade, Eintracht Frankfurt, Anderlecht (loan), Wolfsberger AC (loan), LA Galaxy</li>
             <li><strong>International Career:</strong> Serbia (U16, U17, U18, U19, U21, Senior Team)</li>
