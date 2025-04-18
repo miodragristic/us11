@@ -104,6 +104,15 @@ const HomePage = () => {
   // Mock blog posts array
   const blogPosts = [
     {
+      id: 16,
+      title: 'Columbus Crew vs. Inter Miami',
+      author: 'Mio Ristic',
+      date: 'April 17, 2025',
+      excerpt: ' MLS’s Last Unbeatens Go Head-to-Head',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2208819749/crop/MM5DEMBUHA5DCMJVGI5G433XMU5DENZTHI3TA===/GettyImages-2208819749.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      link: '/blog/ColumbusVsMiamiMLSBlog',
+    },
+    {
       id: 15,
       title: 'Peter Vermes Bids Farewell to Sporting KC',
       author: 'Mio Ristic',
@@ -148,15 +157,15 @@ const HomePage = () => {
       imageUrl: 'https://www.telegram.hr/wp-content/uploads/2025/04/aaron-boupendza.jpg',
       link: '/blog/Boupendza',
     },
-    {
-      id: 6,
-      title: 'San Diego FC Makes History with First MLS Win',
-      author: 'Mio Ristic',
-      date: 'February 25, 2025',
-      excerpt: 'San Diego FC secures a dramatic victory in their inaugural MLS match.',
-      imageUrl: SanDiegoLogo,
-      link: '/blog/san-diego-first-win',
-    },
+    // {
+    //   id: 6,
+    //   title: 'San Diego FC Makes History with First MLS Win',
+    //   author: 'Mio Ristic',
+    //   date: 'February 25, 2025',
+    //   excerpt: 'San Diego FC secures a dramatic victory in their inaugural MLS match.',
+    //   imageUrl: SanDiegoLogo,
+    //   link: '/blog/san-diego-first-win',
+    // },
     // {
     //   id: 5,
     //   title: 'Inter Miami: A New Attempt to Claim the Title',

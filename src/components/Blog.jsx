@@ -8,6 +8,15 @@ import Us11 from '../assets/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 16,
+      title: 'Columbus Crew vs. Inter Miami',
+      author: 'Mio Ristic',
+      date: 'April 17, 2025',
+      excerpt: ' MLS’s Last Unbeatens Go Head-to-Head',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2208819749/crop/MM5DEMBUHA5DCMJVGI5G433XMU5DENZTHI3TA===/GettyImages-2208819749.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      link: '/blog/ColumbusVsMiamiMLSBlog',
+    },
+    {
       id: 15,
       title: 'Peter Vermes Bids Farewell to Sporting KC',
       author: 'Mio Ristic',
