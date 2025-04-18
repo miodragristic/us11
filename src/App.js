@@ -18,6 +18,7 @@ import Contact from './components/Contact';
 import Social from './components/Social';
 import Navbar from './components/Navbar';
 import Imga from './components/Blog/Imga';
+import ColumbusVsMiamiMLSBlog from './components/Blog/ColumbusVsMiamiMLSBlog.jsx';
 import PeterVermesBlog from './components/Blog/PeterVermesBlog.jsx';
 import KevinDb from './components/Blog/KevinDb.jsx';
 import Boupendza from './components/Blog/Boupendza.jsx';
@@ -161,6 +162,8 @@ import StephenEustaquio from './components/Clubs/Players/CanadaPlayers/Eustaquio
 import RaulJimenez from './components/Clubs/Players/MexicoPlayers/Rauljimenez.jsx';
 import OrbelinPineda from './components/Clubs/Players/MexicoPlayers/Pineda.jsx';
 import EdsonAlvarez from './components/Clubs/Players/MexicoPlayers/Edsonalvarez.jsx';
+import Preworkout from './components/Supplements/Preworkout';
+import EnergyDrinks from './components/Supplements/EnergyDrinks';
 
 
 
@@ -182,10 +185,9 @@ import EdsonAlvarez from './components/Clubs/Players/MexicoPlayers/Edsonalvarez.
 
 
 
-import Preworkout from './components/Supplements/Preworkout';
-import EnergyDrinks from './components/Supplements/EnergyDrinks';
 
 
+ 
 const App = () => {
   return (
     <Router>
@@ -208,6 +210,7 @@ const App = () => {
         <Route path="/blog/inter-miami-global-attraction" element={<Imga />} />
         <Route path="/blog/Boupendza" element={<Boupendza />} />
         <Route path="/blog/OnePlanetKit" element={<OnePlanetKit />} />
+        <Route path="/blog/ColumbusVsMiamiMLSBlog" element={<ColumbusVsMiamiMLSBlog />} />
         <Route path="/blog/PeterVermesBlog" element={<PeterVermesBlog />} />
         <Route path="/blog/KevinDb" element={<KevinDb />} />
         <Route path="/blog/ThomasMullerMLSBlog" element={<ThomasMullerMLSBlog />} />
