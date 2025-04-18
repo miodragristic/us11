@@ -157,15 +157,15 @@ const HomePage = () => {
       imageUrl: SanDiegoLogo,
       link: '/blog/san-diego-first-win',
     },
-    {
-      id: 5,
-      title: 'Inter Miami: A New Attempt to Claim the Title',
-      author: 'Mio Ristic',
-      date: 'June 29, 2024',
-      excerpt: 'The Glamorous Heartbeat of American Soccer.',
-      imageUrl: Inter,
-      link: '/blog/inter-miami-global-attraction',
-    },
+    // {
+    //   id: 5,
+    //   title: 'Inter Miami: A New Attempt to Claim the Title',
+    //   author: 'Mio Ristic',
+    //   date: 'June 29, 2024',
+    //   excerpt: 'The Glamorous Heartbeat of American Soccer.',
+    //   imageUrl: Inter,
+    //   link: '/blog/inter-miami-global-attraction',
+    // },
     // {
     //   id: 4,
     //   title: 'MLS in FC25',
@@ -321,50 +321,58 @@ const HomePage = () => {
       </div>
 
   {/* Join Our Newsletter Section */}
-<div className="bg-gray-900 text-white py-12">
-  <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-5xl font-bold mb-4">Join Our Newsletter</h2>
-    <p className="text-lg mb-8">Receive a digest of the best content each week direct to your mailbox.</p>
+  <div className="bg-gray-900 text-white py-12">
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-5xl font-bold mb-4">Join Our Newsletter</h2>
+        <p className="text-lg mb-8">Receive a digest of the best content each week direct to your mailbox.</p>
 
-    {submitted ? (
-      <p className="text-xl font-semibold">Thank you for subscribing!</p>
-    ) : (
-      <form onSubmit={handleNewsletterSubmit} className="flex flex-col items-center space-y-4">
-        <input
-          type="text"
-          placeholder="Your Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          className="px-3 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-left"  // text-left added
-          required
-        />
-        
-        {/* Favourite MLS Club Field */}
-        <input
-          type="text"
-          placeholder="Your Favourite MLS Club"
-          value={favoriteMLSClub}
-          onChange={(e) => setFavoriteMLSClub(e.target.value)}
-          className="px-3 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-left"  // text-left added
-          required
-        />
-        
-        {/* Email Field */}
-        <input
-          type="email"
-          placeholder="Your Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="px-3 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-10 focus:ring-blue-500 text-left"  // text-left added
-          required
-        />
-        <button
-          type="submit"
-          className="px-3 py-3 bg-blue-600 rounded-lg hover:bg-blue-500 transition duration-300"
+        {submitted ? (
+          <p className="text-xl font-semibold">Thank you for subscribing!</p>
+        ) : (
+          <form
+          action="https://formspree.io/f/moveojba"
+          method="POST"
+          onSubmit={(e) => {
+            e.preventDefault(); // Sprečava default slanje forme
+            setSubmitted(true); // Prikazuje poruku o uspehu
+            e.target.submit(); // Ručno šalje formu
+          }}
+          className="flex flex-col items-center space-y-4"
         >
-          Subscribe
-        </button>
-      </form>
+            {/* Name Field */}
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              className="px-3 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-left"
+              required
+            />
+
+            {/* Favourite MLS Club */}
+            <input
+              type="text"
+              name="favoriteMLSClub"
+              placeholder="Your Favourite MLS Club"
+              className="px-3 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-left"
+              required
+            />
+
+            {/* Email */}
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              className="px-3 py-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 text-left"
+              required
+            />
+
+            <button
+              type="submit"
+              className="px-3 py-3 bg-blue-600 rounded-lg hover:bg-blue-500 transition duration-300"
+            >
+              Subscribe
+            </button>
+          </form>
     )}
   </div>
 </div>

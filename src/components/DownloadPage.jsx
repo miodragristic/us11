@@ -17,6 +17,8 @@ const DownloadPage = () => {
       setSubmitted(true);
       console.log(`Name: ${name}, Favorite MLS Club: ${favoriteMLSClub}, Email: ${email}`);
     }
+    // Formspree handles the submission when action is set correctly
+    e.target.submit(); // Automatski šalje podatke na Formspree endpoint
   };
 
   const handleDownload = () => {
@@ -57,7 +59,12 @@ const DownloadPage = () => {
             )}
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+          <form
+            action="https://formspree.io/f/moveojba" // Tvoj Formspree endpoint
+            method="POST"
+            onSubmit={handleSubmit} // Koristi handleSubmit funkciju za obrada submit-a
+            className="flex flex-col space-y-4"
+          >
             <h2 className="text-2xl font-bold mb-4 text-center">Download Our eBook</h2>
             <p className="text-center text-gray-300">
               Fill out the details below to receive a free eBook.
@@ -66,6 +73,7 @@ const DownloadPage = () => {
             {/* Name Field */}
             <input
               type="text"
+              name="name" // Dodaj name atribut za slanje na Formspree
               placeholder="Your Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -76,6 +84,7 @@ const DownloadPage = () => {
             {/* Favourite MLS Club Field */}
             <input
               type="text"
+              name="favoriteMLSClub" // Dodaj name atribut za slanje na Formspree
               placeholder="Your Favourite MLS Club"
               value={favoriteMLSClub}
               onChange={(e) => setFavoriteMLSClub(e.target.value)}
@@ -86,6 +95,7 @@ const DownloadPage = () => {
             {/* Email Field */}
             <input
               type="email"
+              name="email" // Dodaj name atribut za slanje na Formspree
               placeholder="Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -107,3 +117,4 @@ const DownloadPage = () => {
 };
 
 export default DownloadPage;
+
