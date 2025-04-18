@@ -82,72 +82,75 @@ Copyright: AFP or licensors
 
         <p className='mb-4'>Here's what the top of the East looks like going into the weekend:</p>
 
-        <table className='w-full mb-6 border-collapse border border-gray-200 text-sm'>
-          <thead>
-            <tr>
-              <th className='border border-gray-200 p-2'>Rank</th>
-              <th className='border border-gray-200 p-2'>Club</th>
-              <th className='border border-gray-200 p-2'>Points</th>
-              <th className='border border-gray-200 p-2'>PPG</th>
-              <th className='border border-gray-200 p-2'>W-L-T</th>
-              <th className='border border-gray-200 p-2'>GF</th>
-              <th className='border border-gray-200 p-2'>GA</th>
-              <th className='border border-gray-200 p-2'>GD</th>
-              <th className='border border-gray-200 p-2'>Home</th>
-              <th className='border border-gray-200 p-2'>Away</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className='border border-gray-200 p-2'>1</td>
-              <td className='border border-gray-200 p-2'>Columbus Crew</td>
-              <td className='border border-gray-200 p-2'>18</td>
-              <td className='border border-gray-200 p-2'>2.25</td>
-              <td className='border border-gray-200 p-2'>5-0-3</td>
-              <td className='border border-gray-200 p-2'>12</td>
-              <td className='border border-gray-200 p-2'>6</td>
-              <td className='border border-gray-200 p-2'>+6</td>
-              <td className='border border-gray-200 p-2'>2-0-2</td>
-              <td className='border border-gray-200 p-2'>3-0-1</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-200 p-2'>2</td>
-              <td className='border border-gray-200 p-2'>Charlotte FC</td>
-              <td className='border border-gray-200 p-2'>16</td>
-              <td className='border border-gray-200 p-2'>2.00</td>
-              <td className='border border-gray-200 p-2'>5-2-1</td>
-              <td className='border border-gray-200 p-2'>13</td>
-              <td className='border border-gray-200 p-2'>7</td>
-              <td className='border border-gray-200 p-2'>+6</td>
-              <td className='border border-gray-200 p-2'>4-0-0</td>
-              <td className='border border-gray-200 p-2'>1-2-1</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-200 p-2'>3</td>
-              <td className='border border-gray-200 p-2'>FC Cincinnati</td>
-              <td className='border border-gray-200 p-2'>16</td>
-              <td className='border border-gray-200 p-2'>2.00</td>
-              <td className='border border-gray-200 p-2'>5-2-1</td>
-              <td className='border border-gray-200 p-2'>10</td>
-              <td className='border border-gray-200 p-2'>9</td>
-              <td className='border border-gray-200 p-2'>+1</td>
-              <td className='border border-gray-200 p-2'>3-0-1</td>
-              <td className='border border-gray-200 p-2'>2-2-0</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-200 p-2'>4</td>
-              <td className='border border-gray-200 p-2'>Inter Miami CF</td>
-              <td className='border border-gray-200 p-2'>15</td>
-              <td className='border border-gray-200 p-2'>2.14</td>
-              <td className='border border-gray-200 p-2'>4-0-3</td>
-              <td className='border border-gray-200 p-2'>12</td>
-              <td className='border border-gray-200 p-2'>6</td>
-              <td className='border border-gray-200 p-2'>+6</td>
-              <td className='border border-gray-200 p-2'>2-0-2</td>
-              <td className='border border-gray-200 p-2'>2-0-1</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className='overflow-x-auto'>
+  <table className='min-w-full mb-6 border-collapse border border-gray-200 text-sm'>
+    <thead>
+      <tr>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>Rank</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>Club</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>Points</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>PPG</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>W-L-T</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>GF</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>GA</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>GD</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>Home</th>
+        <th className='border border-gray-200 p-1 text-xs sm:text-sm'>Away</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>1</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>Columbus Crew</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>18</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2.25</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>5-0-3</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>12</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>6</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>+6</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2-0-2</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>3-0-1</td>
+      </tr>
+      <tr>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>Charlotte FC</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>16</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2.00</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>5-2-1</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>13</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>7</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>+6</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>4-0-0</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>1-2-1</td>
+      </tr>
+      <tr>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>3</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>FC Cincinnati</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>16</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2.00</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>5-2-1</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>10</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>9</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>+1</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>3-0-1</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2-2-0</td>
+      </tr>
+      <tr>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>4</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>Inter Miami CF</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>15</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2.14</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>4-0-3</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>12</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>6</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>+6</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2-0-2</td>
+        <td className='border border-gray-200 p-1 text-xs sm:text-sm'>2-0-1</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
         <p className='mb-4'>
           What stands out?
