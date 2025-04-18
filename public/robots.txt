@@ -1,3 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for us11fc.com
+# Omogućava pretraživačima da indeksiraju ceo sajt
+
 User-agent: *
 Disallow:
+
+Sitemap: https://us11fc.com/sitemap.xml
+
