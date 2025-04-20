@@ -16,6 +16,8 @@ const TrendingPlayers = () => {
     { name: 'Luis Suarez', image: 'https://en.nogomania.com/GetFile.ashx?id=259742', link: './suarez' },
   ];
 
+
+  
   return (
     <div className='max-w-4xl mx-auto py-8'>
       <h2 className='text-6xl font-bold text-[#020617] mb-8 text-center'>Trending Players</h2>
@@ -46,6 +48,9 @@ const HomePage = () => {
   const [email, setEmail] = useState('');
   const [favoriteMLSClub, setFavoriteMLSClub] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [matches, setMatches] = useState([]);
+  const [error, setError] = useState(null);
+
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
@@ -104,6 +109,15 @@ const HomePage = () => {
   // Mock blog posts array
   const blogPosts = [
     {
+      id: 18,
+      title: ' Vancouver Whitecaps: A Club for Sale, Currently First in the West',
+      author: 'Mio Ristic',
+      date: 'April 20, 2025',
+      excerpt: ' A Club for Sale, Currently First in the West',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2209348788/crop/MM5DINZZGU5DENRZG45G433XMU5DAORSGUYA====/GettyImages-2209348788.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      link: '/blog/Vancouver-Whitecaps-For-Sale',
+    },
+    {
       id: 17,
       title: 'Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew',
       author: 'Mio Ristic',
@@ -148,15 +162,15 @@ const HomePage = () => {
       imageUrl: 'https://assets.bundesliga.com/tachyon/sites/2/2021/05/GettyImages-859182146.jpg?crop=284px,0px,1352px,1080px&fit=540,540',
       link: '/blog/ThomasMullerMLSBlog',
     },
-    {
-      id: 12,
-      title: 'MLS & adidas Special Edition: Pushing for a Greener Future in Football',
-      author: 'Mio Ristic',
-      date: 'April 15, 2025',
-      excerpt: 'How MLS & adidas Are Changing the Game for a Greener Future.',
-      imageUrl: 'https://www.mlsstore.com/content/ws/all/2735eeb9-6378-4ba7-b6d8-5552f898cc0d__1600X732.jpg?w=3200',
-      link: '/blog/OnePlanetKit',
-    },
+    // {
+    //   id: 12,
+    //   title: 'MLS & adidas Special Edition: Pushing for a Greener Future in Football',
+    //   author: 'Mio Ristic',
+    //   date: 'April 15, 2025',
+    //   excerpt: 'How MLS & adidas Are Changing the Game for a Greener Future.',
+    //   imageUrl: 'https://www.mlsstore.com/content/ws/all/2735eeb9-6378-4ba7-b6d8-5552f898cc0d__1600X732.jpg?w=3200',
+    //   link: '/blog/OnePlanetKit',
+    // },
     // {
     //   id: 9,
     //   title: 'The Legacy of Aaron Boupendza in MLS: A Tribute to a Star Gone Too Soon',

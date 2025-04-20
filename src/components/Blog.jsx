@@ -8,6 +8,15 @@ import Us11 from '../assets/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 18,
+      title: ' Vancouver Whitecaps: A Club for Sale, Currently First in the West',
+      author: 'Mio Ristic',
+      date: 'April 20, 2025',
+      excerpt: ' A Club for Sale, Currently First in the West',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2209348788/crop/MM5DINZZGU5DENRZG45G433XMU5DAORSGUYA====/GettyImages-2209348788.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      link: '/blog/Vancouver-Whitecaps-For-Sale',
+    },
+    {
       id: 17,
       title: 'Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew',
       author: 'Mio Ristic',
