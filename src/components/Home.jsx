@@ -104,6 +104,15 @@ const HomePage = () => {
   // Mock blog posts array
   const blogPosts = [
     {
+      id: 17,
+      title: 'Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew',
+      author: 'Mio Ristic',
+      date: 'April 19, 2025',
+      excerpt: ' Inter Miami extended their unbeaten streak in the 2025 MLS season',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2211040242/crop/MM5DGMBVGY5DCNZRHE5G433XMU5DSMBTHIYTCNQ=/GettyImages-2211040242.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      link: '/blog/ColumbusCrewvsInterMiamiResult',
+    },
+    {
       id: 16,
       title: 'Columbus Crew vs. Inter Miami',
       author: 'Mio Ristic',
@@ -148,15 +157,15 @@ const HomePage = () => {
       imageUrl: 'https://www.mlsstore.com/content/ws/all/2735eeb9-6378-4ba7-b6d8-5552f898cc0d__1600X732.jpg?w=3200',
       link: '/blog/OnePlanetKit',
     },
-    {
-      id: 9,
-      title: 'The Legacy of Aaron Boupendza in MLS: A Tribute to a Star Gone Too Soon',
-      author: 'Mio Ristic',
-      date: 'April 15, 2025',
-      excerpt: 'The world of football was shaken on April 16, 2025.',
-      imageUrl: 'https://www.telegram.hr/wp-content/uploads/2025/04/aaron-boupendza.jpg',
-      link: '/blog/Boupendza',
-    },
+    // {
+    //   id: 9,
+    //   title: 'The Legacy of Aaron Boupendza in MLS: A Tribute to a Star Gone Too Soon',
+    //   author: 'Mio Ristic',
+    //   date: 'April 15, 2025',
+    //   excerpt: 'The world of football was shaken on April 16, 2025.',
+    //   imageUrl: 'https://www.telegram.hr/wp-content/uploads/2025/04/aaron-boupendza.jpg',
+    //   link: '/blog/Boupendza',
+    // },
     // {
     //   id: 6,
     //   title: 'San Diego FC Makes History with First MLS Win',
