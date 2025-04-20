@@ -18,6 +18,7 @@ import Contact from './components/Contact';
 import Social from './components/Social';
 import Navbar from './components/Navbar';
 import Imga from './components/Blog/Imga';
+import ColumbusCrewvsInterMiamiResult from "./components/Blog/ColumbusCrewvsInterMiamiResult.jsx";
 import ColumbusVsMiamiMLSBlog from './components/Blog/ColumbusVsMiamiMLSBlog.jsx';
 import PeterVermesBlog from './components/Blog/PeterVermesBlog.jsx';
 import KevinDb from './components/Blog/KevinDb.jsx';
@@ -211,6 +212,7 @@ const App = () => {
         <Route path="/blog/Boupendza" element={<Boupendza />} />
         <Route path="/blog/OnePlanetKit" element={<OnePlanetKit />} />
         <Route path="/blog/ColumbusVsMiamiMLSBlog" element={<ColumbusVsMiamiMLSBlog />} />
+        <Route path="/blog/ColumbusCrewvsInterMiamiResult" element={<ColumbusCrewvsInterMiamiResult />} />
         <Route path="/blog/PeterVermesBlog" element={<PeterVermesBlog />} />
         <Route path="/blog/KevinDb" element={<KevinDb />} />
         <Route path="/blog/ThomasMullerMLSBlog" element={<ThomasMullerMLSBlog />} />
