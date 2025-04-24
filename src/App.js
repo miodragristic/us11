@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Footer from './components/Footer';  
 import Blog from './components/Blog';
 import DownloadPage from './components/DownloadPage';
+import Subscribe from './components/Subscribe.jsx';
 import FC25 from './components/Blog/FC25'
 import Shop from './components/Shop';
 import Inter from './components/Clubs/Inter';
@@ -18,6 +19,7 @@ import Contact from './components/Contact';
 import Social from './components/Social';
 import Navbar from './components/Navbar';
 import Imga from './components/Blog/Imga';
+import TopMLSJerseys2024 from './components/Blog/TopMlsJersey2024.jsx';
 import VancouverWhitecapsForSale from './components/Blog/Vancouver-Whitecaps-For-Sale.jsx';
 import ColumbusCrewvsInterMiamiResult from "./components/Blog/ColumbusCrewvsInterMiamiResult.jsx";
 import ColumbusVsMiamiMLSBlog from './components/Blog/ColumbusVsMiamiMLSBlog.jsx';
@@ -199,6 +201,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/subscribe" element={<Subscribe />} />
         <Route path="/download-page" element={<DownloadPage />} />
         <Route path="/inter" element={<Inter />} />
         <Route path="/atlanta" element={<Atlanta />} />
@@ -212,6 +215,7 @@ const App = () => {
         <Route path="/blog/inter-miami-global-attraction" element={<Imga />} />
         <Route path="/blog/Boupendza" element={<Boupendza />} />
         <Route path="/blog/OnePlanetKit" element={<OnePlanetKit />} />
+        <Route path="/blog/TopMlsJersey2024" element={<TopMLSJerseys2024 />} />
         <Route path="/blog/Vancouver-Whitecaps-For-Sale" element={<VancouverWhitecapsForSale />} />
         <Route path="/blog/ColumbusVsMiamiMLSBlog" element={<ColumbusVsMiamiMLSBlog />} />
         <Route path="/blog/ColumbusCrewvsInterMiamiResult" element={<ColumbusCrewvsInterMiamiResult />} />

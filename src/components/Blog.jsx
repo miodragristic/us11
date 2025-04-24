@@ -8,6 +8,15 @@ import Us11 from '../assets/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 19,
+      title: ' Top 10 MLS Jerseys of 2024',
+      author: 'Mio Ristic',
+      date: 'April 23, 2025',
+      excerpt: ' Style, Passion & a Bit of Magic',
+      imageUrl: 'https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp',
+      link: '/blog/TopMlsJersey2024',
+    },
+    {
       id: 18,
       title: ' Vancouver Whitecaps: A Club for Sale, Currently First in the West',
       author: 'Mio Ristic',
