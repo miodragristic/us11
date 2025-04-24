@@ -4,19 +4,25 @@ import { Helmet } from 'react-helmet';
 const ColumbusCrewvsInterMiamiResult = () => {
   return (
     <div className='w-full min-h-screen bg-white'>
-      <Helmet>
-        <title>Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew</title>
-        <meta name="description" content="Inter Miami won 1-0 against Columbus Crew in a thrilling MLS match with a goal by Benjamin Cremaschi. The match was held in Cleveland Browns Stadium." />
-        <meta property="og:title" content="Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew" />
-        <meta property="og:description" content="Inter Miami won 1-0 against Columbus Crew in a thrilling MLS match with a goal by Benjamin Cremaschi. The match was held in Cleveland Browns Stadium." />
-        <meta property="og:image" content="https://assets.goal.com/images/v3/getty-2211040242/crop/MM5DGMBVGY5DCNZRHE5G433XMU5DSMBTHIYTCNQ=/GettyImages-2211040242.jpg?auto=webp&format=pjpg&width=3840&quality=60" />
-        <meta property="og:image:alt" content="Inter Miami vs Columbus Crew match moment" />
-        <meta property="og:url" content="https://www.yoursite.com/blog/ColumbusCrewvsInterMiamiResult" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew" />
-        <meta name="twitter:description" content="Inter Miami won 1-0 against Columbus Crew in a thrilling MLS match with a goal by Benjamin Cremaschi. The match was held in Cleveland Browns Stadium." />
-        <meta name="twitter:image" content="https://assets.goal.com/images/v3/getty-2211040242/crop/MM5DGMBVGY5DCNZRHE5G433XMU5DSMBTHIYTCNQ=/GettyImages-2211040242.jpg?auto=webp&format=pjpg&width=3840&quality=60" />
-      </Helmet>
+     <Helmet>
+  <title>Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew</title>
+  <meta name="description" content="Inter Miami won 1-0 against Columbus Crew in a thrilling MLS match with a goal by Benjamin Cremaschi. The match was held in Cleveland Browns Stadium." />
+  
+  {/* Open Graph meta tags */}
+  <meta property="og:title" content="Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew" />
+  <meta property="og:description" content="Inter Miami won 1-0 against Columbus Crew in a thrilling MLS match with a goal by Benjamin Cremaschi. The match was held in Cleveland Browns Stadium." />
+  <meta property="og:image" content="https://assets.goal.com/images/v3/getty-2211040242/crop/MM5DGMBVGY5DCNZRHE5G433XMU5DSMBTHIYTCNQ=/GettyImages-2211040242.jpg?auto=webp&format=pjpg&width=3840&quality=60" />
+  <meta property="og:image:alt" content="Inter Miami vs Columbus Crew match moment" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://www.us11fc.com/blog/ColumbusCrewvsInterMiamiResult" />
+  
+  {/* Twitter meta tags */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Inter Miami Extends Unbeaten Streak with 1–0 Away Win Over Columbus Crew" />
+  <meta name="twitter:description" content="Inter Miami won 1-0 against Columbus Crew in a thrilling MLS match with a goal by Benjamin Cremaschi. The match was held in Cleveland Browns Stadium." />
+  <meta name="twitter:image" content="https://assets.goal.com/images/v3/getty-2211040242/crop/MM5DGMBVGY5DCNZRHE5G433XMU5DSMBTHIYTCNQ=/GettyImages-2211040242.jpg?auto=webp&format=pjpg&width=3840&quality=60" />
+</Helmet>
 
       <nav className='bg-gray-800 py-4'>
         <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
