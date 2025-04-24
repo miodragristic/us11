@@ -1,0 +1,26 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|facebookexternalhit)"
+        }
+      ],
+      "destination": "https://service.prerender.io/https://www.us11fc.com/:1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Prerender-Token",
+          "value": "nQv74zxttC4C3jyfSCgH"  // Ovde je tvoj token
+        }
+      ]
+    }
+  ]
+}
