@@ -163,19 +163,24 @@ const TopMLSJerseys2024 = () => {
   return (
     <div className='w-full min-h-screen bg-white'>
       <Helmet>
-        {/* Open Graph metatage za Facebook */}
-        <meta property="og:title" content="Top 10 MLS Jerseys of 2024: Style, Passion & a Bit of Magic" />
-        <meta property="og:description" content="Explore the top MLS jerseys of 2024, featuring iconic players like Lionel Messi, Luis Suárez, and more. Get the perfect jersey for every fan." />
-        <meta property="og:image" content="https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp" />
-        <meta property="og:url" content={window.location.href} />
-        <meta property="og:type" content="article" />
+  {/* Osnovni SEO tagovi */}
+  <meta charSet="utf-8" />
+  <title>Top 10 MLS Jerseys of 2024: Style, Passion & a Bit of Magic</title>
+  <link rel="canonical" href="https://www.us11fc.com/blog/TopMlsJersey2024" />
 
-        {/* Twitter Card metatage */}
-        <meta name="twitter:title" content="Top 10 MLS Jerseys of 2024: Style, Passion & a Bit of Magic" />
-        <meta name="twitter:description" content="Explore the top MLS jerseys of 2024, featuring iconic players like Lionel Messi, Luis Suárez, and more. Get the perfect jersey for every fan." />
-        <meta name="twitter:image" content="https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+  {/* Open Graph metatags za Facebook */}
+  <meta property="og:title" content="Top 10 MLS Jerseys of 2024: Style, Passion & a Bit of Magic" />
+  <meta property="og:description" content="Explore the top MLS jerseys of 2024, featuring iconic players like Lionel Messi, Luis Suárez, and more. Get the perfect jersey for every fan." />
+  <meta property="og:image" content="https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp" />
+  <meta property="og:url" content="https://www.us11fc.com/blog/TopMlsJersey2024" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Card metatags */}
+  <meta name="twitter:title" content="Top 10 MLS Jerseys of 2024: Style, Passion & a Bit of Magic" />
+  <meta name="twitter:description" content="Explore the top MLS jerseys of 2024, featuring iconic players like Lionel Messi, Luis Suárez, and more. Get the perfect jersey for every fan." />
+  <meta name="twitter:image" content="https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+</Helmet>
 
       <nav className='bg-gray-800 py-4'>
         <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
@@ -306,4 +311,3 @@ const TopMLSJerseys2024 = () => {
 };
 
 export default TopMLSJerseys2024;
-
